@@ -1,0 +1,38 @@
+{
+  "enwiki": {
+    "scanned_at": "2026-10-27T13:40:32Z",
+    "blocks_total": 146,
+    "blocks_scanned": 146,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 1019
+  },
+  "frwiki": {
+    "scanned_at": "2026-10-27T13:41:08Z",
+    "blocks_total": 146,
+    "blocks_scanned": 146,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 185
+  },
+  "wikidatawiki": {
+    "scanned_at": "2026-10-27T13:42:03Z",
+    "blocks_total": 146,
+    "blocks_scanned": 146,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 32
+  },
+  "commonswiki": {
+    "scanned_at": "2026-10-27T13:42:26Z",
+    "blocks_total": 146,
+    "blocks_scanned": 146,
+    "block_errors": 0,
+    "error_samples": {},
+    "fatal": null,
+    "edits": 5
+  }
+}

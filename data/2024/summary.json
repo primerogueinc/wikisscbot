@@ -1,0 +1,563 @@
+{
+  "generated": "2026-10-27T13:42:26Z",
+  "total_edits": 1241,
+  "unique_ips": 128,
+  "by_label": {
+    "Shared Services Canada": 871,
+    "Canadian House of Commons": 60,
+    "Canadian Broadcasting Corporation": 48,
+    "Environment Canada": 33,
+    "Library and Archives Canada": 30,
+    "Shared Services Canada network (AS2665)": 29,
+    "Shared Services Canada network (AS2675)": 20,
+    "National Research Council": 19,
+    "Industry Canada": 18,
+    "Department of Fisheries and Oceans": 17,
+    "Department of Justice Canada": 16,
+    "Statistics Canada": 15,
+    "Canadian Department of National Defence": 13,
+    "Correctional Services Canada": 9,
+    "National Research Council (SSC)": 9,
+    "Canadian Museum of Civilization": 7,
+    "Canadian Space Agency": 7,
+    "Transport Canada": 6,
+    "Federal Court of Canada": 5,
+    "Finance Canada": 4,
+    "Employment and Immigration Canada": 4,
+    "Bank of Canada": 1
+  },
+  "by_wiki": {
+    "enwiki": 1019,
+    "frwiki": 185,
+    "wikidatawiki": 32,
+    "commonswiki": 5
+  },
+  "by_month": {
+    "2024-01": 107,
+    "2024-02": 87,
+    "2024-03": 90,
+    "2024-04": 85,
+    "2024-05": 107,
+    "2024-06": 83,
+    "2024-07": 83,
+    "2024-08": 60,
+    "2024-09": 118,
+    "2024-10": 111,
+    "2024-11": 171,
+    "2024-12": 139
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "2024 Nova Scotia general election",
+      "edits": 52
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dino Bravo",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2022 New Brunswick municipal elections",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "1 Signal Regiment",
+      "edits": 12
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q21508949",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2025 Canadian federal election",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Eric Walsh (ambassador)",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Intern (2015 film)",
+      "edits": 7
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Marie-Françoise Mégie",
+      "edits": 7
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q21393091",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "David Schultz (professional wrestler)",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Marcus Powlowski",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Khaled (musician)",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Professional wrestling in Canada",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "HMCS Radisson",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "65th General Assembly of Nova Scotia",
+      "edits": 6
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q21392692",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Talk:Hebrew Roots",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dylan Everett",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former Lutte Internationale personnel",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Rod Wilson",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Régiment de Hull",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Devils Tower",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Cave and Basin National Historic Site",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Beausoleil, New Brunswick",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Continental Wrestling Association",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Nova Scotia Liberal Party",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Stampede Wrestling",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Army Command and Staff College",
+      "edits": 4
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Liste de jeux Super Famicom",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of the busiest airports in Canada",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Forces Health Services Group",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Mary-Kate Olsen",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jeff Skinner",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Artillery Museum",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2nd Regiment, Royal Canadian Horse Artillery",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Talk:Political career of Donald Trump",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2024 Kansas City Chiefs season",
+      "edits": 4
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Base des Forces canadiennes Bagotville",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Rebecca Patterson",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Gordie Howe hat trick",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Frank Plummer",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of internet service providers in Canada",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Template:The Sheepdogs",
+      "edits": 3
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former Universal Wrestling Federation (Bill Watts) personnel",
+      "edits": 3
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of family relations in professional wrestling",
+      "edits": 3
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Bee Gees",
+      "edits": 3
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Latin American Canadians",
+      "edits": 3
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Talk:Geographic coordinate system",
+      "edits": 3
+    },
+    {
+      "wiki": "enwiki",
+      "title": "White Juan",
+      "edits": 3
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada": {
+      "2024 Nova Scotia general election": 52,
+      "Dino Bravo": 18,
+      "1 Signal Regiment": 12,
+      "Eric Walsh (ambassador)": 7,
+      "The Intern (2015 film)": 7,
+      "David Schultz (professional wrestler)": 6,
+      "Professional wrestling in Canada": 6,
+      "HMCS Radisson": 6,
+      "65th General Assembly of Nova Scotia": 6,
+      "Talk:Hebrew Roots": 5
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Q21508949": 10,
+      "Q21393091": 6,
+      "Q21392692": 5,
+      "Flair Airlines": 3,
+      "Q5301236": 1,
+      "List of astronomical observatories": 1,
+      "National Research Council Canada": 1,
+      "Q126689903": 1,
+      "Template:Ottawa Senators roster": 1
+    },
+    "Canadian Museum of Civilization": {
+      "Mercedes-Benz 770": 2,
+      "North Shore (New Brunswick) Regiment": 1,
+      "15th Field Artillery Regiment (Canada)": 1,
+      "Raphaël Garcia": 1,
+      "Campbell Mellis Douglas": 1,
+      "Cecil John Kinross": 1
+    },
+    "Library and Archives Canada": {
+      "Template:The Sheepdogs": 3,
+      "PNS Khalid": 3,
+      "The Sheepdogs": 2,
+      "Yūshio-class submarine": 2,
+      "Rubis-class submarine": 1,
+      "Steppenwolf (band)": 1,
+      "Nuclear explosion": 1,
+      "Agosta-class submarine": 1,
+      "PNS Hashmat": 1,
+      "PNS Hurmat": 1
+    },
+    "Finance Canada": {
+      "Capitole": 2,
+      "Self-fulfilling prophecy": 1,
+      "Melanie Dawes": 1
+    },
+    "National Research Council": {
+      "Khaled (musician)": 6,
+      "Protein pKa calculations": 3,
+      "List of IIHF World Junior Championship medalists": 2,
+      "Ultim (trimaran sailboat class)": 1,
+      "NEMA connector": 1,
+      "Bhuiyan": 1,
+      "Guillaume Meurice": 1,
+      "SampTA": 1,
+      "List of shopping centres in Greater Montreal": 1,
+      "VMware Workstation": 1
+    },
+    "Canadian Department of National Defence": {
+      "Backdraft 2": 2,
+      "American Express": 1,
+      "List of NHL rivalries": 1,
+      "Conspicuous Gallantry Medal": 1,
+      "Talk:SpaceX Starship": 1,
+      "Corps de Cadets No. 1": 1,
+      "Dallmann Laboratory": 1,
+      "2013 Stanley Cup playoffs": 1,
+      "Operation Cyclone": 1,
+      "Lockheed Martin C-130J Super Hercules": 1
+    },
+    "Correctional Services Canada": {
+      "Black Adam": 3,
+      "West Edmonton Mall": 1,
+      "Talk:Roadblock (March 2016)": 1,
+      "Shaw Direct": 1,
+      "Talk:Peanut gallery": 1,
+      "Statutory declaration": 1,
+      "Module talk:Check for unknown parameters": 1
+    },
+    "Canadian House of Commons": {
+      "2022 New Brunswick municipal elections": 15,
+      "Marie-Françoise Mégie": 7,
+      "Marcus Powlowski": 5,
+      "2025 Canadian federal election": 5,
+      "Francis Drouin": 5,
+      "Abdullah Yaqta": 3,
+      "St. Boniface, Winnipeg": 2,
+      "John Allen Fraser": 2,
+      "Stéphane Lauzon": 2,
+      "James Maloney (Canadian politician)": 2
+    },
+    "Canadian Broadcasting Corporation": {
+      "Mount Pearl": 3,
+      "Brendan Connor": 2,
+      "Compass (1986 TV program)": 2,
+      "Come By Chance, Newfoundland and Labrador": 2,
+      "Cabot Trail Relay Race": 2,
+      "Gen Neo": 2,
+      "2024 Saskatchewan general election": 2,
+      "Mauthausen concentration camp": 2,
+      "Mary Zilba": 2,
+      "Ed Broadbent": 1
+    },
+    "Canadian Space Agency": {
+      "Cygnus NG-21": 3,
+      "Lunar Gateway": 1,
+      "Effet de vue d’ensemble": 1,
+      "RACI": 1,
+      "Artemis II": 1
+    },
+    "Industry Canada": {
+      "Talk:Geographic coordinate system": 3,
+      "National Capital Junior Hockey League": 2,
+      "Communications Research Centre Canada": 1,
+      "Cumberland Castors": 1,
+      "Cem Adrian": 1,
+      "James Cameron": 1,
+      "Jumeau": 1,
+      "Q85409596": 1,
+      "Amazon Vine": 1,
+      "James Cooper Morton": 1
+    },
+    "Environment Canada": {
+      "White Juan": 3,
+      "Wikipédia:Questions techniques/semaine 39 2024": 3,
+      "Roque (échecs)": 2,
+      "Le Village de Nathalie": 2,
+      "Beothuk": 1,
+      "Seán O'Malley": 1,
+      "Discussion utilisateur:Gemini1980/Archives Q3/2023 à Q4/2023": 1,
+      "Ulkatcho First Nation": 1,
+      "Verdansk": 1,
+      "Regina Floral Conservatory": 1
+    },
+    "Statistics Canada": {
+      "Chief Statistician of Canada": 3,
+      "Batman: The Killing Joke": 2,
+      "Jeffrey Brown (cartoonist)": 2,
+      "Cloud Nine (The Temptations song)": 1,
+      "Helvi Leiviskä": 1,
+      "Wim Hof": 1,
+      "Cosine similarity": 1,
+      "Elaine Lui": 1,
+      "Talk:Battle of Saint-Malo": 1,
+      "Juin 1968": 1
+    },
+    "Department of Justice Canada": {
+      "Clerk of the Senate of Canada": 2,
+      "Hilary Barry": 1,
+      "Northvolt": 1,
+      "Q85408938": 1,
+      "Xóchitl Gálvez": 1,
+      "Akshata Murty": 1,
+      "Anthony Brummet": 1,
+      "Steven Truscott": 1,
+      "Šar Mountains": 1,
+      "Contagion (Star Trek: The Next Generation)": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "List of the busiest airports in Canada": 4,
+      "St. John's International Airport": 2,
+      "Al Capp": 2,
+      "Bill Helin": 2,
+      "Wikipedia:Articles for deletion/Roland Richard": 1,
+      "Battle Creek Sanitarium": 1,
+      "Halifax-class frigate": 1,
+      "Mike Meeker": 1,
+      "Breast cancer survivors' dragon boating": 1,
+      "2024 United Nations Biodiversity Conference": 1
+    },
+    "Federal Court of Canada": {
+      "Tax Court of Canada": 1,
+      "Patrick J. Boyle": 1,
+      "File:Cast of What's My Line.png": 1,
+      "Template:Current Canadian federal judges": 1,
+      "Anne Mactavish": 1
+    },
+    "Employment and Immigration Canada": {
+      "Inheritance": 1,
+      "Talk:YouTube": 1,
+      "Kiss (band)": 1,
+      "Taxonomic rank": 1
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Poplar River First Nation": 3,
+      "Heavy (film)": 2,
+      "Daajing Giids": 1,
+      "Prunus armeniaca": 1,
+      "St. Peter Catholic High School": 1,
+      "James Murray (gouverneur)": 1,
+      "Swan Hills": 1,
+      "Russell Mirasty": 1,
+      "List of police firearms in Canada": 1,
+      "Carolle Brabant": 1
+    },
+    "Transport Canada": {
+      "AgustaWestland AW169": 1,
+      "2024–25 West Ham United F.C. season": 1,
+      "Transport Canada": 1,
+      "Omar Alghabra": 1,
+      "Wikipédia:Forum des nouveaux": 1,
+      "Michał Kalecki": 1
+    },
+    "Bank of Canada": {
+      "Papier commercial adossé à des actifs non bancaires": 1
+    },
+    "National Research Council (SSC)": {
+      "Raid on Anuradhapura Air Force Base": 3,
+      "Bandaranaike Airport attack": 2,
+      "Hishikawa Moronobu": 1,
+      "Haskell Small": 1,
+      "Talk:Haskell Small": 1,
+      "Aviation accidents and incidents": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2024-12-31T17:21:23Z",
+    "wikidatawiki": "2024-11-08T19:52:51Z",
+    "frwiki": "2024-12-23T14:05:45Z",
+    "commonswiki": "2024-12-31T15:20:00Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-10-27T13:40:32Z",
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 1019
+    },
+    "frwiki": {
+      "scanned_at": "2026-10-27T13:41:08Z",
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 185
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-10-27T13:42:03Z",
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 32
+    },
+    "commonswiki": {
+      "scanned_at": "2026-10-27T13:42:26Z",
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5
+    }
+  }
+}

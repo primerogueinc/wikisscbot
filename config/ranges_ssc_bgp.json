@@ -1,13 +1,13 @@
 {
   "source": "RIPEstat announced-prefixes",
-  "since": "2025-01-01T00:00",
-  "fetched": "2026-10-27T13:21:15Z",
+  "since": "2024-01-01T00:00",
+  "fetched": "2026-10-27T13:32:20Z",
   "counts_by_asn": {
-    "2665": 233,
+    "2665": 235,
     "2675": 367,
-    "2682": 8,
+    "2682": 9,
     "25689": 43,
-    "806": 16
+    "806": 24
   },
   "prefixes": [
     {
@@ -1366,6 +1366,11 @@
       "label": "Shared Services Canada network (AS2675)"
     },
     {
+      "prefix": "205.189.8.0/24",
+      "asn": 2682,
+      "label": "Shared Services Canada network (AS2682)"
+    },
+    {
       "prefix": "205.189.9.0/24",
       "asn": 2675,
       "label": "Shared Services Canada network (AS2675)"
@@ -1374,6 +1379,16 @@
       "prefix": "205.189.10.0/23",
       "asn": 2665,
       "label": "Shared Services Canada network (AS2665)"
+    },
+    {
+      "prefix": "205.189.10.0/24",
+      "asn": 806,
+      "label": "Shared Services Canada network (AS806, legacy Environment Canada)"
+    },
+    {
+      "prefix": "205.189.11.0/24",
+      "asn": 806,
+      "label": "Shared Services Canada network (AS806, legacy Environment Canada)"
     },
     {
       "prefix": "205.193.0.0/16",
@@ -1756,6 +1771,11 @@
       "label": "Shared Services Canada network (AS2665)"
     },
     {
+      "prefix": "205.193.183.0/24",
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
+    },
+    {
       "prefix": "205.193.185.0/24",
       "asn": 2675,
       "label": "Shared Services Canada network (AS2675)"
@@ -1787,6 +1807,11 @@
     },
     {
       "prefix": "205.193.200.0/24",
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
+    },
+    {
+      "prefix": "205.193.203.0/24",
       "asn": 2665,
       "label": "Shared Services Canada network (AS2665)"
     },

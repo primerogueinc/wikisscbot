@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T13:31:29Z",
+  "generated": "2026-10-27T13:52:29Z",
   "total_edits": 2643,
   "unique_ips": 107,
   "by_label": {
@@ -471,7 +471,7 @@
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-10-27T13:29:38Z",
+      "scanned_at": "2026-10-27T13:50:44Z",
       "blocks_total": 146,
       "blocks_scanned": 146,
       "block_errors": 0,
@@ -480,7 +480,7 @@
       "edits": 1087
     },
     "frwiki": {
-      "scanned_at": "2026-10-27T13:30:14Z",
+      "scanned_at": "2026-10-27T13:51:10Z",
       "blocks_total": 146,
       "blocks_scanned": 146,
       "block_errors": 0,
@@ -489,7 +489,7 @@
       "edits": 718
     },
     "wikidatawiki": {
-      "scanned_at": "2026-10-27T13:31:05Z",
+      "scanned_at": "2026-10-27T13:52:06Z",
       "blocks_total": 146,
       "blocks_scanned": 146,
       "block_errors": 0,
@@ -498,7 +498,7 @@
       "edits": 825
     },
     "commonswiki": {
-      "scanned_at": "2026-10-27T13:31:29Z",
+      "scanned_at": "2026-10-27T13:52:29Z",
       "blocks_total": 146,
       "blocks_scanned": 146,
       "block_errors": 0,
