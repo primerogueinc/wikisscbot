@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-27T13:19:18Z",
-  "total_edits": 1818,
-  "unique_ips": 106,
+  "generated": "2026-10-27T13:31:29Z",
+  "total_edits": 2643,
+  "unique_ips": 107,
   "by_label": {
-    "Shared Services Canada": 1593,
-    "Environment Canada": 51,
+    "Shared Services Canada": 2404,
+    "Environment Canada": 53,
     "Transport Canada": 26,
     "Industry Canada": 21,
     "Department of Fisheries and Oceans": 18,
@@ -13,31 +13,32 @@
     "Library and Archives Canada": 13,
     "Canadian Department of National Defence": 13,
     "Department of Justice Canada": 11,
-    "Shared Services Canada network (AS2675)": 9,
+    "Shared Services Canada network (AS2675)": 11,
+    "Employment and Immigration Canada": 11,
     "Statistics Canada": 9,
     "Shared Services Canada network (AS2665)": 6,
     "National Research Council (SSC)": 6,
     "National Research Council": 6,
     "Federal Court of Canada": 4,
-    "Canadian Space Agency": 1,
-    "Employment and Immigration Canada": 1
+    "Canadian Space Agency": 1
   },
   "by_wiki": {
     "enwiki": 1087,
+    "wikidatawiki": 825,
     "frwiki": 718,
     "commonswiki": 13
   },
   "by_month": {
-    "2025-01": 118,
-    "2025-02": 734,
-    "2025-03": 94,
-    "2025-04": 102,
-    "2025-05": 117,
-    "2025-06": 137,
-    "2025-07": 204,
-    "2025-08": 94,
-    "2025-09": 65,
-    "2025-10": 144,
+    "2025-01": 122,
+    "2025-02": 844,
+    "2025-03": 498,
+    "2025-04": 199,
+    "2025-05": 132,
+    "2025-06": 141,
+    "2025-07": 336,
+    "2025-08": 150,
+    "2025-09": 66,
+    "2025-10": 146,
     "2025-11": 9
   },
   "top_pages": [
@@ -45,6 +46,56 @@
       "wiki": "enwiki",
       "title": "30th Field Artillery Regiment (Canada)",
       "edits": 90
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q66305343",
+      "edits": 58
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q130545513",
+      "edits": 48
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q124622990",
+      "edits": 44
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q133569663",
+      "edits": 42
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q135436545",
+      "edits": 42
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q7358537",
+      "edits": 39
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q66371301",
+      "edits": 30
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q133338845",
+      "edits": 30
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q1064503",
+      "edits": 29
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q16932537",
+      "edits": 28
     },
     {
       "wiki": "enwiki",
@@ -57,6 +108,41 @@
       "edits": 19
     },
     {
+      "wiki": "wikidatawiki",
+      "title": "Q5082124",
+      "edits": 19
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q16107173",
+      "edits": 19
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q133309209",
+      "edits": 19
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q133309195",
+      "edits": 16
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q4978123",
+      "edits": 16
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q6680104",
+      "edits": 15
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q3182010",
+      "edits": 15
+    },
+    {
       "wiki": "enwiki",
       "title": "Belleville Senators",
       "edits": 15
@@ -67,9 +153,54 @@
       "edits": 14
     },
     {
+      "wiki": "wikidatawiki",
+      "title": "Q56086658",
+      "edits": 14
+    },
+    {
       "wiki": "enwiki",
       "title": "Commander of the Royal Canadian Air Force",
       "edits": 13
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q42377694",
+      "edits": 12
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q76342955",
+      "edits": 12
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q24974793",
+      "edits": 12
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q4821077",
+      "edits": 11
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q5125153",
+      "edits": 11
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q5096751",
+      "edits": 11
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q6680232",
+      "edits": 11
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q41689616",
+      "edits": 10
     },
     {
       "wiki": "enwiki",
@@ -79,6 +210,16 @@
     {
       "wiki": "enwiki",
       "title": "Canadian Institutes of Health Research",
+      "edits": 8
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q95735251",
+      "edits": 8
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q133206322",
       "edits": 8
     },
     {
@@ -117,6 +258,11 @@
       "edits": 7
     },
     {
+      "wiki": "wikidatawiki",
+      "title": "Q3113468",
+      "edits": 7
+    },
+    {
       "wiki": "enwiki",
       "title": "Choristoneura fumiferana",
       "edits": 7
@@ -124,6 +270,11 @@
     {
       "wiki": "enwiki",
       "title": "Nova Scotia House of Assembly",
+      "edits": 6
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q3341339",
       "edits": 6
     },
     {
@@ -140,170 +291,20 @@
       "wiki": "enwiki",
       "title": "Ottawa Macdonald–Cartier International Airport",
       "edits": 6
-    },
-    {
-      "wiki": "enwiki",
-      "title": "List of copper mines in Canada",
-      "edits": 6
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Wolfe Islander IV",
-      "edits": 6
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Type 091 submarine",
-      "edits": 5
-    },
-    {
-      "wiki": "frwiki",
-      "title": "Soraya Martinez Ferrada",
-      "edits": 5
-    },
-    {
-      "wiki": "frwiki",
-      "title": "Robert Bourassa",
-      "edits": 5
-    },
-    {
-      "wiki": "enwiki",
-      "title": "CBM-CFS3",
-      "edits": 5
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Radeon RX 9000 series",
-      "edits": 5
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Yukon (electoral district)",
-      "edits": 5
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Forest tent caterpillar moth",
-      "edits": 5
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Abbotsford Canucks",
-      "edits": 5
-    },
-    {
-      "wiki": "enwiki",
-      "title": "List of mines in Saskatchewan",
-      "edits": 5
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Armoured Vehicle Royal Engineers",
-      "edits": 5
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Wikipedia:Requests for page protection/Increase",
-      "edits": 5
-    },
-    {
-      "wiki": "enwiki",
-      "title": "List of women's firsts",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "James O'Reilly (judge)",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "AFC Toronto",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Chaudiere-Appalaches Junior AA Hockey League",
-      "edits": 4
-    },
-    {
-      "wiki": "frwiki",
-      "title": "Action Longueuil",
-      "edits": 4
-    },
-    {
-      "wiki": "frwiki",
-      "title": "John Aldag",
-      "edits": 4
-    },
-    {
-      "wiki": "frwiki",
-      "title": "Belle-Baie-Belledune",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Kadiivka",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "High Commission of Canada, Canberra",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Time Reading Program",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Eric Melillo",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Talk:Alberta separatist movement",
-      "edits": 4
-    },
-    {
-      "wiki": "frwiki",
-      "title": "Kubilai Khan",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Talk:The Source (retailer)",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Vince Gasparro",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "User talk:The Banner",
-      "edits": 4
-    },
-    {
-      "wiki": "enwiki",
-      "title": "Michael Wittmann",
-      "edits": 4
     }
   ],
   "top_pages_by_label": {
     "Shared Services Canada": {
       "30th Field Artillery Regiment (Canada)": 90,
-      "2025–26 Ottawa Senators season": 28,
-      "Liste des candidats à l'élection générale québécoise de 2007": 19,
-      "Belleville Senators": 15,
-      "Matupi District": 14,
-      "Commander of the Royal Canadian Air Force": 13,
-      "Template:Ottawa Senators roster": 9,
-      "Canadian Institutes of Health Research": 8,
-      "Canada Border Services Agency": 8,
-      "Les Fusiliers de Sherbrooke": 8
+      "Q66305343": 58,
+      "Q130545513": 48,
+      "Q124622990": 44,
+      "Q133569663": 42,
+      "Q135436545": 42,
+      "Q7358537": 39,
+      "Q66371301": 30,
+      "Q133338845": 30,
+      "Q1064503": 29
     },
     "Industry Canada": {
       "Soraya Martinez Ferrada": 6,
@@ -343,18 +344,19 @@
       "Northwest Territories": 3,
       "Template:Montréal–Trudeau weatherbox": 3,
       "Julie Arblaster": 2,
+      "Q664086": 2,
       "Provinces and territories of Canada": 2,
       "Nunavut": 2,
       "Yukon": 2,
       "Alberta": 2,
-      "Saskatchewan": 2,
-      "Prince Edward Island": 2
+      "Saskatchewan": 2
     },
     "Federal Court of Canada": {
       "James O'Reilly (judge)": 4
     },
     "Shared Services Canada network (AS2675)": {
       "Sovereign's Medal for Volunteers": 2,
+      "Q65115711": 2,
       "Defendo": 1,
       "Geno Smith": 1,
       "Pope Pius X": 1,
@@ -437,6 +439,10 @@
       "Ontario Highway 17": 1,
       "Anzick-1": 1
     },
+    "Employment and Immigration Canada": {
+      "Q41689616": 10,
+      "Template talk:Meta sidebar": 1
+    },
     "National Research Council (SSC)": {
       "National Research Council Canada": 1,
       "Rock Machine Motorcycle Club": 1,
@@ -455,30 +461,26 @@
       "List of ghost towns in Newfoundland and Labrador": 1,
       "Ice jam": 1,
       "National Research Council Canada": 1
-    },
-    "Employment and Immigration Canada": {
-      "Template talk:Meta sidebar": 1
     }
   },
   "last_ip_attributed_edit_by_wiki": {
     "enwiki": "2025-11-03T17:35:02Z",
     "frwiki": "2025-06-18T12:42:27Z",
+    "wikidatawiki": "2025-10-17T22:00:38Z",
     "commonswiki": "2025-11-03T12:39:05Z"
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-10-27T13:17:19Z",
+      "scanned_at": "2026-10-27T13:29:38Z",
       "blocks_total": 146,
       "blocks_scanned": 146,
-      "block_errors": 1,
-      "error_samples": {
-        "132.156.0.0/16": "HTTP 504 for https://en.wikipedia.org/w/api.php?action=query&list=usercontribs&format=json&formatversion=2&uciprange=132.156.0.0%2F16&ucstart=2025-12-31T23%3A59%3A59Z&ucend=2025-01-01T00%3A00%3A00Z&ucdir=older&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csize%7Csizediff%7Cflags%7Ctags&maxlag=5&errorformat=plaintext"
-      },
+      "block_errors": 0,
+      "error_samples": {},
       "fatal": null,
       "edits": 1087
     },
     "frwiki": {
-      "scanned_at": "2026-10-27T13:18:09Z",
+      "scanned_at": "2026-10-27T13:30:14Z",
       "blocks_total": 146,
       "blocks_scanned": 146,
       "block_errors": 0,
@@ -487,22 +489,16 @@
       "edits": 718
     },
     "wikidatawiki": {
-      "scanned_at": "2026-10-27T13:19:03Z",
+      "scanned_at": "2026-10-27T13:31:05Z",
       "blocks_total": 146,
       "blocks_scanned": 146,
-      "block_errors": 146,
-      "error_samples": {
-        "108.174.30.160/29": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged.",
-        "128.43.0.0/16": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged.",
-        "131.132.0.0/16": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged.",
-        "131.133.0.0/16": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged.",
-        "131.134.0.0/16": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged."
-      },
+      "block_errors": 0,
+      "error_samples": {},
       "fatal": null,
-      "edits": 0
+      "edits": 825
     },
     "commonswiki": {
-      "scanned_at": "2026-10-27T13:19:18Z",
+      "scanned_at": "2026-10-27T13:31:29Z",
       "blocks_total": 146,
       "blocks_scanned": 146,
       "block_errors": 0,
