@@ -55,7 +55,17 @@ FastAPI and SQLite (FTS5), with a frontend that needs no build step. It runs as 
 
 API endpoints live under `/api/`: `meta`, `search`, `export.csv`, `ips`, `ips/{ip}`, `topics`, `topics/{beat|topic}/{name}`, `ranges`, `provenance` and `health`.
 
-### Deploy
+### Deploy on a static host (no server)
+
+`docs/` is a complete static build of the site, rebuilt and committed by every workflow run. Publish that folder on any static host (Netlify, Cloudflare Pages, GitHub Pages, S3, shared hosting) and point your domain at it:
+
+- **Publish directory:** `docs`
+- **Build command:** none (or `python -m wikisscbot site` to rebuild it yourself)
+- **GitHub Pages:** Settings → Pages → Deploy from a branch → `main` / `/docs`
+
+The browser loads the raw data files and does all searching and aggregation itself. It hashes every file it loads with SHA-256 and checks it against `data/SHA256SUMS` and the latest signed manifest; the Provenance page can also walk the full hash chain in the browser. The site updates whenever the repo does, if your host redeploys on push.
+
+### Deploy with the Python server
 
 Any platform that runs a Python web process works: Heroku-style buildpacks (Procfile), Docker, Render, Railway, Fly.io, Scalingo or a plain VPS.
 
@@ -90,6 +100,7 @@ python -m wikisscbot enrich             # Wikimedia topics + Wikidata labels
 python -m wikisscbot report             # rebuild CSV/summary/static pages
 python -m wikisscbot watch --hours 30
 python -m wikisscbot verify
+python -m wikisscbot site               # rebuild docs/ static site
 python -m unittest discover -s tests
 ```
 
@@ -103,7 +114,8 @@ The collector uses only the Python standard library. The web app needs `requirem
 | `data/<year>/summary.json`, `status.json` | Aggregates; per-wiki scan status and errors |
 | `data/topics.json` | Wikimedia topics per page, Wikidata labels |
 | `data/live/edits.jsonl` | Daily watcher findings |
-| `docs/index.html`, `docs/<year>.html` | Static report pages (GitHub Pages: Settings → Pages → `main` / `/docs`) |
+| `docs/` | Static build of the full site (publish this folder) |
+| `docs/reports/<year>.html` | Single-file report per year |
 
 ## Reading the labels
 

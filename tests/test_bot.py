@@ -162,7 +162,7 @@ class ReportTests(unittest.TestCase):
             self.assertEqual(s["by_month"], {"2025-01": 1, "2025-06": 1})
             self.assertEqual(s["last_ip_attributed_edit_by_wiki"]["enwiki"],
                              "2025-06-02T00:00:00Z")
-            html = (root / "docs" / "index.html").read_text()
+            html = (root / "docs" / "reports" / "2025.html").read_text()
             self.assertNotIn("</script><b>", html)
             payload = html.split('type="application/json">', 1)[1].split("</script>", 1)[0]
             self.assertEqual(len(json.loads(payload)["edits"]), 2)

@@ -14,6 +14,7 @@ All notable changes to wikisscbot. Versions follow [semantic versioning](https:/
 - **Beats**: keyword groupings tuned for Canadian government reporting (Canadian military, Elections & parties, Federal government & agencies, …).
 - **Web app** (`web/`): FastAPI + SQLite FTS5 backend and a no-build frontend. Full-text search (accent-insensitive), filters by wiki, year, beat, Wikimedia topic, range, IP or CIDR and date; aggregation by address, topic and range; address profiles with hour-of-day, weekday and "addresses editing the same pages"; CSV export; provenance page. Optional self-updating from GitHub with verification before each data swap.
 - Deploy files: `Procfile`, `Dockerfile`, `requirements.txt`, `.python-version`.
+- **Static build** (`python -m wikisscbot site` → `docs/`): the full site with no server. An in-browser engine (`web/static/engine.js`) answers the same queries as the API, and SHA-256-verifies every data file against `SHA256SUMS` and the latest signed manifest, with an optional full chain check. Rebuilt by every workflow run. Year reports moved to `docs/reports/`.
 - `CHANGELOG.md`, `ROADMAP.md`.
 
 ### Changed

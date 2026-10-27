@@ -13,7 +13,9 @@
   const WD = ["", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
   let META = null;
 
+  const STATIC = !!window.WIKISSC_STATIC;
   async function api(path, params) {
+    if (STATIC) return window.WIKISSC_ENGINE.call(path, params);
     const qs = params ? "?" + new URLSearchParams(Object.entries(params).filter(([, v]) => v !== "" && v != null)) : "";
     const r = await fetch("/api/" + path + qs);
     if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || r.status);
@@ -67,7 +69,7 @@
     const W = opts.w || Math.max(320, Math.min(view.clientWidth - 26, 1150)), H = opts.h || 120, pad = 18, n = keys.length || 1;
     const max = Math.max(1, ...keys.map((k) => map[k] || 0));
     const bw = (W - 4) / n;
-    const every = opts.every || Math.ceil(n / 12);
+    const every = opts.every || Math.ceil(n / Math.max(4, Math.min(12, Math.floor(W / 58))));
     let s = `<svg viewBox="0 0 ${W} ${H + pad}" role="img" aria-label="${h(opts.title || "chart")}">`;
     keys.forEach((k, i) => {
       const v = map[k] || 0;
@@ -189,7 +191,19 @@
     }).join("") + (active.length ? ` <a class="chip" href="#/">Clear all</a>` : "");
 
     const q = Object.fromEntries(Object.entries(f).filter(([, v]) => v));
-    $("#export").href = "/api/export.csv?" + new URLSearchParams(q);
+    if (STATIC) {
+      $("#export").addEventListener("click", async (ev) => {
+        ev.preventDefault();
+        const csv = await window.WIKISSC_ENGINE.exportCsv(q);
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+        a.download = "wikissc-edits.csv";
+        a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+      });
+    } else {
+      $("#export").href = "/api/export.csv?" + new URLSearchParams(q);
+    }
     let offset = 0;
     const PAGE = 50;
     const load = async (first) => {
@@ -362,16 +376,21 @@
     const ok = p.verified !== false;
     const otsLabel = { bitcoin: "anchored in Bitcoin", pending: "pending confirmation", missing: "no proof", unknown: "unrecognised proof" };
     const short = (x) => (x ? x.slice(0, 16) + "…" : "");
+    const fileHref = (f) => (STATIC ? "./" + f : "/api/provenance/file/" + f);
     view.innerHTML = `
       <h1>Provenance</h1>
       <p class="lede">Every data pull is recorded in a manifest with the SHA-256 of each API response received and each data file produced. Manifests are hash-chained, so changing or removing any past pull breaks every later link, and each manifest is timestamped in the Bitcoin blockchain with OpenTimestamps.</p>
       <div class="verdict ${p.chain_length ? (ok ? "ok" : "bad") : ""}">
         <span class="icon">${p.chain_length ? (ok ? "✓" : "✕") : "…"}</span>
         <div>
-          <b>${p.chain_length ? (ok ? `Chain of ${p.chain_length} manifests verified on load` : "Verification failed") : "No signed pulls yet"}</b>
-          <div class="small">${p.problems && p.problems.length ? p.problems.map(h).join("<br>") : "Manifest hashes, chain links, response logs and data checksums all match."}</div>
+          <b>${p.chain_length ? (ok ? (STATIC ? "Data verified in your browser" : `Chain of ${p.chain_length} manifests verified on load`) : "Verification failed") : "No signed pulls yet"}</b>
+          <div class="small">${p.problems && p.problems.length ? p.problems.map(h).join("<br>")
+            : STATIC ? "Every data file this page loaded was hashed with SHA-256 in your browser and matched data/SHA256SUMS, which matches the latest signed manifest."
+            : "Manifest hashes, chain links, response logs and data checksums all match."}</div>
+          ${STATIC && p.chain_length ? '<button class="btn" id="vchain" style="margin-top:8px">Verify the full chain in this browser</button> <span id="vres" class="small"></span>' : ""}
         </div>
       </div>
+      ${STATIC && p.checked ? `<details><summary class="small muted">Files checked (${p.checked.length})</summary><ul class="flist">${p.checked.map((c) => `<li><span class="mono">${h(c.file)}</span><span class="hash">${h(c.sha256.slice(0, 16))}…</span></li>`).join("")}</ul></details>` : ""}
       ${p.items.length ? `<div class="tablewrap"><table>
         <thead><tr><th>#</th><th>Finished (UTC)</th><th>Kind</th><th>Counts</th><th>Responses</th><th>Manifest SHA-256</th><th>Timestamp</th><th>Files</th></tr></thead>
         <tbody>${p.items.map((m) => `<tr>
@@ -382,7 +401,7 @@
           <td class="n">${num(m.responses && m.responses.count)}</td>
           <td><span class="hash copy" title="${h(m.sha256)} (click to copy)" data-copy="${h(m.sha256)}">${h(short(m.sha256))}</span></td>
           <td><span class="badge ${h(m.ots)}">${h(otsLabel[m.ots] || m.ots)}</span></td>
-          <td class="small"><a href="/api/provenance/file/${h(m.manifest)}">manifest</a> · <a href="/api/provenance/file/${h(m.ots_file)}">.ots</a></td>
+          <td class="small"><a href="${fileHref(m.manifest)}">manifest</a> · <a href="${fileHref(m.ots_file)}">.ots</a></td>
         </tr>`).join("")}</tbody>
       </table></div>` : ""}
       <h2>Verify it yourself</h2>
@@ -397,6 +416,13 @@ sha256sum -c data/SHA256SUMS         # same check with standard tools</pre>
 ots verify data/manifests/&lt;run&gt;.json.ots</pre>
         <p>Each manifest names the exact code commit and GitHub Actions run that produced it, the parameters used, the SHA-256 of every config file, and a rolling hash over every API response. The response log lists each request URL with the hash of the bytes received.</p>
       </div>`;
+    const vb = $("#vchain");
+    if (vb) vb.addEventListener("click", async () => {
+      vb.disabled = true;
+      $("#vres").textContent = "checking…";
+      const r = await window.WIKISSC_ENGINE.verifyChain();
+      $("#vres").textContent = r.problems.length ? "✕ " + r.problems.join("; ") : `✓ all ${r.links} links intact`;
+    });
     view.querySelectorAll("[data-copy]").forEach((el) => el.addEventListener("click", () => {
       navigator.clipboard && navigator.clipboard.writeText(el.dataset.copy);
       el.textContent = "copied";

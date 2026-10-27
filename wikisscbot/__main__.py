@@ -6,6 +6,7 @@
   report           rebuild CSV / summary / HTML from collected data
   watch            check the last N hours for new edits, optionally post them
   verify           check the manifest hash chain and data checksums
+  site             build the static website into docs/
   blocks           print the CIDR blocks that will be queried
   version          print the tool version
 
@@ -20,7 +21,7 @@ import datetime as dt
 import json
 import sys
 
-from . import __version__, bgp, collect, post, provenance, report, topics
+from . import __version__, bgp, collect, post, provenance, report, site, topics
 from .config import ROOT, settings
 from .ranges import Labeller, load_all, query_blocks
 
@@ -161,6 +162,10 @@ def cmd_watch(args) -> None:
         print(post.format_status(e))
 
 
+def cmd_site(args) -> None:
+    print(json.dumps(site.build()))
+
+
 def cmd_verify(args) -> None:
     problems = provenance.verify(check_ots=args.ots)
     if problems:
@@ -206,6 +211,7 @@ def main(argv=None) -> None:
     v.add_argument("--ots", action="store_true", help="also require an OpenTimestamps proof per manifest")
     v.set_defaults(fn=cmd_verify)
 
+    sub.add_parser("site").set_defaults(fn=cmd_site)
     sub.add_parser("blocks").set_defaults(fn=cmd_blocks)
     sub.add_parser("version").set_defaults(fn=lambda a: print(__version__))
 

@@ -95,9 +95,6 @@ def build(year: str) -> dict:
     summary = summarize(edits, status)
     (base / "summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n")
     years = available_years()
-    write_html(edits, summary, ROOT / "docs" / f"{year}.html", year, years)
-    # The index always shows the most recent collected year.
-    latest = years[-1] if years else year
-    if latest == year:
-        write_html(edits, summary, ROOT / "docs" / "index.html", year, years)
+    # Simple one-file report per year; the main site (docs/index.html) is built by site.py.
+    write_html(edits, summary, ROOT / "docs" / "reports" / f"{year}.html", year, years)
     return summary

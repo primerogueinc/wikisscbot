@@ -57,6 +57,8 @@ jobs:
           for m in data/manifests/*.json; do
             [ -e "$m.ots" ] || ots stamp "$m" || echo "::warning::could not stamp $m"
           done
+      - name: Build static site (docs/)
+        run: python -m wikisscbot site
       - name: Commit results
         run: |
           git config user.name "wikisscbot"

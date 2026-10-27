@@ -41,11 +41,13 @@ jobs:
           # Pending proofs gain a Bitcoin attestation once the calendar's
           # transaction confirms (usually within hours).
           ls data/manifests/*.ots >/dev/null 2>&1 && ots upgrade data/manifests/*.ots || true
+      - name: Build static site (docs/)
+        run: python -m wikisscbot site
       - name: Commit
         run: |
           git config user.name "wikisscbot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data
+          git add -A data docs
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "Watch: $(tail -n1 data/manifests/chain.jsonl | python -c "import json,sys;l=json.load(sys.stdin);print(l['run_id'], l['sha256'][:12])")"
           git pull --rebase origin main
