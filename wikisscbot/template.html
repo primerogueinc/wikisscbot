@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GC Wikipedia Edits __YEAR__</title>
+<style>
+:root{--bg:#f7f6f2;--fg:#1c1c1a;--muted:#6b6a64;--line:#dcdad2;--card:#fff;--accent:#b3261e;--bar:#3d5a80}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ecebe6;--muted:#9a998f;--line:#2e2d2a;--card:#1d1c1a;--accent:#ef6b5f;--bar:#7fa3cc}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
+h2{font-size:16px;margin:32px 0 12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.lede{color:var(--muted);max-width:720px;margin:0 0 20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px}
+.stat b{display:block;font-size:26px;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:13px}
+.months{display:flex;align-items:flex-end;gap:4px;height:140px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px}
+.months div{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;font-size:11px;color:var(--muted)}
+.months i{display:block;width:100%;background:var(--bar);border-radius:3px 3px 0 0;min-height:1px}
+.labels{display:flex;flex-wrap:wrap;gap:6px}
+.labels button{border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:4px 10px;font:inherit;font-size:13px;cursor:pointer}
+.labels button.on{border-color:var(--accent);color:var(--accent)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.controls input,.controls select{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg)}
+.controls input{flex:1;min-width:180px}
+.tablewrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;white-space:nowrap}
+td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+td.c{color:var(--muted);max-width:320px;overflow-wrap:anywhere}
+a{color:var(--accent)}
+.pos{color:#2e7d32}.neg{color:var(--accent)}
+.pager{display:flex;gap:8px;align-items:center;margin-top:10px;color:var(--muted)}
+.pager button{font:inherit;padding:5px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg);cursor:pointer}
+.note{font-size:13px;color:var(--muted);max-width:760px}
+</style>
+</head>
+<body>
+<main>
+<h1>Anonymous Wikipedia edits from Government of Canada networks, __YEAR__</h1>
+<p class="lede">Edits made while logged out from IP ranges registered to federal departments or announced by Shared Services Canada. Only edits publicly attributed to an IP address are included.</p>
+<div class="stats" id="stats"></div>
+<h2>Edits by month</h2>
+<div class="months" id="months"></div>
+<h2>By source range</h2>
+<div class="labels" id="labels"></div>
+<h2>Edits</h2>
+<div class="controls">
+<input id="q" type="search" placeholder="Search title, comment or IP">
+<select id="wiki"><option value="">All wikis</option></select>
+</div>
+<div class="tablewrap"><table>
+<thead><tr><th>Time (UTC)</th><th>Wiki</th><th>Page</th><th>Range label</th><th>IP</th><th>Δ bytes</th><th>Summary</th></tr></thead>
+<tbody id="rows"></tbody>
+</table></div>
+<div class="pager"><button id="prev">Prev</button><span id="pageinfo"></span><button id="next">Next</button></div>
+<h2>Method and limits</h2>
+<p class="note" id="method"></p>
+</main>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+var D=JSON.parse(document.getElementById('data').textContent),S=D.summary,E=D.edits;
+function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
+var stats=document.getElementById('stats');
+[[S.total_edits,'edits'],[S.unique_ips,'distinct IPs'],[Object.keys(S.by_label).length,'source ranges'],[Object.keys(S.by_wiki).length,'wikis']].forEach(function(p){var d=el('div','stat');d.appendChild(el('b',null,(p[0]||0).toLocaleString()));d.appendChild(el('span',null,p[1]));stats.appendChild(d)});
+var months=document.getElementById('months'),max=1;
+var ms=[];for(var m=1;m<=12;m++){var k=D.year+'-'+(m<10?'0':'')+m;ms.push([k,S.by_month[k]||0]);max=Math.max(max,S.by_month[k]||0)}
+ms.forEach(function(p){var d=el('div');var i=el('i');i.style.height=(p[1]/max*100)+'%';i.title=p[0]+': '+p[1];d.appendChild(el('span',null,p[1]||''));d.appendChild(i);d.appendChild(el('span',null,p[0].slice(5)));months.appendChild(d)});
+var active=null,labels=document.getElementById('labels');
+Object.keys(S.by_label).forEach(function(l){var b=el('button',null,l+' · '+S.by_label[l]);b.onclick=function(){active=active===l?null:l;[].forEach.call(labels.children,function(x){x.classList.remove('on')});if(active)b.classList.add('on');page=0;render()};labels.appendChild(b)});
+var wsel=document.getElementById('wiki');Object.keys(S.by_wiki).forEach(function(w){var o=el('option',null,w+' ('+S.by_wiki[w]+')');o.value=w;wsel.appendChild(o)});
+var q=document.getElementById('q'),rows=document.getElementById('rows'),page=0,PER=100;
+function filtered(){var s=q.value.toLowerCase(),w=wsel.value;return E.filter(function(e){if(active&&e.label!==active)return false;if(w&&e.wiki!==w)return false;if(s&&(e.title+' '+(e.comment||'')+' '+e.ip).toLowerCase().indexOf(s)<0)return false;return true}).reverse()}
+function render(){var f=filtered(),pages=Math.max(1,Math.ceil(f.length/PER));page=Math.min(page,pages-1);rows.textContent='';
+f.slice(page*PER,page*PER+PER).forEach(function(e){var tr=el('tr');tr.appendChild(el('td','n',e.timestamp.replace('T',' ').replace('Z','')));tr.appendChild(el('td',null,e.wiki));var td=el('td'),a=el('a',null,e.title);a.href=e.url;a.target='_blank';a.rel='noopener';td.appendChild(a);tr.appendChild(td);tr.appendChild(el('td',null,e.label));tr.appendChild(el('td','n',e.ip));var d=e.sizediff;tr.appendChild(el('td','n '+(d>0?'pos':d<0?'neg':''),d==null?'':(d>0?'+':'')+d));tr.appendChild(el('td','c',e.comment||''));rows.appendChild(tr)});
+document.getElementById('pageinfo').textContent=f.length.toLocaleString()+' edits · page '+(page+1)+' of '+pages}
+q.oninput=function(){page=0;render()};wsel.onchange=function(){page=0;render()};
+document.getElementById('prev').onclick=function(){if(page>0){page--;render()}};document.getElementById('next').onclick=function(){page++;render()};
+render();
+var last=S.last_ip_attributed_edit_by_wiki||{},lt=Object.keys(last).map(function(w){return w+' '+last[w].slice(0,10)}).join(', ');
+document.getElementById('method').textContent='Collected with the MediaWiki usercontribs API (IP-range queries) over the @gccaedits department range list (2014–2016, public domain) plus prefixes announced in '+D.year+' by Shared Services Canada ASNs. Each IP is labelled by its most specific matching range; department labels come from the historical list and may be out of date, and "Shared Services Canada network" means the department cannot be determined. From late '+D.year+' Wikimedia replaced public IP attribution with temporary accounts (English Wikipedia: 4 November 2025), so later logged-out edits are not public and are not included. Last IP-attributed edit found per wiki: '+(lt||'none')+'. Generated '+S.generated+'.';
+})();
+</script>
+</body>
+</html>
