@@ -33,8 +33,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install tools
+        run: pip install -r requirements-dev.txt
       - name: Tests
         run: python -m unittest discover -s tests -v
+      - name: Verify existing data before touching it
+        run: python -m wikisscbot verify || echo "::warning::verification reported problems (expected before the first signed pull)"
       - name: Refresh Shared Services Canada BGP prefixes
         continue-on-error: true
         run: python -m wikisscbot refresh-ranges
@@ -42,12 +46,23 @@ jobs:
         run: |
           if [ -n "$YEAR" ]; then python -m wikisscbot backfill --year "$YEAR"
           else python -m wikisscbot backfill; fi
+      - name: Classify pages by topic
+        continue-on-error: true
+        run: python -m wikisscbot enrich
+      - name: Verify chain and checksums
+        run: python -m wikisscbot verify
+      - name: Timestamp new manifests (OpenTimestamps / Bitcoin)
+        continue-on-error: true
+        run: |
+          for m in data/manifests/*.json; do
+            [ -e "$m.ots" ] || ots stamp "$m" || echo "::warning::could not stamp $m"
+          done
       - name: Commit results
         run: |
           git config user.name "wikisscbot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data docs config/ranges_ssc_bgp.json 2>/dev/null || git add data docs
+          git add -A data docs config/ranges_ssc_bgp.json 2>/dev/null || git add -A data docs
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-          git commit -m "Backfill: $(python -c "import json,glob;print(', '.join(p.split('/')[1]+' '+str(json.load(open(p))['total_edits']) for p in sorted(glob.glob('data/*/summary.json')) if p.split('/')[1].isdigit()))") edits"
+          git commit -m "Backfill: $(python -c "import json,glob;print(', '.join(p.split('/')[1]+' '+str(json.load(open(p))['total_edits']) for p in sorted(glob.glob('data/*/summary.json')) if p.split('/')[1].isdigit()))") edits [manifest $(tail -n1 data/manifests/chain.jsonl | python -c "import json,sys;print(json.load(sys.stdin)['sha256'][:12])")]"
           git pull --rebase origin main
           git push origin HEAD:main

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>wikisscbot — Government of Canada Wikipedia edits</title>
+<meta name="description" content="Searchable archive of anonymous Wikipedia edits made from Government of Canada networks, with tamper-evident provenance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">▚</span>
+      <span class="brand-name">wikisscbot</span>
+      <span class="brand-tag">watching you watching me watching SSC</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#/" data-route="search">Search</a>
+      <a href="#/ips" data-route="ips">Addresses</a>
+      <a href="#/topics" data-route="topics">Topics</a>
+      <a href="#/ranges" data-route="ranges">Ranges</a>
+      <a href="#/provenance" data-route="provenance">Provenance</a>
+      <a href="#/about" data-route="about">About</a>
+    </nav>
+    <a class="seal" id="seal" href="#/provenance" title="Data provenance">…</a>
+  </div>
+</header>
+<main class="wrap" id="view" aria-live="polite"></main>
+<footer class="foot wrap">
+  <span id="foot-version"></span>
+  <span>Edits from Government of Canada networks are not evidence of who made them or in what capacity.</span>
+</footer>
+<script src="/static/app.js"></script>
+</body>
+</html>
