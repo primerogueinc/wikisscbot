@@ -54,7 +54,7 @@ def scan_block(host: str, block: Network, start: str, end: str):
         "action": "query", "list": "usercontribs", "format": "json",
         "formatversion": "2", "uciprange": str(block), "ucstart": start,
         "ucend": end, "ucdir": "older", "uclimit": "max", "ucprop": PROPS,
-        "maxlag": "5", "errorformat": "plaintext",
+        "errorformat": "plaintext",
     }
     while True:
         data = get_json(api, params)
@@ -68,6 +68,21 @@ def scan_block(host: str, block: Network, start: str, end: str):
         params.update(cont)
 
 
+def _scan_with_split(host, block, start, end, depth=0):
+    """Scan a block; if the server times out, split it in half and retry."""
+    try:
+        return list(scan_block(host, block, start, end))
+    except ApiError as e:
+        timeout = "HTTP 504" in str(e) or "HTTP 503" in str(e) or "timed out" in str(e)
+        limit = 24 if block.version == 4 else 48
+        if not timeout or block.prefixlen >= limit or depth >= 8:
+            raise
+        out = []
+        for half in block.subnets(prefixlen_diff=1):
+            out.extend(_scan_with_split(host, half, start, end, depth + 1))
+        return out
+
+
 def scan_wiki(wiki: dict, blocks: list[Network], labeller: Labeller,
               start: str, end: str, log=sys.stderr) -> ScanResult:
     res = ScanResult(wiki["id"])
@@ -76,7 +91,7 @@ def scan_wiki(wiki: dict, blocks: list[Network], labeller: Labeller,
     consecutive_param_errors = 0
     for i, block in enumerate(blocks, 1):
         try:
-            for c in scan_block(host, block, start, end):
+            for c in _scan_with_split(host, block, start, end):
                 user = c.get("user", "")
                 if not _is_ip(user) or c["revid"] in seen:
                     continue

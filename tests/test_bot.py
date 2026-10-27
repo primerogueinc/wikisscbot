@@ -118,6 +118,26 @@ class CollectTests(unittest.TestCase):
         self.assertEqual(res.edits[0]["label"], "Government of Canada (unlabelled)")
 
 
+class SplitTests(unittest.TestCase):
+    def test_timeout_splits_block(self):
+        lab = ranges.Labeller([])
+        seen = []
+
+        def fake(url, params):
+            seen.append(params["uciprange"])
+            if params["uciprange"] == "10.0.0.0/16":
+                raise ApiError("HTTP 504 for x")
+            return page([contrib(int(params["uciprange"].split(".")[2]) + 100,
+                                 params["uciprange"].split("/")[0])])
+
+        with mock.patch.object(collect, "get_json", side_effect=fake):
+            res = collect.scan_wiki(CollectTests.wiki, [ipaddress.ip_network("10.0.0.0/16")],
+                                    lab, "b", "a", log=io.StringIO())
+        self.assertEqual(seen, ["10.0.0.0/16", "10.0.0.0/17", "10.0.128.0/17"])
+        self.assertEqual(len(res.edits), 2)
+        self.assertFalse(res.block_errors)
+
+
 class ReportTests(unittest.TestCase):
     def test_build_outputs(self):
         with tempfile.TemporaryDirectory() as tmp:
