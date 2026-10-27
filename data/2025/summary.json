@@ -1,0 +1,514 @@
+{
+  "generated": "2026-10-27T13:19:18Z",
+  "total_edits": 1818,
+  "unique_ips": 106,
+  "by_label": {
+    "Shared Services Canada": 1593,
+    "Environment Canada": 51,
+    "Transport Canada": 26,
+    "Industry Canada": 21,
+    "Department of Fisheries and Oceans": 18,
+    "Canadian Broadcasting Corporation": 15,
+    "Canadian Museum of Civilization": 15,
+    "Library and Archives Canada": 13,
+    "Canadian Department of National Defence": 13,
+    "Department of Justice Canada": 11,
+    "Shared Services Canada network (AS2675)": 9,
+    "Statistics Canada": 9,
+    "Shared Services Canada network (AS2665)": 6,
+    "National Research Council (SSC)": 6,
+    "National Research Council": 6,
+    "Federal Court of Canada": 4,
+    "Canadian Space Agency": 1,
+    "Employment and Immigration Canada": 1
+  },
+  "by_wiki": {
+    "enwiki": 1087,
+    "frwiki": 718,
+    "commonswiki": 13
+  },
+  "by_month": {
+    "2025-01": 118,
+    "2025-02": 734,
+    "2025-03": 94,
+    "2025-04": 102,
+    "2025-05": 117,
+    "2025-06": 137,
+    "2025-07": 204,
+    "2025-08": 94,
+    "2025-09": 65,
+    "2025-10": 144,
+    "2025-11": 9
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "30th Field Artillery Regiment (Canada)",
+      "edits": 90
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2025–26 Ottawa Senators season",
+      "edits": 28
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Liste des candidats à l'élection générale québécoise de 2007",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Belleville Senators",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Matupi District",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Commander of the Royal Canadian Air Force",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Template:Ottawa Senators roster",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Institutes of Health Research",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canada Border Services Agency",
+      "edits": 8
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Les Fusiliers de Sherbrooke",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Jews in sports",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former Lutte Internationale personnel",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Transport Canada",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "65th General Assembly of Nova Scotia",
+      "edits": 7
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Modèle:Palette Circonscriptions électorales provinciales du Nouveau-Brunswick",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Choristoneura fumiferana",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Nova Scotia House of Assembly",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "4th Canadian Division Support Group",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Nintendo Entertainment System games",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ottawa Macdonald–Cartier International Airport",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of copper mines in Canada",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wolfe Islander IV",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Type 091 submarine",
+      "edits": 5
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Soraya Martinez Ferrada",
+      "edits": 5
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Robert Bourassa",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "CBM-CFS3",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Radeon RX 9000 series",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Yukon (electoral district)",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Forest tent caterpillar moth",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Abbotsford Canucks",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of mines in Saskatchewan",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Armoured Vehicle Royal Engineers",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Wikipedia:Requests for page protection/Increase",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of women's firsts",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "James O'Reilly (judge)",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "AFC Toronto",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chaudiere-Appalaches Junior AA Hockey League",
+      "edits": 4
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Action Longueuil",
+      "edits": 4
+    },
+    {
+      "wiki": "frwiki",
+      "title": "John Aldag",
+      "edits": 4
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Belle-Baie-Belledune",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Kadiivka",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "High Commission of Canada, Canberra",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Time Reading Program",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Eric Melillo",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Talk:Alberta separatist movement",
+      "edits": 4
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Kubilai Khan",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Talk:The Source (retailer)",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Vince Gasparro",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "User talk:The Banner",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Michael Wittmann",
+      "edits": 4
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada": {
+      "30th Field Artillery Regiment (Canada)": 90,
+      "2025–26 Ottawa Senators season": 28,
+      "Liste des candidats à l'élection générale québécoise de 2007": 19,
+      "Belleville Senators": 15,
+      "Matupi District": 14,
+      "Commander of the Royal Canadian Air Force": 13,
+      "Template:Ottawa Senators roster": 9,
+      "Canadian Institutes of Health Research": 8,
+      "Canada Border Services Agency": 8,
+      "Les Fusiliers de Sherbrooke": 8
+    },
+    "Industry Canada": {
+      "Soraya Martinez Ferrada": 6,
+      "List of women's firsts": 4,
+      "List of adjectival and demonymic forms of place names": 2,
+      "Francis Bouillon": 2,
+      "List of official business registers": 2,
+      "Canada men's national artistic gymnastics team": 1,
+      "Investment Canada Act": 1,
+      "American Hockey League": 1,
+      "List of tallest structures": 1,
+      "Graded exercise therapy": 1
+    },
+    "Department of Justice Canada": {
+      "Edwin (musician)": 3,
+      "National DNA Data Bank of Canada": 2,
+      "Receiver of Wreck": 1,
+      "1974 NHL amateur draft": 1,
+      "History of Vienna": 1,
+      "Antonio Lamer": 1,
+      "Dunce": 1,
+      "Mississauga Secondary School": 1
+    },
+    "Library and Archives Canada": {
+      "Type 091 submarine": 5,
+      "Agosta-class submarine": 1,
+      "Rubis-class submarine": 1,
+      "Sōryū-class submarine": 1,
+      "Mount Kennedy": 1,
+      "SAAB 21": 1,
+      "Air Canada Flight 621": 1,
+      "Talk:Type 091 submarine": 1,
+      "Johnstown, New York": 1
+    },
+    "Environment Canada": {
+      "Yukon (electoral district)": 5,
+      "Northwest Territories": 3,
+      "Template:Montréal–Trudeau weatherbox": 3,
+      "Julie Arblaster": 2,
+      "Provinces and territories of Canada": 2,
+      "Nunavut": 2,
+      "Yukon": 2,
+      "Alberta": 2,
+      "Saskatchewan": 2,
+      "Prince Edward Island": 2
+    },
+    "Federal Court of Canada": {
+      "James O'Reilly (judge)": 4
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Sovereign's Medal for Volunteers": 2,
+      "Defendo": 1,
+      "Geno Smith": 1,
+      "Pope Pius X": 1,
+      "Doug Moe": 1,
+      "2 Military Police Regiment": 1,
+      "List of digital forensics tools": 1,
+      "Absolum": 1
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Central East Correctional Centre": 3,
+      "Quantum illumination": 1,
+      "National Research Council Canada National Science Library": 1,
+      "Hillsborough Hospital": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "Gwaxdlala/Nalaxdlala (Lull/Hoeya) Marine Refuge": 3,
+      "Disc Golf Pro Tour": 2,
+      "Satyavati Devi": 2,
+      "Îles de Verchères": 1,
+      "Northern river reversal": 1,
+      "Sagamité": 1,
+      "Luisa González": 1,
+      "Little Miss Sunshine": 1,
+      "Philosopher king": 1,
+      "Alaskan Coast Range (painting)": 1
+    },
+    "Canadian Broadcasting Corporation": {
+      "AFC Toronto": 4,
+      "The Princess and the Frog": 2,
+      "Brian Stemmle": 1,
+      "User talk:Johnny Au": 1,
+      "Daniel Leblanc": 1,
+      "1995 Ontario general election": 1,
+      "Talk:Steven Erlanger": 1,
+      "Portneuf Regional County Municipality": 1,
+      "Ontario Today": 1,
+      "Carole Jacques": 1
+    },
+    "Canadian Museum of Civilization": {
+      "Armoured Vehicle Royal Engineers": 5,
+      "George Burdon McKean": 2,
+      "Shawn Simpson": 1,
+      "Frederick George Topham": 1,
+      "The Duchess of Malfi": 1,
+      "Second Boer War": 1,
+      "William Hall (VC)": 1,
+      "M1917 light tank": 1,
+      "Universal Carrier": 1,
+      "The Kid Who Couldn't Miss": 1
+    },
+    "Statistics Canada": {
+      "Kubilai Khan": 4,
+      "Fentanyl": 1,
+      "Michel Gonneville": 1,
+      "Prix Goncourt": 1,
+      "Cecil Burgess": 1,
+      "North American Industry Classification System": 1
+    },
+    "Transport Canada": {
+      "Transport Canada": 8,
+      "Ottawa Macdonald–Cartier International Airport": 6,
+      "User talk:The Banner": 4,
+      "List of equipment of the Canadian Coast Guard": 2,
+      "Britten-Norman BN-2 Islander": 1,
+      "Talk:List of political scandals in Canada": 1,
+      "Ruby Dhalla": 1,
+      "Lynden Pindling International Airport": 1,
+      "Rechie Valdez": 1,
+      "Bruce Cockburn": 1
+    },
+    "Canadian Department of National Defence": {
+      "Regional Cadet Support Unit (Eastern)": 3,
+      "Michel Trudeau": 1,
+      "Joint Rescue Coordination Centre Trenton": 1,
+      "BepiColombo": 1,
+      "Herb Gardiner": 1,
+      "Huajiang Canyon Bridge": 1,
+      "Peawanuck": 1,
+      "Chengdu J-10": 1,
+      "Ontario Highway 17": 1,
+      "Anzick-1": 1
+    },
+    "National Research Council (SSC)": {
+      "National Research Council Canada": 1,
+      "Rock Machine Motorcycle Club": 1,
+      "Vepr": 1,
+      "Kawasaki P-1": 1,
+      "Coupe Stanley": 1,
+      "Anatoxin-a": 1
+    },
+    "Canadian Space Agency": {
+      "Van der Valk (2020 TV series)": 1
+    },
+    "National Research Council": {
+      "List of nearest galaxies": 1,
+      "Thin film": 1,
+      "List of aerospace flight test centres": 1,
+      "List of ghost towns in Newfoundland and Labrador": 1,
+      "Ice jam": 1,
+      "National Research Council Canada": 1
+    },
+    "Employment and Immigration Canada": {
+      "Template talk:Meta sidebar": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2025-11-03T17:35:02Z",
+    "frwiki": "2025-06-18T12:42:27Z",
+    "commonswiki": "2025-11-03T12:39:05Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-10-27T13:17:19Z",
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 1,
+      "error_samples": {
+        "132.156.0.0/16": "HTTP 504 for https://en.wikipedia.org/w/api.php?action=query&list=usercontribs&format=json&formatversion=2&uciprange=132.156.0.0%2F16&ucstart=2025-12-31T23%3A59%3A59Z&ucend=2025-01-01T00%3A00%3A00Z&ucdir=older&uclimit=max&ucprop=ids%7Ctitle%7Ctimestamp%7Ccomment%7Csize%7Csizediff%7Cflags%7Ctags&maxlag=5&errorformat=plaintext"
+      },
+      "fatal": null,
+      "edits": 1087
+    },
+    "frwiki": {
+      "scanned_at": "2026-10-27T13:18:09Z",
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 718
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-10-27T13:19:03Z",
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 146,
+      "error_samples": {
+        "108.174.30.160/29": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged.",
+        "128.43.0.0/16": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged.",
+        "131.132.0.0/16": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged.",
+        "131.133.0.0/16": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged.",
+        "131.134.0.0/16": "maxlag: Waiting for wdqs1011: 5.6666666666667 seconds lagged."
+      },
+      "fatal": null,
+      "edits": 0
+    },
+    "commonswiki": {
+      "scanned_at": "2026-10-27T13:19:18Z",
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 13
+    }
+  }
+}
