@@ -52,6 +52,7 @@ jobs:
           else python -m wikisscbot backfill; fi
       - name: Classify pages by topic
         continue-on-error: true
+        timeout-minutes: 25
         run: python -m wikisscbot enrich
       - name: Verify chain and checksums
         run: python -m wikisscbot verify

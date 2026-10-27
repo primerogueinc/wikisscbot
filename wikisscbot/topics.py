@@ -13,9 +13,11 @@ Two layers:
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from .config import ROOT, settings
@@ -46,7 +48,7 @@ def page_key(wiki: str, title: str) -> str:
 
 def fetch_topics(lang: str, title: str) -> list[dict]:
     data = post_json(LIFTWING, {"page_title": title.replace(" ", "_"), "lang": lang,
-                                "threshold": THRESHOLD})
+                                "threshold": THRESHOLD}, retries=2, timeout=15)
     results = (data.get("prediction") or {}).get("results") or []
     out = []
     for r in results:
@@ -56,32 +58,71 @@ def fetch_topics(lang: str, title: str) -> list[dict]:
     return sorted(out, key=lambda r: -r["score"])
 
 
-def enrich(edits: list[dict], log=sys.stderr, delay: float = 0.1) -> dict:
-    """Fetch Wikimedia topics for every (wiki, title) not yet cached."""
+def enrich(edits: list[dict], log=sys.stderr, workers: int = 6,
+           budget_minutes: float | None = None) -> dict:
+    """Fetch Wikimedia topics for (wiki, title) pairs not yet cached.
+
+    Bounded so a slow or failing topic service can never stall a run: a few
+    parallel requests, short timeouts, a time budget (default 15 minutes,
+    WIKISSC_ENRICH_MINUTES), and a stop if the service fails repeatedly.
+    Unfinished pages are picked up by the next run from the cache.
+    """
+    budget = budget_minutes if budget_minutes is not None else float(
+        os.environ.get("WIKISSC_ENRICH_MINUTES", "15"))
+    deadline = time.monotonic() + budget * 60
     cache = load_cache()
     pages = cache["pages"]
     langs = {w["id"]: w["lang"] for w in settings()["wikis"] if w["host"].endswith("wikipedia.org")}
     todo = sorted({(e["wiki"], e["title"]) for e in edits
                    if e["wiki"] in langs and e.get("ns", 0) == 0
                    and page_key(e["wiki"], e["title"]) not in pages})
-    print(f"topics: {len(todo)} pages to classify ({len(pages)} cached)", file=log)
-    done = failed = 0
-    for wiki, title in todo:
-        try:
-            pages[page_key(wiki, title)] = fetch_topics(langs[wiki], title)
-            done += 1
-        except (ApiError, ValueError, KeyError) as ex:
-            failed += 1
-            if failed <= 5:
-                print(f"  topic lookup failed for {wiki}:{title}: {ex}", file=log)
-        if (done + failed) % 200 == 0:
-            print(f"  {done + failed}/{len(todo)}", file=log)
-            CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True))
-        time.sleep(delay)
+    print(f"topics: {len(todo)} pages to classify ({len(pages)} cached), "
+          f"budget {budget:g} min", file=log)
+    done = failed = streak = 0
+    stopped = None
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        it = iter(todo)
+        futures = {}
+
+        def submit_next() -> bool:
+            if stopped or time.monotonic() > deadline:
+                return False
+            try:
+                wiki, title = next(it)
+            except StopIteration:
+                return False
+            futures[pool.submit(fetch_topics, langs[wiki], title)] = (wiki, title)
+            return True
+
+        for _ in range(workers * 2):
+            submit_next()
+        while futures:
+            fut = next(as_completed(list(futures)))
+            wiki, title = futures.pop(fut)
+            try:
+                pages[page_key(wiki, title)] = fut.result()
+                done += 1
+                streak = 0
+            except (ApiError, ValueError, KeyError) as ex:
+                failed += 1
+                streak += 1
+                if failed <= 5:
+                    print(f"  topic lookup failed for {wiki}:{title}: {ex}", file=log)
+                if streak >= 25 and not stopped:
+                    stopped = f"stopped after {streak} consecutive failures"
+                    print(f"  {stopped}", file=log)
+            if (done + failed) % 200 == 0:
+                print(f"  {done + failed}/{len(todo)}", file=log)
+                CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True))
+            submit_next()
+    if not stopped and time.monotonic() > deadline and done + failed < len(todo):
+        stopped = f"time budget reached ({budget:g} min)"
+        print(f"  {stopped}; {len(todo) - done - failed} pages left for the next run", file=log)
     labelled = label_wikidata(edits, cache, log)
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True))
-    return {"classified": done, "failed": failed, "cached_total": len(pages),
-            "wikidata_labelled": labelled}
+    return {"classified": done, "failed": failed, "remaining": len(todo) - done - failed,
+            "cached_total": len(pages), "wikidata_labelled": labelled,
+            "stopped": stopped or ""}
 
 
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"

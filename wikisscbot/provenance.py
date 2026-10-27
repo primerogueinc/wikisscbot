@@ -27,6 +27,7 @@ import json
 import os
 import secrets
 import subprocess
+import threading
 from pathlib import Path
 
 from . import __version__, http
@@ -92,8 +93,13 @@ class Recorder:
         self.entries: list[dict] = []
         self.chain = hashlib.sha256(b"wikisscbot-responses/1")
         self.by_host: dict[str, dict] = {}
+        self._lock = threading.Lock()  # enrich makes requests from several threads
 
     def __call__(self, method: str, url: str, req_body: bytes | None, raw: bytes) -> None:
+        with self._lock:
+            self._record(method, url, req_body, raw)
+
+    def _record(self, method: str, url: str, req_body: bytes | None, raw: bytes) -> None:
         digest = hashlib.sha256(raw).hexdigest()
         entry = {"t": now(), "method": method, "url": url, "bytes": len(raw), "sha256": digest}
         if req_body is not None:
