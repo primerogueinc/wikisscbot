@@ -1,9 +1,9 @@
 {
   "source": "RIPEstat announced-prefixes",
-  "since": "2024-01-01T00:00",
-  "fetched": "2026-10-27T17:05:06Z",
+  "since": "2023-01-01T00:00",
+  "fetched": "2026-10-27T20:17:20Z",
   "counts_by_asn": {
-    "2665": 235,
+    "2665": 273,
     "2675": 367,
     "2682": 9,
     "25689": 43,
@@ -217,8 +217,8 @@
     },
     {
       "prefix": "142.236.76.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "142.236.78.0/24",
@@ -266,14 +266,19 @@
       "label": "Shared Services Canada network (AS2665)"
     },
     {
+      "prefix": "167.32.0.0/17",
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
+    },
+    {
       "prefix": "167.37.27.0/24",
       "asn": 2665,
       "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "167.37.28.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "167.37.33.0/24",
@@ -747,8 +752,8 @@
     },
     {
       "prefix": "198.103.18.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "198.103.21.0/24",
@@ -807,11 +812,16 @@
     },
     {
       "prefix": "198.103.52.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "198.103.53.0/24",
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
+    },
+    {
+      "prefix": "198.103.54.0/24",
       "asn": 2665,
       "label": "Shared Services Canada network (AS2665)"
     },
@@ -827,8 +837,8 @@
     },
     {
       "prefix": "198.103.57.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "198.103.58.0/24",
@@ -927,8 +937,8 @@
     },
     {
       "prefix": "198.103.137.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "198.103.140.0/24",
@@ -977,8 +987,8 @@
     },
     {
       "prefix": "198.103.159.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "198.103.161.0/24",
@@ -1022,8 +1032,8 @@
     },
     {
       "prefix": "198.103.182.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "198.103.183.0/24",
@@ -1057,11 +1067,16 @@
     },
     {
       "prefix": "198.103.196.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "198.103.198.0/24",
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
+    },
+    {
+      "prefix": "198.103.205.0/24",
       "asn": 2665,
       "label": "Shared Services Canada network (AS2665)"
     },
@@ -1087,8 +1102,8 @@
     },
     {
       "prefix": "198.103.217.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "198.103.218.0/24",
@@ -1117,8 +1132,8 @@
     },
     {
       "prefix": "198.103.237.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "198.103.238.0/24",
@@ -1442,8 +1457,8 @@
     },
     {
       "prefix": "205.193.40.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.41.0/24",
@@ -1507,8 +1522,8 @@
     },
     {
       "prefix": "205.193.78.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.81.0/24",
@@ -1517,8 +1532,8 @@
     },
     {
       "prefix": "205.193.82.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.85.0/24",
@@ -1552,8 +1567,8 @@
     },
     {
       "prefix": "205.193.97.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.98.0/24",
@@ -1567,8 +1582,8 @@
     },
     {
       "prefix": "205.193.101.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.103.0/24",
@@ -1577,8 +1592,8 @@
     },
     {
       "prefix": "205.193.105.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.107.0/24",
@@ -1607,8 +1622,8 @@
     },
     {
       "prefix": "205.193.116.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.117.0/24",
@@ -1672,8 +1687,8 @@
     },
     {
       "prefix": "205.193.146.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.147.0/24",
@@ -1752,8 +1767,8 @@
     },
     {
       "prefix": "205.193.173.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.174.0/24",
@@ -1806,6 +1821,11 @@
       "label": "Shared Services Canada network (AS2665)"
     },
     {
+      "prefix": "205.193.199.0/24",
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
+    },
+    {
       "prefix": "205.193.200.0/24",
       "asn": 2665,
       "label": "Shared Services Canada network (AS2665)"
@@ -1832,8 +1852,8 @@
     },
     {
       "prefix": "205.193.210.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.212.0/24",
@@ -1847,8 +1867,8 @@
     },
     {
       "prefix": "205.193.214.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.215.0/24",
@@ -1877,8 +1897,8 @@
     },
     {
       "prefix": "205.193.222.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.223.0/24",
@@ -1887,28 +1907,33 @@
     },
     {
       "prefix": "205.193.224.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.225.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
+    },
+    {
+      "prefix": "205.193.226.0/24",
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.227.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.228.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.229.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.230.0/24",
@@ -1922,8 +1947,8 @@
     },
     {
       "prefix": "205.193.232.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.193.233.0/24",
@@ -2002,18 +2027,18 @@
     },
     {
       "prefix": "205.194.20.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.194.21.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.194.25.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.194.26.0/23",
@@ -2122,8 +2147,8 @@
     },
     {
       "prefix": "205.194.127.0/24",
-      "asn": 2675,
-      "label": "Shared Services Canada network (AS2675)"
+      "asn": 2665,
+      "label": "Shared Services Canada network (AS2665)"
     },
     {
       "prefix": "205.211.132.0/24",

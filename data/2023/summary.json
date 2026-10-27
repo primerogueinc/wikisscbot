@@ -1,0 +1,570 @@
+{
+  "generated": "2026-10-27T20:27:07Z",
+  "total_edits": 1529,
+  "unique_ips": 108,
+  "by_label": {
+    "Shared Services Canada": 914,
+    "Canadian Department of National Defence": 232,
+    "Canadian House of Commons": 88,
+    "Canadian Broadcasting Corporation": 61,
+    "Transport Canada": 40,
+    "Shared Services Canada network (AS2665)": 29,
+    "Industry Canada": 25,
+    "Department of Fisheries and Oceans": 22,
+    "Environment Canada": 21,
+    "Library and Archives Canada": 14,
+    "Shared Services Canada network (AS2675)": 14,
+    "Department of Justice Canada": 11,
+    "Bank of Canada": 10,
+    "Correctional Services Canada": 10,
+    "Government of Canada": 7,
+    "National Research Council": 7,
+    "Federal Court of Canada": 7,
+    "Employment and Immigration Canada": 6,
+    "National Research Council (SSC)": 4,
+    "Statistics Canada": 3,
+    "Canadian Space Agency": 2,
+    "Finance Canada": 1,
+    "Canadian Museum of Civilization": 1
+  },
+  "by_wiki": {
+    "enwiki": 1395,
+    "frwiki": 104,
+    "wikidatawiki": 22,
+    "commonswiki": 8
+  },
+  "by_month": {
+    "2023-01": 147,
+    "2023-02": 107,
+    "2023-03": 89,
+    "2023-04": 109,
+    "2023-05": 135,
+    "2023-06": 134,
+    "2023-07": 209,
+    "2023-08": 146,
+    "2023-09": 113,
+    "2023-10": 100,
+    "2023-11": 157,
+    "2023-12": 83
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "Stampede Wrestling",
+      "edits": 40
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former World Championship Wrestling personnel",
+      "edits": 34
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former Lutte Internationale personnel",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former WWE personnel (I–M)",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2011 Australian Open – Men's singles qualifying",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Copenhagen Airport",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ottawa Macdonald–Cartier International Airport",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Pleasant Camp, British Columbia",
+      "edits": 17
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former WWE personnel (N–R)",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Supermodel Me season 4",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2022–23 Ottawa Senators season",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of premature professional wrestling deaths",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former WWE personnel (S–Z)",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Eddie Creatchman",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former Universal Wrestling Federation (Bill Watts) personnel",
+      "edits": 10
+    },
+    {
+      "wiki": "enwiki",
+      "title": "3 Military Police Regiment (Canada)",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former Jim Crockett Promotions personnel",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2025 Canadian federal election",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Stormont, Dundas and Glengarry Highlanders",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Chris Daw",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2024 Nova Scotia general election",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Tony Sheridan",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Lumberjack Pierre",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of years in film",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Catherine Dorion",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Consulate General of Canada, Boston",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "William Head Institution",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "My Bonnie Lies over the Ocean",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former Smoky Mountain Wrestling personnel",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former WWE personnel (A–C)",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Greg Fergus",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Nova Scotia House of Assembly",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "64th General Assembly of Nova Scotia",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "The Quarrymen",
+      "edits": 6
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q1431229",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dryocoetes",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of equipment of the Canadian Coast Guard",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2010 Shanghai Rolex Masters – Singles",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Riverview, New Brunswick",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Guinea",
+      "edits": 5
+    },
+    {
+      "wiki": "frwiki",
+      "title": "M7 (fusil d'assaut)",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Joel Harden",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of former WWE personnel (D–H)",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Zec Normandie",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jonathan Wilkinson",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Billboard and Vibe's 50 Greatest Rappers of All Time",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2009 Wimbledon Championships – Men's singles qualifying",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canada Border Services Agency",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of strikes",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Mercedes-Benz G-Class",
+      "edits": 4
+    }
+  ],
+  "top_pages_by_label": {
+    "Canadian Department of National Defence": {
+      "Chris Daw": 8,
+      "M7 (fusil d'assaut)": 5,
+      "Billboard and Vibe's 50 Greatest Rappers of All Time": 5,
+      "M101 howitzer": 4,
+      "Patach": 4,
+      "Clergy": 3,
+      "List of NHL franchise post-season droughts": 3,
+      "Military Police Regiment": 3,
+      "Segol": 3,
+      "Tzere": 3
+    },
+    "Shared Services Canada": {
+      "Stampede Wrestling": 40,
+      "List of former World Championship Wrestling personnel": 34,
+      "List of former Lutte Internationale personnel": 20,
+      "List of former WWE personnel (I–M)": 19,
+      "2011 Australian Open – Men's singles qualifying": 18,
+      "Copenhagen Airport": 18,
+      "Pleasant Camp, British Columbia": 17,
+      "List of former WWE personnel (N–R)": 14,
+      "Supermodel Me season 4": 13,
+      "2022–23 Ottawa Senators season": 13
+    },
+    "Industry Canada": {
+      "Timothy Colton": 3,
+      "Les Trois Prochains Jours": 2,
+      "Rose-Marie Perreault": 2,
+      "Copyright Board of Canada": 2,
+      "Telus Health": 2,
+      "Telecommunications Act (Canada)": 1,
+      "Matty Matheson": 1,
+      "Bronson Centre": 1,
+      "Talk:Ottawa Valley English": 1,
+      "Slavery in Canada": 1
+    },
+    "Shared Services Canada network (AS2665)": {
+      "3 Military Police Regiment (Canada)": 8,
+      "Canadian Society of Soil Science": 2,
+      "Trisonic Wind Tunnel": 2,
+      "Q121160333": 2,
+      "Rubber duck": 2,
+      "Talk:Metaviridae": 1,
+      "Skeena cherry": 1,
+      "Radical Civic Union": 1,
+      "Jackie Vautour": 1,
+      "Category talk:Given names": 1
+    },
+    "Canadian Broadcasting Corporation": {
+      "Greg Fergus": 4,
+      "Talk:Service à la russe": 2,
+      "Panthéon de la musique canadienne": 2,
+      "Podcast Playlist": 2,
+      "Bill Blair": 2,
+      "Gary Anandasangaree": 2,
+      "Minister of National Defence (Canada)": 2,
+      "List of Lebanese people in Canada": 2,
+      "Meara Conway": 2,
+      "S.Pri Noir": 2
+    },
+    "Canadian House of Commons": {
+      "2025 Canadian federal election": 9,
+      "Q1431229": 6,
+      "Joel Harden": 5,
+      "Sophie Chatel": 3,
+      "Sonia Sidhu": 3,
+      "Erin O'Toole": 3,
+      "Karine Jean-Pierre": 2,
+      "Laura Pollán": 2,
+      "Dustin Byfuglien": 2,
+      "Blaine Calkins": 2
+    },
+    "Library and Archives Canada": {
+      "Wikipedia:List of online newspaper archives": 1,
+      "The Sheepdogs": 1,
+      "Olaus Murie": 1,
+      "Vaudreuil-Dorion": 1,
+      "Mikado, Saskatchewan": 1,
+      "Michel Pagliaro": 1,
+      "Marcelle Deschênes": 1,
+      "Ruée vers l'or du Klondike": 1,
+      "Patrimoine canadien": 1,
+      "Sierra-class submarine": 1
+    },
+    "Department of Justice Canada": {
+      "Mahmud Jamal": 2,
+      "Jim Robb": 1,
+      "Nanny and Orphan-Maker": 1,
+      "Austin, Texas": 1,
+      "Saint John's Eve": 1,
+      "Edward Bullard": 1,
+      "Tom Gaskell": 1,
+      "HMS Challenger (1931)": 1,
+      "Challenger expedition": 1,
+      "Miꞌkmaq": 1
+    },
+    "Government of Canada": {
+      "List of strikes": 4,
+      "Michael Wernick": 1,
+      "Minister of state (Canada)": 1,
+      "Sustainable Development Goals": 1
+    },
+    "National Research Council": {
+      "Cary-Hiroyuki Tagawa": 2,
+      "Lost Dutchman State Park": 1,
+      "Frank Shu": 1,
+      "Degenerate energy levels": 1,
+      "Power dividers and directional couplers": 1,
+      "Helical antenna": 1
+    },
+    "Bank of Canada": {
+      "Zec Normandie": 5,
+      "Bank of Canada Museum": 2,
+      "Banque centrale": 1,
+      "Blairmore, Alberta": 1,
+      "Thalamocortical dysrhythmia": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "Stormont, Dundas and Glengarry Highlanders": 9,
+      "CCGS Cape Palmerston": 2,
+      "International Whaling Commission": 2,
+      "Talk:Risso's dolphin": 2,
+      "Whale Cove, Nunavut": 1,
+      "John H. Lee (director)": 1,
+      "Petite rivière Matane": 1,
+      "Montagnais de Natashquan": 1,
+      "Fisheries and Oceans Canada": 1,
+      "List of equipment of the Canadian Coast Guard": 1
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Steven Woloshen": 2,
+      "Revelstoke, British Columbia": 2,
+      "Cold Pursuit": 1,
+      "Franklin's grouse": 1,
+      "Napoleon (2023 film)": 1,
+      "Cameras Take Five": 1,
+      "Dead-end job": 1,
+      "Louis LeBel": 1,
+      "CKVB-FM": 1,
+      "Heavy water": 1
+    },
+    "National Research Council (SSC)": {
+      "Canadian Forces Base Lahr": 2,
+      "File talk:Prison cell, Fort Leavenworth.jpg": 1,
+      "National Research Council Canada": 1
+    },
+    "Transport Canada": {
+      "Ottawa Macdonald–Cartier International Airport": 18,
+      "Parry Sound, Ontario": 2,
+      "Killaloe/Bonnechere Airport": 2,
+      "Harry Reid International Airport": 1,
+      "Thunder Bay Airport": 1,
+      "St. John's International Airport": 1,
+      "Bowling": 1,
+      "NYX (2003 series)": 1,
+      "X-23": 1,
+      "M1127 reconnaissance vehicle": 1
+    },
+    "Environment Canada": {
+      "Canadian Ice Service": 3,
+      "List of refrigerants": 1,
+      "Bishkek": 1,
+      "List of railroads owned by Genesee & Wyoming": 1,
+      "Native Women's Association of Canada": 1,
+      "List of birds by common name": 1,
+      "Romanian language": 1,
+      "Victoriaville": 1,
+      "CCGS Kelso": 1,
+      "Action for Climate Empowerment": 1
+    },
+    "Federal Court of Canada": {
+      "Patrick J. Boyle": 2,
+      "Federal Court (Canada)": 1,
+      "Rockway Mennonite Collegiate": 1,
+      "Paul Schabas": 1,
+      "College of Psychologists of Ontario": 1,
+      "Talk:Jordan Peterson": 1
+    },
+    "Correctional Services Canada": {
+      "List of years in film": 5,
+      "2005 in film": 2,
+      "Tando Jan Mohammad": 1,
+      "Pilot (Scottish band)": 1,
+      "Help:Property constraints portal/Value label template": 1
+    },
+    "Statistics Canada": {
+      "Timmins": 1,
+      "Sarfati": 1,
+      "Canadian Hurricane Centre": 1
+    },
+    "Employment and Immigration Canada": {
+      "List of years in film": 3,
+      "Alvin and the Chipmunks": 1,
+      "A Civil Action (film)": 1,
+      "User talk:Yukon doit!": 1
+    },
+    "Canadian Space Agency": {
+      "Quiet Revolution": 1,
+      "Cygnus NG-19": 1
+    },
+    "Finance Canada": {
+      "Unison (Celine Dion album)": 1
+    },
+    "Canadian Museum of Civilization": {
+      "No. 692 Squadron RAF": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2023-12-29T21:37:10Z",
+    "frwiki": "2023-12-22T12:48:37Z",
+    "wikidatawiki": "2023-12-19T15:23:58Z",
+    "commonswiki": "2023-11-18T00:36:26Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-10-27T20:25:01Z",
+      "window": [
+        "2023-01-01T00:00:00Z",
+        "2023-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 1395
+    },
+    "frwiki": {
+      "scanned_at": "2026-10-27T20:25:24Z",
+      "window": [
+        "2023-01-01T00:00:00Z",
+        "2023-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 104
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-10-27T20:26:15Z",
+      "window": [
+        "2023-01-01T00:00:00Z",
+        "2023-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 22
+    },
+    "commonswiki": {
+      "scanned_at": "2026-10-27T20:27:07Z",
+      "window": [
+        "2023-01-01T00:00:00Z",
+        "2023-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 8
+    }
+  }
+}
