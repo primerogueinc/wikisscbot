@@ -1,9 +1,25 @@
 {
   "wikis": [
-    {"id": "enwiki", "host": "en.wikipedia.org", "lang": "en"},
-    {"id": "frwiki", "host": "fr.wikipedia.org", "lang": "fr"},
-    {"id": "wikidatawiki", "host": "www.wikidata.org", "lang": "en"},
-    {"id": "commonswiki", "host": "commons.wikimedia.org", "lang": "en"}
+    {
+      "id": "enwiki",
+      "host": "en.wikipedia.org",
+      "lang": "en"
+    },
+    {
+      "id": "frwiki",
+      "host": "fr.wikipedia.org",
+      "lang": "fr"
+    },
+    {
+      "id": "wikidatawiki",
+      "host": "www.wikidata.org",
+      "lang": "en"
+    },
+    {
+      "id": "commonswiki",
+      "host": "commons.wikimedia.org",
+      "lang": "en"
+    }
   ],
   "ssc_asns": {
     "2665": "Shared Services Canada network (AS2665)",
@@ -12,5 +28,9 @@
     "25689": "Shared Services Canada network (AS25689, legacy NRC)",
     "806": "Shared Services Canada network (AS806, legacy Environment Canada)"
   },
-  "user_agent": "wikisscbot/1.0 (https://github.com/primerogueinc/wikisscbot; Government of Canada anonymous-edit transparency archive)"
+  "user_agent": "wikisscbot/1.0 (https://github.com/primerogueinc/wikisscbot; Government of Canada anonymous-edit transparency archive)",
+  "backfill_years": [
+    2024,
+    2025
+  ]
 }

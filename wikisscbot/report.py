@@ -61,11 +61,18 @@ def summarize(edits: list[dict], status: dict) -> dict:
     }
 
 
-def write_html(edits: list[dict], summary: dict, path: Path, year: str) -> None:
+def available_years() -> list[str]:
+    data = ROOT / "data"
+    return sorted(p.name for p in data.glob("[0-9][0-9][0-9][0-9]") if (p / "summary.json").exists())
+
+
+def write_html(edits: list[dict], summary: dict, path: Path, year: str,
+               years: list[str] | None = None) -> None:
     template = (ROOT / "wikisscbot" / "template.html").read_text(encoding="utf-8")
     slim = [{k: e.get(k) for k in ("timestamp", "wiki", "title", "label", "ip",
                                    "sizediff", "comment", "url")} for e in edits]
-    payload = json.dumps({"year": year, "summary": summary, "edits": slim},
+    payload = json.dumps({"year": year, "years": years or [year], "summary": summary,
+                          "edits": slim},
                          ensure_ascii=False)
     # Keep the JSON from terminating the <script> element early.
     payload = payload.replace("</", "<\\/")
@@ -87,5 +94,10 @@ def build(year: str) -> dict:
     write_csv(edits, base / "edits.csv")
     summary = summarize(edits, status)
     (base / "summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n")
-    write_html(edits, summary, ROOT / "docs" / "index.html", year)
+    years = available_years()
+    write_html(edits, summary, ROOT / "docs" / f"{year}.html", year, years)
+    # The index always shows the most recent collected year.
+    latest = years[-1] if years else year
+    if latest == year:
+        write_html(edits, summary, ROOT / "docs" / "index.html", year, years)
     return summary

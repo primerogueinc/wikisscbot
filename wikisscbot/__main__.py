@@ -38,7 +38,8 @@ def _prepare():
 
 
 def cmd_refresh(args) -> None:
-    doc = bgp.refresh(since=args.since)
+    since = args.since or f"{min(settings().get('backfill_years', [2025]))}-01-01T00:00"
+    doc = bgp.refresh(since=since)
     print(f"{len(doc['prefixes'])} SSC prefixes; per ASN: {doc['counts_by_asn']}")
 
 
@@ -50,7 +51,12 @@ def cmd_blocks(args) -> None:
 
 
 def cmd_backfill(args) -> None:
-    year = str(args.year)
+    years = args.year or settings().get("backfill_years", [2025])
+    for y in years:
+        _backfill_year(str(y), args)
+
+
+def _backfill_year(year: str, args) -> None:
     start, end = f"{year}-12-31T23:59:59Z", f"{year}-01-01T00:00:00Z"
     labeller, blocks, ranges = _prepare()
     base = ROOT / "data" / year
@@ -119,11 +125,13 @@ def main(argv=None) -> None:
     sub = p.add_subparsers(dest="cmd", required=True)
 
     r = sub.add_parser("refresh-ranges")
-    r.add_argument("--since", default="2025-01-01T00:00")
+    r.add_argument("--since", default=None,
+                   help="default: Jan 1 of the earliest backfill year")
     r.set_defaults(fn=cmd_refresh)
 
     b = sub.add_parser("backfill")
-    b.add_argument("--year", type=int, default=2025)
+    b.add_argument("--year", type=int, action="append",
+                   help="year to collect; repeatable (default: backfill_years in settings)")
     b.add_argument("--wiki", action="append", help="wiki id; repeatable (default: all)")
     b.add_argument("--strict", action="store_true", help="exit non-zero if a wiki rejects queries")
     b.set_defaults(fn=cmd_backfill)

@@ -26,7 +26,7 @@ wikisscbot therefore works as a **historical collector** rather than a live fire
 | `data/2025/edits.jsonl` | Same, one JSON object per line |
 | `data/2025/summary.json` | Counts by range label, wiki and month; top pages; last IP-attributed edit per wiki |
 | `data/2025/status.json` | Per-wiki scan status and any API errors |
-| `docs/index.html` | Searchable, filterable report page |
+| `docs/index.html`, `docs/<year>.html` | Searchable, filterable report page per year |
 | `data/live/edits.jsonl` | Edits found by the daily watcher |
 
 To publish the report page: repo **Settings → Pages → Deploy from a branch → `main` / `/docs`**.
@@ -35,7 +35,7 @@ To publish the report page: repo **Settings → Pages → Deploy from a branch �
 
 Everything runs on GitHub Actions; no server needed.
 
-- **Backfill year** runs on every push that changes the code or config, or manually from the Actions tab (choose any year). It refreshes SSC prefixes, collects the year and commits the results.
+- **Backfill year** runs on every push that changes the code or config and collects every year in `config/settings.json` (`backfill_years`, currently 2024 and 2025), or manually from the Actions tab for a single year. It refreshes SSC prefixes, collects, and commits the results. Each year gets its own page (`docs/2024.html`, …); `docs/index.html` shows the latest.
 - **Watch for new edits** runs daily and checks the last 30 hours. It will mostly find nothing on wikis that use temporary accounts; it exists to catch any wiki that still exposes IPs. To have it post, add repository secrets `MASTODON_INSTANCE` + `MASTODON_TOKEN` and/or `BLUESKY_HANDLE` + `BLUESKY_APP_PASSWORD`. The backfill never posts.
 
 Locally (Python 3.10+, standard library only):

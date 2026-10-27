@@ -37,10 +37,13 @@ a{color:var(--accent)}
 .pager{display:flex;gap:8px;align-items:center;margin-top:10px;color:var(--muted)}
 .pager button{font:inherit;padding:5px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg);cursor:pointer}
 .note{font-size:13px;color:var(--muted);max-width:760px}
+.years{display:flex;gap:10px;margin:0 0 14px;font-size:14px}
+.years a,.years b{padding:2px 0}
 </style>
 </head>
 <body>
 <main>
+<nav class="years" id="years"></nav>
 <h1>Anonymous Wikipedia edits from Government of Canada networks, __YEAR__</h1>
 <p class="lede">Edits made while logged out from IP ranges registered to federal departments or announced by Shared Services Canada. Only edits publicly attributed to an IP address are included.</p>
 <div class="stats" id="stats"></div>
@@ -66,6 +69,7 @@ a{color:var(--accent)}
 (function(){
 var D=JSON.parse(document.getElementById('data').textContent),S=D.summary,E=D.edits;
 function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
+var yn=document.getElementById('years');(D.years||[]).forEach(function(y){if(y===D.year){yn.appendChild(el('b',null,y))}else{var a=el('a',null,y);a.href=y+'.html';yn.appendChild(a)}});
 var stats=document.getElementById('stats');
 [[S.total_edits,'edits'],[S.unique_ips,'distinct IPs'],[Object.keys(S.by_label).length,'source ranges'],[Object.keys(S.by_wiki).length,'wikis']].forEach(function(p){var d=el('div','stat');d.appendChild(el('b',null,(p[0]||0).toLocaleString()));d.appendChild(el('span',null,p[1]));stats.appendChild(d)});
 var months=document.getElementById('months'),max=1;

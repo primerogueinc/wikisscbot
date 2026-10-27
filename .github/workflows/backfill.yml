@@ -11,9 +11,9 @@ on:
   workflow_dispatch:
     inputs:
       year:
-        description: "Calendar year to collect"
-        default: "2025"
-        required: true
+        description: "Calendar year to collect (blank = all years in config/settings.json)"
+        default: ""
+        required: false
 
 permissions:
   contents: write
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 330
     env:
-      YEAR: ${{ github.event.inputs.year || '2025' }}
+      YEAR: ${{ github.event.inputs.year }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,15 +37,17 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Refresh Shared Services Canada BGP prefixes
         continue-on-error: true
-        run: python -m wikisscbot refresh-ranges --since "${YEAR}-01-01T00:00"
-      - name: Collect ${{ env.YEAR }}
-        run: python -m wikisscbot backfill --year "$YEAR"
+        run: python -m wikisscbot refresh-ranges
+      - name: Collect
+        run: |
+          if [ -n "$YEAR" ]; then python -m wikisscbot backfill --year "$YEAR"
+          else python -m wikisscbot backfill; fi
       - name: Commit results
         run: |
           git config user.name "wikisscbot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data docs config/ranges_ssc_bgp.json 2>/dev/null || git add data docs
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-          git commit -m "Backfill ${YEAR}: $(python -c "import json;print(json.load(open('data/${YEAR}/summary.json'))['total_edits'])") edits"
+          git commit -m "Backfill: $(python -c "import json,glob;print(', '.join(p.split('/')[1]+' '+str(json.load(open(p))['total_edits']) for p in sorted(glob.glob('data/*/summary.json')) if p.split('/')[1].isdigit()))") edits"
           git pull --rebase origin main
           git push origin HEAD:main
