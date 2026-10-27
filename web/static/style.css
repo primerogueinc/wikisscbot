@@ -104,6 +104,12 @@ aside .facet h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .0
 .edit .meta { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12.5px; color: var(--muted); align-items: center; }
 .edit .meta a { color: var(--ink-2); }
 .edit .c { grid-column: 1 / -1; font-size: 13.5px; color: var(--ink-2); overflow-wrap: anywhere; }
+.edit { cursor: pointer; }
+.edit:hover .t { text-decoration: underline; }
+.edit .links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12.5px; margin-top: 2px; }
+.edit .links a { color: var(--muted); }
+.edit .links a.golink { color: var(--signal); font-weight: 600; text-decoration: none; }
+.edit .links a.golink:hover { text-decoration: underline; }
 .edit .d { font-family: var(--mono); font-size: 13px; text-align: right; white-space: nowrap; }
 .pos { color: var(--ok); } .neg { color: var(--signal); }
 .tags { display: inline-flex; gap: 4px; flex-wrap: wrap; }

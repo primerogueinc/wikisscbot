@@ -30,6 +30,10 @@ jobs:
       YEAR: ${{ github.event.inputs.year }}
     steps:
       - uses: actions/checkout@v4
+      - name: Start from the latest main (queued runs must extend the newest chain)
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

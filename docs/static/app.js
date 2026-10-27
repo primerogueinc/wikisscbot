@@ -106,11 +106,17 @@
   function pageTitle(e) {
     return e.display_title ? `${e.display_title}` : e.title;
   }
+  function pageUrl(e) {
+    try {
+      const u = new URL(e.url);
+      return `${u.origin}/wiki/${encodeURIComponent(e.title.replace(/ /g, "_"))}`;
+    } catch (_) { return e.url; }
+  }
   function editItem(e) {
     const beats = (e.beats || []).map((b) => `<a class="tag" href="${topicLink("beat", b)}">${h(b)}</a>`).join("");
     const wm = (e.topics || []).slice(0, 2).map((t) => `<a class="tag wm" href="${topicLink("topic", t)}">${h(t)}</a>`).join("");
-    return `<li class="edit">
-      <div><a class="t" href="${h(e.url)}" target="_blank" rel="noopener">${h(pageTitle(e))}</a>${e.display_title ? ` <span class="sub mono">${h(e.title)}</span>` : ""}</div>
+    return `<li class="edit" data-url="${h(e.url)}">
+      <div><a class="t" href="${h(e.url)}" target="_blank" rel="noopener" title="Open this edit on Wikipedia">${h(pageTitle(e))}</a>${e.display_title ? ` <span class="sub mono">${h(e.title)}</span>` : ""}</div>
       ${delta(e.sizediff)}
       <div class="meta">
         <span class="mono">${h(when(e.ts))}</span>
@@ -121,8 +127,19 @@
         <span class="tags">${beats}${wm}</span>
       </div>
       ${e.comment ? `<div class="c">${h(e.comment)}</div>` : ""}
+      <div class="links">
+        <a class="golink" href="${h(e.url)}" target="_blank" rel="noopener">View edit ↗</a>
+        <a href="${h(pageUrl(e))}" target="_blank" rel="noopener">Current page ↗</a>
+        <a href="${searchLink({ title: e.title, wiki: e.wiki })}">All GC edits to this page</a>
+      </div>
     </li>`;
   }
+  // Tapping anywhere on an edit (outside its other links) opens the diff.
+  document.addEventListener("click", (ev) => {
+    const li = ev.target.closest && ev.target.closest("li.edit[data-url]");
+    if (!li || ev.target.closest("a, button") || (window.getSelection && String(window.getSelection()))) return;
+    window.open(li.dataset.url, "_blank", "noopener");
+  });
   function setSeal(meta) {
     const p = meta.provenance;
     const seal = $("#seal");
