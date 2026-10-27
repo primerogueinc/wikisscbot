@@ -1,0 +1,9 @@
+# Build log
+
+One line per data pull, newest last. Each manifest hash is chained to the previous one and timestamped with OpenTimestamps.
+
+| Finished (UTC) | Run | Kind | Responses | Counts | Manifest SHA-256 | Workflow |
+|---|---|---|---|---|---|---|
+| 2026-10-27T17:05:06Z | `2026-10-27T170421Z-refresh-ranges-5e27` | refresh-ranges | 5 | prefixes 428 | `28b90c43f316132f83d84f1e79b231aef3bc124636bbdd65f606b8131278b1e7` | https://github.com/primerogueinc/wikisscbot/actions/runs/40530219014 |
+| 2026-10-27T17:26:06Z | `2026-10-27T170506Z-backfill-0ee6` | backfill | 1172 | edits_2024 1241, edits_2025 2643 | `239c0f51720b545d5c63541d74ba80d27cb033cda1dfc71c62844c0556f5c1a8` | https://github.com/primerogueinc/wikisscbot/actions/runs/40530219014 |
+| 2026-10-27T17:27:24Z | `2026-10-27T172606Z-enrich-3d4f` | enrich | 1784 | classified 1781, failed 0, remaining 0, cached_total 1781, wikidata_labelled 136, stopped  | `adafa75803e72f2e85d6b7280af016c1c5bb09ea4398cd668cb6c978195e7163` | https://github.com/primerogueinc/wikisscbot/actions/runs/40530219014 |
