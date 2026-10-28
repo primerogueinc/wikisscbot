@@ -1,0 +1,571 @@
+{
+  "generated": "2026-10-28T09:19:10Z",
+  "total_edits": 1518,
+  "unique_ips": 100,
+  "by_label": {
+    "Shared Services Canada": 621,
+    "Canadian House of Commons": 324,
+    "Canadian Department of National Defence": 211,
+    "Canadian Broadcasting Corporation": 97,
+    "Shared Services Canada network (AS2665)": 46,
+    "Statistics Canada": 41,
+    "Environment Canada": 36,
+    "Industry Canada": 28,
+    "Library and Archives Canada": 20,
+    "Bank of Canada": 19,
+    "Shared Services Canada network (AS2675)": 16,
+    "National Research Council": 15,
+    "Department of Fisheries and Oceans": 14,
+    "Transport Canada": 8,
+    "Department of Justice Canada": 8,
+    "Federal Court of Canada": 6,
+    "Canadian Museum of Civilization": 4,
+    "Finance Canada": 4
+  },
+  "by_wiki": {
+    "enwiki": 1425,
+    "frwiki": 53,
+    "wikidatawiki": 31,
+    "enwiktionary": 6,
+    "commonswiki": 3
+  },
+  "by_month": {
+    "2020-01": 142,
+    "2020-02": 222,
+    "2020-03": 131,
+    "2020-04": 41,
+    "2020-05": 74,
+    "2020-06": 50,
+    "2020-07": 80,
+    "2020-08": 80,
+    "2020-09": 87,
+    "2020-10": 119,
+    "2020-11": 265,
+    "2020-12": 227
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "90 Day Fiancé",
+      "edits": 31
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Census in Canada",
+      "edits": 27
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Neighbourhood shopping centres in Montreal",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Maratha Navy",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Don Davies",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Fez, Morocco",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Sean O'Malley (fighter)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Expeditionary Transfer Dock",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Data East",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "China–United States trade war",
+      "edits": 6
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Wikidata:Requests for deletions",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Sharif",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Gagetown-Petitcodiac",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2020 New Brunswick general election",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Miramichi—Grand Lake",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Argentine Air Force",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in 2020",
+      "edits": 6
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q7374373",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Advanced Squad Leader",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Steven Del Duca",
+      "edits": 5
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Aire libre",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "École secondaire Le Caron",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Maktupur",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Special Air Service Regiment",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "David Warsofsky",
+      "edits": 5
+    },
+    {
+      "wiki": "frwiki",
+      "title": "Royal 22e Régiment",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Allan Rock",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Irene incident",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Michael Marinaro",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "La Fayette-class frigate",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Bobby Fischer",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of cinemas in Ottawa-Gatineau",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "University of Ottawa",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Energy Centre",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Population of Canada by province and territory",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Cristine Rotenberg",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Brockville Rifles",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Williams Lake, British Columbia",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Saint John West-Lancaster",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "International Falls–Fort Frances Border Crossing",
+      "edits": 4
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q3387594",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Backhand",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Toronto Scottish Regiment (Queen Elizabeth The Queen Mother's Own)",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Umbrella man (JFK assassination)",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "1970 New Brunswick general election",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Mounted Police",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Template:Denver Broncos roster",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Nintendo Entertainment System games",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Opinion polling for the 2021 Canadian federal election",
+      "edits": 3
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Imam Khomeini International Airport",
+      "edits": 3
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada": {
+      "90 Day Fiancé": 31,
+      "Neighbourhood shopping centres in Montreal": 15,
+      "Fez, Morocco": 8,
+      "Sean O'Malley (fighter)": 8,
+      "Data East": 7,
+      "China–United States trade war": 6,
+      "Sharif": 6,
+      "Gagetown-Petitcodiac": 6,
+      "2020 New Brunswick general election": 6,
+      "Miramichi—Grand Lake": 6
+    },
+    "Environment Canada": {
+      "Talk:List of generating stations in Ontario": 3,
+      "List of place names in Canada of Indigenous origin": 2,
+      "Champagne cola": 2,
+      "Black tern": 1,
+      "Pigeon post": 1,
+      "API": 1,
+      "List of lakes of Saskatchewan": 1,
+      "List of lakes of the Northwest Territories": 1,
+      "1871 in Canada": 1,
+      "Rideau Canal": 1
+    },
+    "Library and Archives Canada": {
+      "Q3387594": 4,
+      "Pierre de Latil": 3,
+      "Kahnawake surnames": 2,
+      "RPM (magazine)": 2,
+      "Q42675465": 1,
+      "Fay Wray": 1,
+      "Lynn Beyak": 1,
+      "Kahentinetha": 1,
+      "Indian Act": 1,
+      "Franco-Ontarians": 1
+    },
+    "Canadian Department of National Defence": {
+      "Advanced Squad Leader": 5,
+      "École secondaire Le Caron": 5,
+      "Special Air Service Regiment": 5,
+      "Royal 22e Régiment": 5,
+      "Backhand": 4,
+      "Toronto Scottish Regiment (Queen Elizabeth The Queen Mother's Own)": 4,
+      "Edward Bunker": 3,
+      "French-Canadian": 3,
+      "EuroAtlantic Airways": 3,
+      "Cheryl Boone Isaacs": 3
+    },
+    "Industry Canada": {
+      "Q7374373": 5,
+      "Brockville Rifles": 4,
+      "Template:Denver Broncos roster": 4,
+      "Wikipedia:In the news/Candidates": 3,
+      "Edward Cornwallis": 2,
+      "Australia House (Ottawa)": 1,
+      "Winterlude": 1,
+      "Genre fiction": 1,
+      "Bye (sports)": 1,
+      "Carnivora": 1
+    },
+    "Canadian Broadcasting Corporation": {
+      "Wikidata:Requests for deletions": 6,
+      "Steven Del Duca": 5,
+      "David Warsofsky": 5,
+      "Mo Li Hua": 3,
+      "The Detectives (2018 TV series)": 3,
+      "John Fraser (Ontario MPP)": 3,
+      "James Cameron": 3,
+      "Julie Payette": 3,
+      "Ben Askren": 3,
+      "Michael McCain": 2
+    },
+    "Statistics Canada": {
+      "Census in Canada": 27,
+      "Cristine Rotenberg": 4,
+      "User:Spacestronaute/sandbox": 2,
+      "Template:Gilligan's Island": 2,
+      "Nova Scotia Junior Hockey League": 2,
+      "Cultural impact of Star Wars": 1,
+      "Lone Wolf and Cub": 1,
+      "Ugly Gerry": 1,
+      "John le Carré": 1
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Marie-Claude Bibeau": 5,
+      "Maktupur": 5,
+      "Imam Khomeini International Airport": 3,
+      "Sodium hypochlorite": 2,
+      "Zubaida Tharwat": 2,
+      "Leek moth": 2,
+      "User:Alexiscoutinho/COVID-19 pandemic data/Canada/Manitoba medical cases chart": 2,
+      "Brigitte Bardot": 2,
+      "Q18818832": 1,
+      "Joey Smallwood": 1
+    },
+    "Canadian House of Commons": {
+      "Maratha Navy": 13,
+      "Don Davies": 11,
+      "Expeditionary Transfer Dock": 8,
+      "Argentine Air Force": 6,
+      "List of shipwrecks in 2020": 6,
+      "Irene incident": 5,
+      "La Fayette-class frigate": 5,
+      "St. Giles Presbyterian Church (Ottawa)": 3,
+      "Elephantine Colossus": 3,
+      "Ottoman torpedo gunboat Peleng-i Derya": 3
+    },
+    "National Research Council": {
+      "Kiviuq (moon)": 3,
+      "Ontario Tech University": 2,
+      "Siarnaq": 2,
+      "Kriging": 1,
+      "Robert Pound": 1,
+      "Dispersion relation": 1,
+      "Paaliaq": 1,
+      "Robert Barclay Allardice": 1,
+      "National Research Council Canada": 1,
+      "Spotlight (film)": 1
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Williams Lake, British Columbia": 4,
+      "Auditor General of Canada": 3,
+      "Safari Club International": 2,
+      "Versaterm": 1,
+      "Kingdom of Jesus Christ (church)": 1,
+      "Daylight saving time": 1,
+      "Aéroports de Montréal": 1,
+      "Wounded Knee Massacre": 1,
+      "College Square (Ottawa)": 1,
+      "Sunspider": 1
+    },
+    "Canadian Museum of Civilization": {
+      "Musée canadien de l'histoire": 2,
+      "George F. MacDonald": 1,
+      "Viola Desmond": 1
+    },
+    "Transport Canada": {
+      "Roy Schoeman": 1,
+      "Thagaste (diocese)": 1,
+      "Prince Rupert, British Columbia": 1,
+      "Transport Canada": 1,
+      "Marie-Claude Bibeau": 1,
+      "Effects of pornography": 1,
+      "Animaniacs": 1,
+      "Penticton Regional Airport": 1
+    },
+    "Department of Justice Canada": {
+      "Stan Laurel": 2,
+      "Emerald, Queensland": 2,
+      "Natan Obed": 1,
+      "Maclaren Cemetery": 1,
+      "Talk:Big Crunch": 1,
+      "Scamander": 1
+    },
+    "Bank of Canada": {
+      "Case-Shiller index": 3,
+      "Talk:Case-Shiller index": 2,
+      "Quantile regression": 2,
+      "Emmendingen": 1,
+      "Zero-knowledge proof": 1,
+      "Morgan Chu": 1,
+      "1992 Los Angeles riots": 1,
+      "Fleabag": 1,
+      "Mark Carney": 1,
+      "Think tank": 1
+    },
+    "Finance Canada": {
+      "Q2993801": 3,
+      "Canadian Internet Registration Authority": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "Aire libre": 5,
+      "Rainn Wilson": 3,
+      "Sialkot": 1,
+      "Karlheinz Stockhausen": 1,
+      "Talk:Cold Spring, New York": 1,
+      "William James Dawson": 1,
+      "Jeff Daniels": 1,
+      "Nicholas Campbell": 1
+    },
+    "Federal Court of Canada": {
+      "Allan Rock": 5,
+      "James O'Reilly (judge)": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2020-12-31T21:52:30Z",
+    "frwiki": "2020-12-17T02:20:15Z",
+    "wikidatawiki": "2020-11-27T19:26:10Z",
+    "commonswiki": "2020-12-14T21:51:27Z",
+    "enwiktionary": "2020-10-29T14:44:48Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-10-28T09:15:32Z",
+      "window": [
+        "2020-01-01T00:00:00Z",
+        "2020-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 1425
+    },
+    "frwiki": {
+      "scanned_at": "2026-10-28T09:16:14Z",
+      "window": [
+        "2020-01-01T00:00:00Z",
+        "2020-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 53
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-10-28T09:17:05Z",
+      "window": [
+        "2020-01-01T00:00:00Z",
+        "2020-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 31
+    },
+    "commonswiki": {
+      "scanned_at": "2026-10-28T09:17:29Z",
+      "window": [
+        "2020-01-01T00:00:00Z",
+        "2020-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 3
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-10-28T09:18:19Z",
+      "window": [
+        "2020-01-01T00:00:00Z",
+        "2020-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 6
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-10-28T09:19:10Z",
+      "window": [
+        "2020-01-01T00:00:00Z",
+        "2020-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 0
+    }
+  }
+}
