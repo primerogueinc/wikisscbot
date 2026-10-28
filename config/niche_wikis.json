@@ -1,0 +1,22 @@
+{
+  "_note": "Candidate niche wikis to probe for public IP-attributed edits from Government of Canada ranges. Probed by IP range only; never by username.",
+  "wikis": [
+    {"id": "prowrestling", "base": "https://prowrestling.fandom.com", "genre": "wrestling"},
+    {"id": "wwe", "base": "https://wwe.fandom.com", "genre": "wrestling"},
+    {"id": "aew", "base": "https://aew.fandom.com", "genre": "wrestling"},
+    {"id": "ice-hockey", "base": "https://ice-hockey.fandom.com", "genre": "hockey"},
+    {"id": "nhl", "base": "https://nhl.fandom.com", "genre": "hockey"},
+    {"id": "hockey", "base": "https://hockey.fandom.com", "genre": "hockey"},
+    {"id": "tennis", "base": "https://tennis.fandom.com", "genre": "tennis"},
+    {"id": "military-history", "base": "https://military-history.fandom.com", "genre": "military"},
+    {"id": "military", "base": "https://military.fandom.com", "genre": "military"},
+    {"id": "nintendo", "base": "https://nintendo.fandom.com", "genre": "retro gaming"},
+    {"id": "nes", "base": "https://nes.fandom.com", "genre": "retro gaming"},
+    {"id": "canada", "base": "https://canada.fandom.com", "genre": "Canada"},
+    {"id": "nextmodel", "base": "https://antm.fandom.com", "genre": "reality TV"},
+    {"id": "airports", "base": "https://airports.fandom.com", "genre": "aviation"},
+    {"id": "aviation", "base": "https://aviation.fandom.com", "genre": "aviation"},
+    {"id": "wiktionary-en", "base": "https://en.wiktionary.org", "genre": "Wikimedia sister (control)", "api": "/w/api.php"},
+    {"id": "wikivoyage-en", "base": "https://en.wikivoyage.org", "genre": "Wikimedia sister (control)", "api": "/w/api.php"}
+  ]
+}
