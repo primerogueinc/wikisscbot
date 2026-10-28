@@ -1,0 +1,119 @@
+{
+  "schema": "wikisscbot-manifest/1",
+  "run_id": "2026-10-28T054103Z-backfill-c93f",
+  "kind": "backfill",
+  "started": "2026-10-28T05:41:03Z",
+  "finished": "2026-10-28T06:32:29Z",
+  "tool_version": "1.2.0",
+  "code_commit": "3efe56a457d87892fd87d78006144bb669daf193",
+  "workflow_run": {
+    "id": "40638573313",
+    "attempt": "1",
+    "workflow": "Backfill year",
+    "url": "https://github.com/primerogueinc/wikisscbot/actions/runs/40638573313"
+  },
+  "params": {
+    "years": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "wikis": [
+      "enwiki",
+      "frwiki",
+      "wikidatawiki",
+      "commonswiki"
+    ],
+    "query_blocks": 146,
+    "ranges": 533,
+    "method": "MediaWiki list=usercontribs uciprange"
+  },
+  "inputs": {
+    "config/niche_wikis.json": "87dc091e9277bdf6bddf25c43491fedf96f767c9b5a58098637fab3864965358",
+    "config/ranges_gccaedits.json": "b371a8e3c54b39b654ca23d67265255f7a4c93c56cb9ba2e91d8b48015ae0f17",
+    "config/ranges_ssc_bgp.json": "989ca6ac20d07d1e26e36306ecc41cd6afc1ceca4da3c0a0932706beb6415fbe",
+    "config/settings.json": "96b04209b670123487f4cf42721b671013cec98d4fa5bf5c237e558e30d1d608"
+  },
+  "responses": {
+    "count": 2930,
+    "bytes": 3332988,
+    "by_host": {
+      "en.wikipedia.org": {
+        "responses": 738,
+        "bytes": 2456502
+      },
+      "fr.wikipedia.org": {
+        "responses": 731,
+        "bytes": 422359
+      },
+      "www.wikidata.org": {
+        "responses": 731,
+        "bytes": 381787
+      },
+      "commons.wikimedia.org": {
+        "responses": 730,
+        "bytes": 72340
+      }
+    },
+    "chain_sha256": "04a221c85c7b4916f6d57815cbb38cbbe579f7ee98db63567e64698827df60de",
+    "log": "data/manifests/2026-10-28T054103Z-backfill-c93f.responses.jsonl",
+    "log_sha256": "0231e0788dcbaf1cb8a7f9740b59c6ff3bc6aff7b910560f3fb20436a0ef018e"
+  },
+  "outputs": {
+    "data/2021/edits.csv": "aeb035a2a0ea3267bf033a055e885fc74c2541e5339385c5041c67e9694547e1",
+    "data/2021/edits.jsonl": "183a663778f76deda129c4ef08220238cd946a48ce36eb35281e5a647eaef43c",
+    "data/2021/raw/commonswiki.jsonl": "d27dd58a276d8cfa5ea0e295260252e25468564f4554765a5b692872fe6e2445",
+    "data/2021/raw/enwiki.jsonl": "c5a25332989ccab8d1c3b5d4a25e6caaf353f1a95652878f2d88d02be85edf2b",
+    "data/2021/raw/frwiki.jsonl": "ace2e2f245e4970133b58983f952d1a32cb79a46fe88017d4a3e59326d36c938",
+    "data/2021/raw/wikidatawiki.jsonl": "4b9b85b892557a6cdbbc8d08d92522e9ea34869d1b2d47b73765f71e0784fbfb",
+    "data/2021/status.json": "91f666ccda2f7d456ee9151fed114d4401c9c1904b70ddfdb8dd0d7879ecf886",
+    "data/2021/summary.json": "0b0deb0afbb0c64fd234109fa62ac5f4dc5871936ad7db095fbd1d8b4752dc55",
+    "data/2022/edits.csv": "943e571390ceadef3a8e074c4d4cbac87b1a4172e8836e574994679e258778a0",
+    "data/2022/edits.jsonl": "549c6beec3a62f30eb981dfd0de1aa90f8dbf4ef3814f918936599e97988923a",
+    "data/2022/raw/commonswiki.jsonl": "7d5ac0c4e0e9c6f1de32098912c882b2e6ada5b20616632993f39a5f9d53c998",
+    "data/2022/raw/enwiki.jsonl": "81751fb88d212ba4cdfd16a42825f84c124f03c8f1ca73eabc7c512a0aa7ce82",
+    "data/2022/raw/frwiki.jsonl": "9818d372fec7285bb262e35be4f7bb770a9e17d14ca09aa27cf45fdad2e57378",
+    "data/2022/raw/wikidatawiki.jsonl": "fdbc20efcad1be529d2896db7400632952faef64ba456d5f1e32bdf86c9885bb",
+    "data/2022/status.json": "2934b03204a54e61d627a3bb91ae91d67f7b418147211c38d251ad02f4212899",
+    "data/2022/summary.json": "18c6421a4d21f5cc24054907de0cc1637d30909ede6a0493314c9bf03141f4a5",
+    "data/2023/edits.csv": "0b46bdc460938445aaa259a0d334e5c56a94287d9bdf94436f1a85ed9093366d",
+    "data/2023/edits.jsonl": "84bf17c09379a1cabc15de18230e2a7865ec8c2aeae8e8caf52480ee6ffacd9e",
+    "data/2023/raw/commonswiki.jsonl": "34131b4642a0dbf46676dfc8094715fd98fa34e46b82fa1c024b3ebecfae1e95",
+    "data/2023/raw/enwiki.jsonl": "ff6859cf9f4e34cb82c931dee49935a424a789f3616b2bcce8354dcf4d262c75",
+    "data/2023/raw/frwiki.jsonl": "1046495a8da3d86cefd997c9d1d1e050ad064142b9e770491d685a2ec953ca76",
+    "data/2023/raw/wikidatawiki.jsonl": "c363e134a7eeec323a5f51bae0b1a4dbbdf5391bbdff89a05576211e202914b2",
+    "data/2023/status.json": "77081c7bcde325b55f1f973db76327d3046febc8fd0b83203a82a500be5f4ad9",
+    "data/2023/summary.json": "32b5e1affbdc45d57d83e9d356dba4151f2c0f26b78a616cfc4bccba522b3bca",
+    "data/2024/edits.csv": "84e843595602f6b836f1a662579bc4907de5575255a84fd6d323826cc9e31304",
+    "data/2024/edits.jsonl": "3063b8c3a7ca27a1620912020bc180fe79b77445c9bb021da21e594dcec52b18",
+    "data/2024/raw/commonswiki.jsonl": "11826e9b15359b275129af495135e65b963064ba68c4342e1fdf3a8e4de1825d",
+    "data/2024/raw/enwiki.jsonl": "a58c5a56345c1750715001ce87aedec3ddf5d8e1e08d50bb0be8c5ccc403bfe7",
+    "data/2024/raw/frwiki.jsonl": "fd4d2d3a7f4eb4aed0a2069042cb1de20f1c603d9159cedf52c8450ca230c41b",
+    "data/2024/raw/wikidatawiki.jsonl": "df01dfd10e2edb58ec3fee8809ba4a3d7a7fa483a0d2e0a1a2a8f04d15dbafd8",
+    "data/2024/status.json": "993f0004292429d6cab3fa7923cfb2c5925993e2e4bbcd545ef44da9439940df",
+    "data/2024/summary.json": "55b27a5abafff2c85ce2339235b678c33d5ca0f04b0e332e27547f86eca26bbb",
+    "data/2025/edits.csv": "578b721a50c67c142eb7a8776c35bb609138fd40cb4e7f0ba6575ebd8b92d675",
+    "data/2025/edits.jsonl": "898db38c77c3f6e19862ca4ce169af050677f67df491ea79b88fab1b532c01fe",
+    "data/2025/raw/commonswiki.jsonl": "d58bb6356c2200a5a62eef9f73ab1808efb2a6af7a8563382b2edacb5ca17ea2",
+    "data/2025/raw/enwiki.jsonl": "9d9434c1991c195689b6fce214ea30963eb1656b4d6638a9bf076a97b1371dca",
+    "data/2025/raw/frwiki.jsonl": "be1610a30b5c0e7e8c8f2fba2b6c6167a775c13a916b01574bcb21f0fad30bc1",
+    "data/2025/raw/wikidatawiki.jsonl": "fdab567fb91110f4feaff393a02d85abf914c23f26c4351fe556d44141f583f8",
+    "data/2025/status.json": "2f45b838ddc63a74732f457035cceeb7e1f63d927a18df89e488ace9393e584c",
+    "data/2025/summary.json": "7bba1f6374d0d0679b7c9f38869d9a79eb806ea9eab9df200c486029fa501d78"
+  },
+  "data_sums_sha256": "688199a0bcef0bd1e567b95e1692d1b0a8cbed322bd087e3dde1bf01876f39bb",
+  "counts": {
+    "edits_2021": 2518,
+    "edits_2022": 2152,
+    "edits_2023": 1529,
+    "edits_2024": 1241,
+    "edits_2025": 2643
+  },
+  "previous_manifest": {
+    "run_id": "2026-10-28T054018Z-refresh-ranges-6488",
+    "sha256": "7a7355d741a0831865f6f791c79dc6cc0a9bbb45a5332dd0df1bec3cf237228d"
+  },
+  "notes": ""
+}
