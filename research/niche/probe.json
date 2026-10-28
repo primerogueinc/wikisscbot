@@ -1,0 +1,849 @@
+{
+ "generated": "2026-10-28T05:46:20Z",
+ "since": "2021-01-01T00:00:00Z",
+ "wikis": [
+  {
+   "id": "prowrestling",
+   "base": "https://prowrestling.fandom.com",
+   "genre": "wrestling",
+   "reachable": true,
+   "sitename": "Pro Wrestling",
+   "generator": "MediaWiki 1.43.9",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 146,
+   "blocks_total": 146,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "wwe",
+   "base": "https://wwe.fandom.com",
+   "genre": "wrestling",
+   "reachable": false,
+   "error": "HTTP 404 for https://wwe.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "aew",
+   "base": "https://aew.fandom.com",
+   "genre": "wrestling",
+   "reachable": true,
+   "sitename": "AEW Wiki",
+   "generator": "MediaWiki 1.43.9",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 146,
+   "blocks_total": 146,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "ice-hockey",
+   "base": "https://ice-hockey.fandom.com",
+   "genre": "hockey",
+   "reachable": false,
+   "error": "HTTP 404 for https://ice-hockey.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "nhl",
+   "base": "https://nhl.fandom.com",
+   "genre": "hockey",
+   "reachable": false,
+   "error": "HTTP 404 for https://nhl.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "hockey",
+   "base": "https://hockey.fandom.com",
+   "genre": "hockey",
+   "reachable": false,
+   "error": "HTTP 404 for https://hockey.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "tennis",
+   "base": "https://tennis.fandom.com",
+   "genre": "tennis",
+   "reachable": true,
+   "sitename": "Tennis Database Wiki",
+   "generator": "MediaWiki 1.43.9",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 146,
+   "blocks_total": 146,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "military-history",
+   "base": "https://military-history.fandom.com",
+   "genre": "military",
+   "reachable": true,
+   "sitename": "Military Wiki",
+   "generator": "MediaWiki 1.43.9",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 146,
+   "blocks_total": 146,
+   "gc_edits": 35,
+   "gc_ips": [
+    [
+     "207.35.15.27",
+     17
+    ],
+    [
+     "207.35.15.11",
+     11
+    ],
+    [
+     "159.33.10.194",
+     4
+    ],
+    [
+     "131.137.245.207",
+     1
+    ],
+    [
+     "131.137.245.206",
+     1
+    ],
+    [
+     "205.193.112.245",
+     1
+    ]
+   ],
+   "top_pages": [
+    [
+     "Daniel Ménard",
+     1
+    ],
+    [
+     "Walter Brown (chaplain)",
+     1
+    ],
+    [
+     "Jack Marshall (Canadian politician)",
+     1
+    ],
+    [
+     "Associate Minister of National Defence",
+     1
+    ],
+    [
+     "Aristide Blais",
+     1
+    ],
+    [
+     "Mike Layton (journalist)",
+     1
+    ],
+    [
+     "CCGS Sir William Alexander",
+     1
+    ],
+    [
+     "JS Ōyodo",
+     1
+    ],
+    [
+     "JS Makishio",
+     1
+    ],
+    [
+     "JS Uzushio",
+     1
+    ]
+   ],
+   "by_year": {
+    "2021": 30,
+    "2022": 5
+   },
+   "last_gc_edit": "2022-11-06T23:07:19Z",
+   "sample": [
+    {
+     "ts": "2022-11-06T23:07:19Z",
+     "ip": "159.33.10.194",
+     "title": "Jack Marshall (Canadian politician)",
+     "label": "Canadian Broadcasting Corporation",
+     "comment": "",
+     "sizediff": 4364,
+     "url": "https://military-history.fandom.com/?diff=5852335&oldid=5852335"
+    },
+    {
+     "ts": "2022-09-08T12:18:16Z",
+     "ip": "159.33.10.194",
+     "title": "Associate Minister of National Defence",
+     "label": "Canadian Broadcasting Corporation",
+     "comment": "",
+     "sizediff": 8890,
+     "url": "https://military-history.fandom.com/?diff=5849438&oldid=5849438"
+    },
+    {
+     "ts": "2022-09-05T16:27:16Z",
+     "ip": "159.33.10.194",
+     "title": "Aristide Blais",
+     "label": "Canadian Broadcasting Corporation",
+     "comment": "Undid revision 1108657266 by [[Special:Contributions/64.201.204.51|64.201.204.51]] ([[User talk:64.201.204.51|talk]]) Canadian English",
+     "sizediff": 4845,
+     "url": "https://military-history.fandom.com/?diff=5852113&oldid=5852113"
+    },
+    {
+     "ts": "2022-09-02T12:33:05Z",
+     "ip": "159.33.10.194",
+     "title": "Mike Layton (journalist)",
+     "label": "Canadian Broadcasting Corporation",
+     "comment": "",
+     "sizediff": 3276,
+     "url": "https://military-history.fandom.com/?diff=5797412&oldid=5797412"
+    },
+    {
+     "ts": "2022-07-11T17:04:48Z",
+     "ip": "131.137.245.206",
+     "title": "Walter Brown (chaplain)",
+     "label": "Canadian Department of National Defence",
+     "comment": "removed a common spelling mistake - the regiment's name was singular in 1944",
+     "sizediff": 6786,
+     "url": "https://military-history.fandom.com/?diff=5706622&oldid=5706622"
+    },
+    {
+     "ts": "2021-12-07T15:33:26Z",
+     "ip": "131.137.245.207",
+     "title": "Daniel Ménard",
+     "label": "Canadian Department of National Defence",
+     "comment": "",
+     "sizediff": 6719,
+     "url": "https://military-history.fandom.com/?diff=5712305&oldid=5712305"
+    },
+    {
+     "ts": "2021-03-11T17:41:13Z",
+     "ip": "205.193.112.245",
+     "title": "CCGS Sir William Alexander",
+     "label": "Shared Services Canada",
+     "comment": "",
+     "sizediff": -1,
+     "url": "https://military-history.fandom.com/?diff=5407144&oldid=4378515"
+    },
+    {
+     "ts": "2021-02-08T12:46:40Z",
+     "ip": "207.35.15.27",
+     "title": "JS Ōyodo",
+     "label": "Canadian House of Commons",
+     "comment": "copyedit",
+     "sizediff": 6669,
+     "url": "https://military-history.fandom.com/?diff=5422364&oldid=5422364"
+    },
+    {
+     "ts": "2021-02-04T15:23:25Z",
+     "ip": "207.35.15.27",
+     "title": "JS Makishio",
+     "label": "Canadian House of Commons",
+     "comment": "fixed links",
+     "sizediff": 3977,
+     "url": "https://military-history.fandom.com/?diff=5422250&oldid=5422250"
+    },
+    {
+     "ts": "2021-02-04T15:21:16Z",
+     "ip": "207.35.15.27",
+     "title": "JS Uzushio",
+     "label": "Canadian House of Commons",
+     "comment": "fixed links",
+     "sizediff": 4479,
+     "url": "https://military-history.fandom.com/?diff=5422340&oldid=5422340"
+    },
+    {
+     "ts": "2021-02-04T15:18:42Z",
+     "ip": "207.35.15.27",
+     "title": "JS Michishio",
+     "label": "Canadian House of Commons",
+     "comment": "fixed grammar, links",
+     "sizediff": 4977,
+     "url": "https://military-history.fandom.com/?diff=5422258&oldid=5422258"
+    },
+    {
+     "ts": "2021-02-04T15:13:54Z",
+     "ip": "207.35.15.27",
+     "title": "JS Isoshio",
+     "label": "Canadian House of Commons",
+     "comment": "fixed links",
+     "sizediff": 3940,
+     "url": "https://military-history.fandom.com/?diff=5422224&oldid=5422224"
+    },
+    {
+     "ts": "2021-02-04T15:06:01Z",
+     "ip": "207.35.15.27",
+     "title": "JS Narushio",
+     "label": "Canadian House of Commons",
+     "comment": "added links,",
+     "sizediff": 4542,
+     "url": "https://military-history.fandom.com/?diff=5422274&oldid=5422274"
+    },
+    {
+     "ts": "2021-02-04T12:35:38Z",
+     "ip": "207.35.15.27",
+     "title": "JS Kuroshio (SS-596)",
+     "label": "Canadian House of Commons",
+     "comment": "fixed date formats, tense, infobox, links",
+     "sizediff": 5197,
+     "url": "https://military-history.fandom.com/?diff=5422248&oldid=5422248"
+    },
+    {
+     "ts": "2021-02-04T12:20:05Z",
+     "ip": "207.35.15.27",
+     "title": "Japanese submarine Mochishio",
+     "label": "Canadian House of Commons",
+     "comment": "fixed links",
+     "sizediff": 415,
+     "url": "https://military-history.fandom.com/?diff=5434708&oldid=5434708"
+    }
+   ]
+  },
+  {
+   "id": "military",
+   "base": "https://military.fandom.com",
+   "genre": "military",
+   "reachable": false,
+   "error": "HTTP 404 for https://military.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "nintendo",
+   "base": "https://nintendo.fandom.com",
+   "genre": "retro gaming",
+   "reachable": true,
+   "sitename": "Nintendo",
+   "generator": "MediaWiki 1.43.9",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 146,
+   "blocks_total": 146,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "nes",
+   "base": "https://nes.fandom.com",
+   "genre": "retro gaming",
+   "reachable": true,
+   "sitename": "NES Wiki",
+   "generator": "MediaWiki 1.43.9",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 146,
+   "blocks_total": 146,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "canada",
+   "base": "https://canada.fandom.com",
+   "genre": "Canada",
+   "reachable": true,
+   "sitename": "Canada Wiki",
+   "generator": "MediaWiki 1.43.9",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 146,
+   "blocks_total": 146,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "nextmodel",
+   "base": "https://antm.fandom.com",
+   "genre": "reality TV",
+   "reachable": true,
+   "sitename": "America's Next Top Model",
+   "generator": "MediaWiki 1.43.9",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 60,
+   "blocks_total": 146,
+   "gc_edits": 0,
+   "gc_ips": [],
+   "top_pages": [],
+   "by_year": {},
+   "last_gc_edit": null,
+   "sample": []
+  },
+  {
+   "id": "airports",
+   "base": "https://airports.fandom.com",
+   "genre": "aviation",
+   "reachable": false,
+   "error": "HTTP 429 for https://airports.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "aviation",
+   "base": "https://aviation.fandom.com",
+   "genre": "aviation",
+   "reachable": false,
+   "error": "HTTP 429 for https://aviation.fandom.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2"
+  },
+  {
+   "id": "wiktionary-en",
+   "base": "https://en.wiktionary.org",
+   "genre": "Wikimedia sister (control)",
+   "reachable": true,
+   "sitename": "Wiktionary",
+   "generator": "MediaWiki 1.47.0-wmf.24",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 146,
+   "blocks_total": 146,
+   "gc_edits": 14,
+   "gc_ips": [
+    [
+     "198.103.167.20",
+     3
+    ],
+    [
+     "198.103.152.35",
+     2
+    ],
+    [
+     "205.194.17.39",
+     2
+    ],
+    [
+     "131.137.245.207",
+     1
+    ],
+    [
+     "198.103.223.36",
+     1
+    ],
+    [
+     "198.103.223.35",
+     1
+    ],
+    [
+     "198.103.184.76",
+     1
+    ],
+    [
+     "199.212.150.5",
+     1
+    ],
+    [
+     "205.193.239.76",
+     1
+    ],
+    [
+     "205.194.16.40",
+     1
+    ]
+   ],
+   "top_pages": [
+    [
+     "Appendix:Translations of female given names in multiple languages",
+     4
+    ],
+    [
+     "Appendix:Canadian English military slang",
+     2
+    ],
+    [
+     "six of one, half a dozen of the other",
+     2
+    ],
+    [
+     "hooped",
+     2
+    ],
+    [
+     "pet humanization",
+     1
+    ],
+    [
+     "Wurzel",
+     1
+    ],
+    [
+     "storm",
+     1
+    ],
+    [
+     "fine",
+     1
+    ]
+   ],
+   "by_year": {
+    "2021": 6,
+    "2022": 1,
+    "2023": 1,
+    "2024": 4,
+    "2025": 2
+   },
+   "last_gc_edit": "2025-05-26T19:24:20Z",
+   "sample": [
+    {
+     "ts": "2025-05-26T19:24:20Z",
+     "ip": "205.194.16.40",
+     "title": "fine",
+     "label": "Shared Services Canada",
+     "comment": "/* Adjective */ Adding a quotation",
+     "sizediff": 347,
+     "url": "https://en.wiktionary.org/?diff=84948460&oldid=84901243"
+    },
+    {
+     "ts": "2025-02-27T14:30:30Z",
+     "ip": "205.193.239.76",
+     "title": "Appendix:Canadian English military slang",
+     "label": "Shared Services Canada",
+     "comment": "",
+     "sizediff": 151,
+     "url": "https://en.wiktionary.org/?diff=84053709&oldid=78483114"
+    },
+    {
+     "ts": "2024-10-07T16:08:58Z",
+     "ip": "205.194.17.39",
+     "title": "hooped",
+     "label": "Shared Services Canada",
+     "comment": "/* Adjective */",
+     "sizediff": 0,
+     "url": "https://en.wiktionary.org/?diff=82310930&oldid=82310922"
+    },
+    {
+     "ts": "2024-10-07T16:08:13Z",
+     "ip": "205.194.17.39",
+     "title": "hooped",
+     "label": "Shared Services Canada",
+     "comment": "/* Adjective */",
+     "sizediff": 334,
+     "url": "https://en.wiktionary.org/?diff=82310922&oldid=81467720"
+    },
+    {
+     "ts": "2024-09-13T22:19:54Z",
+     "ip": "198.103.167.20",
+     "title": "six of one, half a dozen of the other",
+     "label": "Shared Services Canada",
+     "comment": "/* Synonyms */",
+     "sizediff": -38,
+     "url": "https://en.wiktionary.org/?diff=81592048&oldid=81590649"
+    },
+    {
+     "ts": "2024-09-13T19:20:59Z",
+     "ip": "198.103.167.20",
+     "title": "six of one, half a dozen of the other",
+     "label": "Shared Services Canada",
+     "comment": "/* Synonyms */",
+     "sizediff": 39,
+     "url": "https://en.wiktionary.org/?diff=81590649&oldid=81477132"
+    },
+    {
+     "ts": "2023-10-27T12:22:25Z",
+     "ip": "198.103.184.76",
+     "title": "pet humanization",
+     "label": "Shared Services Canada",
+     "comment": "Created page with \"==English== {{wikipedia}} ===Noun=== {{en-noun|-}}  # a form of [[anthropomorphism]] that refers to the trend in which [[pet]]s are treated more like human family members than traditional pets.<ref>[https://static1.squarespace.com/static/57f414e0b8a79bc04e0a2729/t/6081b71ec312977485a24fa4/1619113759478/CD-The+Rise+of+Pet+Humanization.pdf The Rise of Pet Humanization]</ref><ref>[https://advantagesolutions.net/news/the-humanization-of-pets/ The Humanization of Pets]</ref>...\"",
+     "sizediff": 505,
+     "url": "https://en.wiktionary.org/?diff=76499902&oldid=76499902"
+    },
+    {
+     "ts": "2022-11-09T16:34:46Z",
+     "ip": "198.103.167.20",
+     "title": "Wurzel",
+     "label": "Shared Services Canada",
+     "comment": "/* Noun */",
+     "sizediff": 87,
+     "url": "https://en.wiktionary.org/?diff=69799672&oldid=66038137"
+    },
+    {
+     "ts": "2021-11-26T05:47:09Z",
+     "ip": "199.212.150.5",
+     "title": "storm",
+     "label": "Shared Services Canada network (AS2675)",
+     "comment": "t+iu:[[sunnaittuq]] t-balance ([[WT:EDIT|Assisted]])",
+     "sizediff": 33,
+     "url": "https://en.wiktionary.org/?diff=64736700&oldid=64675001"
+    },
+    {
+     "ts": "2021-11-25T18:47:46Z",
+     "ip": "198.103.152.35",
+     "title": "Appendix:Translations of female given names in multiple languages",
+     "label": "Shared Services Canada",
+     "comment": "",
+     "sizediff": -7,
+     "url": "https://en.wiktionary.org/?diff=64734288&oldid=64734286"
+    },
+    {
+     "ts": "2021-11-25T18:47:15Z",
+     "ip": "198.103.152.35",
+     "title": "Appendix:Translations of female given names in multiple languages",
+     "label": "Shared Services Canada",
+     "comment": "",
+     "sizediff": 7,
+     "url": "https://en.wiktionary.org/?diff=64734286&oldid=64535662"
+    },
+    {
+     "ts": "2021-06-02T13:37:47Z",
+     "ip": "198.103.223.36",
+     "title": "Appendix:Translations of female given names in multiple languages",
+     "label": "Shared Services Canada",
+     "comment": "",
+     "sizediff": -7,
+     "url": "https://en.wiktionary.org/?diff=62644879&oldid=62644818"
+    },
+    {
+     "ts": "2021-06-02T13:11:10Z",
+     "ip": "198.103.223.35",
+     "title": "Appendix:Translations of female given names in multiple languages",
+     "label": "Shared Services Canada",
+     "comment": "",
+     "sizediff": 6,
+     "url": "https://en.wiktionary.org/?diff=62644818&oldid=61895111"
+    },
+    {
+     "ts": "2021-05-13T15:04:18Z",
+     "ip": "131.137.245.207",
+     "title": "Appendix:Canadian English military slang",
+     "label": "Canadian Department of National Defence",
+     "comment": "",
+     "sizediff": 96,
+     "url": "https://en.wiktionary.org/?diff=62518415&oldid=62357973"
+    }
+   ]
+  },
+  {
+   "id": "wikivoyage-en",
+   "base": "https://en.wikivoyage.org",
+   "genre": "Wikimedia sister (control)",
+   "reachable": true,
+   "sitename": "Wikivoyage",
+   "generator": "MediaWiki 1.47.0-wmf.24",
+   "temp_accounts": false,
+   "range_queries": true,
+   "blocks_scanned": 146,
+   "blocks_total": 146,
+   "gc_edits": 14,
+   "gc_ips": [
+    [
+     "131.137.245.207",
+     2
+    ],
+    [
+     "131.137.245.206",
+     2
+    ],
+    [
+     "140.80.199.91",
+     2
+    ],
+    [
+     "198.103.167.20",
+     2
+    ],
+    [
+     "198.103.145.50",
+     2
+    ],
+    [
+     "205.193.40.5",
+     2
+    ],
+    [
+     "205.193.50.10",
+     1
+    ],
+    [
+     "205.211.133.133",
+     1
+    ]
+   ],
+   "top_pages": [
+    [
+     "Isle of Jura",
+     2
+    ],
+    [
+     "List of country calling codes",
+     2
+    ],
+    [
+     "Ottawa",
+     2
+    ],
+    [
+     "Moosonee",
+     2
+    ],
+    [
+     "Talk:Antwerp",
+     2
+    ],
+    [
+     "Embrun (Ontario)",
+     1
+    ],
+    [
+     "China",
+     1
+    ],
+    [
+     "Toronto/North York",
+     1
+    ],
+    [
+     "Qomolangma",
+     1
+    ]
+   ],
+   "by_year": {
+    "2021": 2,
+    "2022": 4,
+    "2023": 4,
+    "2024": 4
+   },
+   "last_gc_edit": "2024-07-30T19:36:21Z",
+   "sample": [
+    {
+     "ts": "2024-07-30T19:36:21Z",
+     "ip": "198.103.145.50",
+     "title": "Talk:Antwerp",
+     "label": "Federal Court of Canada",
+     "comment": "",
+     "sizediff": -1,
+     "url": "https://en.wikivoyage.org/?diff=4914614&oldid=4914613"
+    },
+    {
+     "ts": "2024-07-30T19:35:22Z",
+     "ip": "198.103.145.50",
+     "title": "Talk:Antwerp",
+     "label": "Federal Court of Canada",
+     "comment": "No such station as \"France Midi\"",
+     "sizediff": 181,
+     "url": "https://en.wikivoyage.org/?diff=4914613&oldid=4533446"
+    },
+    {
+     "ts": "2024-07-02T19:27:41Z",
+     "ip": "205.211.133.133",
+     "title": "Qomolangma",
+     "label": "Environment Canada",
+     "comment": "Added Chinese Mandarin place names.",
+     "sizediff": 90,
+     "url": "https://en.wikivoyage.org/?diff=4901764&oldid=4468248"
+    },
+    {
+     "ts": "2024-02-14T16:16:33Z",
+     "ip": "205.193.50.10",
+     "title": "Embrun (Ontario)",
+     "label": "Shared Services Canada",
+     "comment": "/* Eat */ Deleted listing for My Second Home Restaurant - No longer exists",
+     "sizediff": -241,
+     "url": "https://en.wikivoyage.org/?diff=4827202&oldid=4762499"
+    },
+    {
+     "ts": "2023-03-07T22:29:55Z",
+     "ip": "131.137.245.207",
+     "title": "Isle of Jura",
+     "label": "Canadian Department of National Defence",
+     "comment": "/* See */",
+     "sizediff": 123,
+     "url": "https://en.wikivoyage.org/?diff=4629231&oldid=4629228"
+    },
+    {
+     "ts": "2023-03-07T22:20:51Z",
+     "ip": "131.137.245.207",
+     "title": "Isle of Jura",
+     "label": "Canadian Department of National Defence",
+     "comment": "/* Sleep */ Added listing for Lorne Cottage - New Listing",
+     "sizediff": 442,
+     "url": "https://en.wikivoyage.org/?diff=4629228&oldid=4605777"
+    },
+    {
+     "ts": "2023-02-23T08:40:06Z",
+     "ip": "205.193.40.5",
+     "title": "China",
+     "label": "Shared Services Canada",
+     "comment": "/* Personal hygiene */",
+     "sizediff": 78,
+     "url": "https://en.wikivoyage.org/?diff=4623330&oldid=4623055"
+    },
+    {
+     "ts": "2023-02-23T02:44:56Z",
+     "ip": "205.193.40.5",
+     "title": "Toronto/North York",
+     "label": "Shared Services Canada",
+     "comment": "/* Eat */ Deleted listing for Peking Man Restaurant - Business closed as of 2023",
+     "sizediff": -396,
+     "url": "https://en.wikivoyage.org/?diff=4623261&oldid=4621933"
+    },
+    {
+     "ts": "2022-12-05T20:35:17Z",
+     "ip": "198.103.167.20",
+     "title": "Moosonee",
+     "label": "Shared Services Canada",
+     "comment": "/* Sleep */ Updated listing for Super 8 By Wyndham Moosonee",
+     "sizediff": 0,
+     "url": "https://en.wikivoyage.org/?diff=4574417&oldid=4574416"
+    },
+    {
+     "ts": "2022-12-05T20:34:58Z",
+     "ip": "198.103.167.20",
+     "title": "Moosonee",
+     "label": "Shared Services Canada",
+     "comment": "/* Sleep */ Added listing for Super 8 By Wyndham Mossonee - adding new location",
+     "sizediff": 358,
+     "url": "https://en.wikivoyage.org/?diff=4574416&oldid=4509513"
+    },
+    {
+     "ts": "2022-08-11T19:24:51Z",
+     "ip": "131.137.245.206",
+     "title": "List of country calling codes",
+     "label": "Canadian Department of National Defence",
+     "comment": "Clarified the country code/area code note for North American entities.  Changed i.e to e.g for the international prefix vs local number example since the first few local digits for some countries aren't always an area code.",
+     "sizediff": 30,
+     "url": "https://en.wikivoyage.org/?diff=4499280&oldid=4499271"
+    },
+    {
+     "ts": "2022-08-11T19:09:41Z",
+     "ip": "131.137.245.206",
+     "title": "List of country calling codes",
+     "label": "Canadian Department of National Defence",
+     "comment": "Added \"exit code\" to help describe what the international prefix is for, and also edited some errors when referring to the country code as an area code.",
+     "sizediff": 99,
+     "url": "https://en.wikivoyage.org/?diff=4499271&oldid=4428478"
+    },
+    {
+     "ts": "2021-04-06T20:23:36Z",
+     "ip": "140.80.199.91",
+     "title": "Ottawa",
+     "label": "Bank of Canada",
+     "comment": "/* Splurge */ Updated listing for Gitanes",
+     "sizediff": 17,
+     "url": "https://en.wikivoyage.org/?diff=4180186&oldid=4179685"
+    },
+    {
+     "ts": "2021-04-05T19:17:52Z",
+     "ip": "140.80.199.91",
+     "title": "Ottawa",
+     "label": "Bank of Canada",
+     "comment": "/* Splurge */ Added listing for Gitanes",
+     "sizediff": 393,
+     "url": "https://en.wikivoyage.org/?diff=4179685&oldid=4163026"
+    }
+   ]
+  }
+ ]
+}
