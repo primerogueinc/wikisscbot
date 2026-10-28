@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-28T06:22:28Z",
-  "total_edits": 1241,
-  "unique_ips": 128,
+  "generated": "2026-10-28T07:21:06Z",
+  "total_edits": 1249,
+  "unique_ips": 129,
   "by_label": {
-    "Shared Services Canada": 871,
+    "Shared Services Canada": 876,
     "Canadian House of Commons": 60,
     "Canadian Broadcasting Corporation": 48,
-    "Environment Canada": 33,
+    "Environment Canada": 34,
     "Library and Archives Canada": 30,
     "Shared Services Canada network (AS2665)": 29,
     "Shared Services Canada network (AS2675)": 20,
@@ -20,8 +20,8 @@
     "National Research Council (SSC)": 9,
     "Canadian Museum of Civilization": 7,
     "Canadian Space Agency": 7,
+    "Federal Court of Canada": 7,
     "Transport Canada": 6,
-    "Federal Court of Canada": 5,
     "Finance Canada": 4,
     "Employment and Immigration Canada": 4,
     "Bank of Canada": 1
@@ -30,19 +30,21 @@
     "enwiki": 1019,
     "frwiki": 185,
     "wikidatawiki": 32,
-    "commonswiki": 5
+    "commonswiki": 5,
+    "enwikivoyage": 4,
+    "enwiktionary": 4
   },
   "by_month": {
     "2024-01": 107,
-    "2024-02": 87,
+    "2024-02": 88,
     "2024-03": 90,
     "2024-04": 85,
     "2024-05": 107,
     "2024-06": 83,
-    "2024-07": 83,
+    "2024-07": 86,
     "2024-08": 60,
-    "2024-09": 118,
-    "2024-10": 111,
+    "2024-09": 120,
+    "2024-10": 113,
     "2024-11": 171,
     "2024-12": 139
   },
@@ -472,6 +474,7 @@
       "2024 United Nations Biodiversity Conference": 1
     },
     "Federal Court of Canada": {
+      "Talk:Antwerp": 2,
       "Tax Court of Canada": 1,
       "Patrick J. Boyle": 1,
       "File:Cast of What's My Line.png": 1,
@@ -520,11 +523,13 @@
     "enwiki": "2024-12-31T17:21:23Z",
     "wikidatawiki": "2024-11-08T19:52:51Z",
     "frwiki": "2024-12-23T14:05:45Z",
-    "commonswiki": "2024-12-31T15:20:00Z"
+    "enwikivoyage": "2024-07-30T19:36:21Z",
+    "commonswiki": "2024-12-31T15:20:00Z",
+    "enwiktionary": "2024-10-07T16:08:58Z"
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-10-28T06:20:28Z",
+      "scanned_at": "2026-10-28T07:17:18Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
@@ -537,7 +542,7 @@
       "edits": 1019
     },
     "frwiki": {
-      "scanned_at": "2026-10-28T06:21:13Z",
+      "scanned_at": "2026-10-28T07:18:08Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
@@ -550,7 +555,7 @@
       "edits": 185
     },
     "wikidatawiki": {
-      "scanned_at": "2026-10-28T06:22:05Z",
+      "scanned_at": "2026-10-28T07:19:03Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
@@ -563,7 +568,7 @@
       "edits": 32
     },
     "commonswiki": {
-      "scanned_at": "2026-10-28T06:22:28Z",
+      "scanned_at": "2026-10-28T07:19:28Z",
       "window": [
         "2024-01-01T00:00:00Z",
         "2024-12-31T23:59:59Z"
@@ -574,6 +579,32 @@
       "error_samples": {},
       "fatal": null,
       "edits": 5
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-10-28T07:20:22Z",
+      "window": [
+        "2024-01-01T00:00:00Z",
+        "2024-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 4
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-10-28T07:21:06Z",
+      "window": [
+        "2024-01-01T00:00:00Z",
+        "2024-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 4
     }
   }
 }

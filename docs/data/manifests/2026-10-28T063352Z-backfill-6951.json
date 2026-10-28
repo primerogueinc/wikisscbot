@@ -1,0 +1,139 @@
+{
+  "schema": "wikisscbot-manifest/1",
+  "run_id": "2026-10-28T063352Z-backfill-6951",
+  "kind": "backfill",
+  "started": "2026-10-28T06:33:52Z",
+  "finished": "2026-10-28T07:33:06Z",
+  "tool_version": "1.2.0",
+  "code_commit": "fb0d108b1eecd245e521117883d441396831fc47",
+  "workflow_run": {
+    "id": "40641188397",
+    "attempt": "1",
+    "workflow": "Backfill year",
+    "url": "https://github.com/primerogueinc/wikisscbot/actions/runs/40641188397"
+  },
+  "params": {
+    "years": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "wikis": [
+      "enwiki",
+      "frwiki",
+      "wikidatawiki",
+      "commonswiki",
+      "enwiktionary",
+      "enwikivoyage"
+    ],
+    "query_blocks": 146,
+    "ranges": 533,
+    "method": "MediaWiki list=usercontribs uciprange"
+  },
+  "inputs": {
+    "config/niche_wikis.json": "87dc091e9277bdf6bddf25c43491fedf96f767c9b5a58098637fab3864965358",
+    "config/ranges_gccaedits.json": "b371a8e3c54b39b654ca23d67265255f7a4c93c56cb9ba2e91d8b48015ae0f17",
+    "config/ranges_ssc_bgp.json": "9066f624667fe85a0c6ce6c990b0e1e8c51b66e31cb3339871afda1b7e1a6c7f",
+    "config/settings.json": "d2f4b50f097cd9be1fee5c266d36a2cd3f29703a5bb8cfcc976cecb85cef8ce4"
+  },
+  "responses": {
+    "count": 4390,
+    "bytes": 3458656,
+    "by_host": {
+      "en.wikipedia.org": {
+        "responses": 738,
+        "bytes": 2456502
+      },
+      "fr.wikipedia.org": {
+        "responses": 731,
+        "bytes": 422359
+      },
+      "www.wikidata.org": {
+        "responses": 731,
+        "bytes": 381787
+      },
+      "commons.wikimedia.org": {
+        "responses": 730,
+        "bytes": 72340
+      },
+      "en.wiktionary.org": {
+        "responses": 730,
+        "bytes": 62868
+      },
+      "en.wikivoyage.org": {
+        "responses": 730,
+        "bytes": 62800
+      }
+    },
+    "chain_sha256": "8add61edb242bbba6c889427e0aac2796ec158f559a830e82976a1abb6018f5e",
+    "log": "data/manifests/2026-10-28T063352Z-backfill-6951.responses.jsonl",
+    "log_sha256": "d063c697ae5f449963e289cf038f5fafc8489bb2ace2a16c69c5523985d5042e"
+  },
+  "outputs": {
+    "data/2021/edits.csv": "b16d74f0ac8a76d1abfc62bba7919a8d6fce23fe70812d4443392b55878aea09",
+    "data/2021/edits.jsonl": "9327b0def19b209aa188f30b456690bb2a37b12e6e3db39b821977913843021f",
+    "data/2021/raw/commonswiki.jsonl": "d27dd58a276d8cfa5ea0e295260252e25468564f4554765a5b692872fe6e2445",
+    "data/2021/raw/enwiki.jsonl": "c5a25332989ccab8d1c3b5d4a25e6caaf353f1a95652878f2d88d02be85edf2b",
+    "data/2021/raw/enwikivoyage.jsonl": "69df2dfba92276ffde68232381e4e4f43ab17ff06c8f8caef72c38035ae31833",
+    "data/2021/raw/enwiktionary.jsonl": "54e2613b630ea990b858ca7605c7c685082d65c5b91a944ec7131eb480eed6fd",
+    "data/2021/raw/frwiki.jsonl": "ace2e2f245e4970133b58983f952d1a32cb79a46fe88017d4a3e59326d36c938",
+    "data/2021/raw/wikidatawiki.jsonl": "4b9b85b892557a6cdbbc8d08d92522e9ea34869d1b2d47b73765f71e0784fbfb",
+    "data/2021/status.json": "b5119643e74d6e907622c10cd65ce4b67ad9a59d61caec03f2a73faa8f128708",
+    "data/2021/summary.json": "38de6b9240baacd374c90cc19e696d8edc397422ba07b51b7039b20c610a5278",
+    "data/2022/edits.csv": "74782a476168dcdb325eefdcb9d7d4ba4f633cd182dffade2a12785b9b8ff114",
+    "data/2022/edits.jsonl": "0e49e47879f855d9a65dd3ac9f2b0b23e6969e2dd854e82dd7acce7bb995c06f",
+    "data/2022/raw/commonswiki.jsonl": "7d5ac0c4e0e9c6f1de32098912c882b2e6ada5b20616632993f39a5f9d53c998",
+    "data/2022/raw/enwiki.jsonl": "81751fb88d212ba4cdfd16a42825f84c124f03c8f1ca73eabc7c512a0aa7ce82",
+    "data/2022/raw/enwikivoyage.jsonl": "1e102db1c7e7a2a96e68756fab1b57f2a2474e8548a593e11548a3b16f6909c0",
+    "data/2022/raw/enwiktionary.jsonl": "7b8af3e75c87479e20641311decf0cc5b3aece7902ff1e3b2393c823848dac19",
+    "data/2022/raw/frwiki.jsonl": "9818d372fec7285bb262e35be4f7bb770a9e17d14ca09aa27cf45fdad2e57378",
+    "data/2022/raw/wikidatawiki.jsonl": "fdbc20efcad1be529d2896db7400632952faef64ba456d5f1e32bdf86c9885bb",
+    "data/2022/status.json": "074b5aeb839992d2a2542630d6124b3834922c85babe9027a857a9eaae36ae8e",
+    "data/2022/summary.json": "44478ea4ca7816858401df5af1fecb0bcbc7522916a4627e0ef5a0002021bfa3",
+    "data/2023/edits.csv": "1aae2dfd12a6fa73e2e665a8f120388e939b86aed980c2870af93905cb3d594c",
+    "data/2023/edits.jsonl": "6387950413df681205a5a3048cd6352115b043b4bee9a362277bf6d6ab95cafe",
+    "data/2023/raw/commonswiki.jsonl": "34131b4642a0dbf46676dfc8094715fd98fa34e46b82fa1c024b3ebecfae1e95",
+    "data/2023/raw/enwiki.jsonl": "ff6859cf9f4e34cb82c931dee49935a424a789f3616b2bcce8354dcf4d262c75",
+    "data/2023/raw/enwikivoyage.jsonl": "65f04d29522ae3db070053fd80ed5ab4521fa46d657683930321322d9032f9a4",
+    "data/2023/raw/enwiktionary.jsonl": "dab8d1c6a74cbb1469934dc17711d77b4513b5b4dede381cb2a5100f45756fef",
+    "data/2023/raw/frwiki.jsonl": "1046495a8da3d86cefd997c9d1d1e050ad064142b9e770491d685a2ec953ca76",
+    "data/2023/raw/wikidatawiki.jsonl": "c363e134a7eeec323a5f51bae0b1a4dbbdf5391bbdff89a05576211e202914b2",
+    "data/2023/status.json": "0d44e7a69bc3468b441190f58a72681e86f458a71c083c795a55d814438f396d",
+    "data/2023/summary.json": "ca624383e530e3b559108e1ce919385a68c0bb20692b2b19b64465d76c245e57",
+    "data/2024/edits.csv": "99be6da7ddae661c8c1d5ddb86e0a3837f1dbfedbe97823decb39922b60d5b56",
+    "data/2024/edits.jsonl": "b97417391919a023c5122f88297bd1fabdc7b97de050ac7c9414c295bf18bdcd",
+    "data/2024/raw/commonswiki.jsonl": "11826e9b15359b275129af495135e65b963064ba68c4342e1fdf3a8e4de1825d",
+    "data/2024/raw/enwiki.jsonl": "a58c5a56345c1750715001ce87aedec3ddf5d8e1e08d50bb0be8c5ccc403bfe7",
+    "data/2024/raw/enwikivoyage.jsonl": "a2a3f8eef1d650f6201ae8f460f491080c07dd52c47e0042875f1f5ee0cb1c72",
+    "data/2024/raw/enwiktionary.jsonl": "8aa90c033971bd6b8145bea9f14e2c7855f6ea23b4eaf4ca581259e030a35d1d",
+    "data/2024/raw/frwiki.jsonl": "fd4d2d3a7f4eb4aed0a2069042cb1de20f1c603d9159cedf52c8450ca230c41b",
+    "data/2024/raw/wikidatawiki.jsonl": "df01dfd10e2edb58ec3fee8809ba4a3d7a7fa483a0d2e0a1a2a8f04d15dbafd8",
+    "data/2024/status.json": "f8c1694d6dc3cf576b02f9e33ef692a8da7f029177afd95f07f5da9b8e5d5109",
+    "data/2024/summary.json": "bae0cb1040387e21cdc7692ed5468cd056f207fe770b2b58faddcd8e7eb90c5f",
+    "data/2025/edits.csv": "31edff510f808d27d00ec6d7eaf7743f30e4ac38a00ce6df71475aa17874c090",
+    "data/2025/edits.jsonl": "039bdee1da7955eb18d600e4b9aa1282de4fe9614a2a5a86faabd50c4943d16e",
+    "data/2025/raw/commonswiki.jsonl": "d58bb6356c2200a5a62eef9f73ab1808efb2a6af7a8563382b2edacb5ca17ea2",
+    "data/2025/raw/enwiki.jsonl": "9d9434c1991c195689b6fce214ea30963eb1656b4d6638a9bf076a97b1371dca",
+    "data/2025/raw/enwikivoyage.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/2025/raw/enwiktionary.jsonl": "cb5a969ebdcf3bb845213939d32ca71dc0441e45acca919d502bfd982a0c32e6",
+    "data/2025/raw/frwiki.jsonl": "be1610a30b5c0e7e8c8f2fba2b6c6167a775c13a916b01574bcb21f0fad30bc1",
+    "data/2025/raw/wikidatawiki.jsonl": "fdab567fb91110f4feaff393a02d85abf914c23f26c4351fe556d44141f583f8",
+    "data/2025/status.json": "75dc5fe5fce747d98cb20bfb62c64b4d6dbc1a1372cd67f8a72029aecf4f1cf2",
+    "data/2025/summary.json": "05ce1bd3f0e480af58e4d982602b36169e1c1aa62da768cbd38bcd342247e096"
+  },
+  "data_sums_sha256": "3bd6217e4691b542ed32b05e6c59abd953f388f3d1da1c3d3669cdf7a3b2aa48",
+  "counts": {
+    "edits_2021": 2526,
+    "edits_2022": 2157,
+    "edits_2023": 1534,
+    "edits_2024": 1249,
+    "edits_2025": 2645
+  },
+  "previous_manifest": {
+    "run_id": "2026-10-28T063257Z-refresh-ranges-d67e",
+    "sha256": "b6b092cc1e90a51e9b1fde43d837e0673ef74e7f410b2be874b4198d73afeb10"
+  },
+  "notes": ""
+}

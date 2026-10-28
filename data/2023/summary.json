@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-28T06:12:05Z",
-  "total_edits": 1529,
+  "generated": "2026-10-28T07:09:06Z",
+  "total_edits": 1534,
   "unique_ips": 108,
   "by_label": {
-    "Shared Services Canada": 914,
-    "Canadian Department of National Defence": 232,
+    "Shared Services Canada": 917,
+    "Canadian Department of National Defence": 234,
     "Canadian House of Commons": 88,
     "Canadian Broadcasting Corporation": 61,
     "Transport Canada": 40,
@@ -31,19 +31,21 @@
     "enwiki": 1395,
     "frwiki": 104,
     "wikidatawiki": 22,
-    "commonswiki": 8
+    "commonswiki": 8,
+    "enwikivoyage": 4,
+    "enwiktionary": 1
   },
   "by_month": {
     "2023-01": 147,
-    "2023-02": 107,
-    "2023-03": 89,
+    "2023-02": 109,
+    "2023-03": 91,
     "2023-04": 109,
     "2023-05": 135,
     "2023-06": 134,
     "2023-07": 209,
     "2023-08": 146,
     "2023-09": 113,
-    "2023-10": 100,
+    "2023-10": 101,
     "2023-11": 157,
     "2023-12": 83
   },
@@ -511,11 +513,13 @@
     "enwiki": "2023-12-29T21:37:10Z",
     "frwiki": "2023-12-22T12:48:37Z",
     "wikidatawiki": "2023-12-19T15:23:58Z",
-    "commonswiki": "2023-11-18T00:36:26Z"
+    "enwikivoyage": "2023-03-07T22:29:55Z",
+    "commonswiki": "2023-11-18T00:36:26Z",
+    "enwiktionary": "2023-10-27T12:22:25Z"
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-10-28T06:09:39Z",
+      "scanned_at": "2026-10-28T07:05:20Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
@@ -528,7 +532,7 @@
       "edits": 1395
     },
     "frwiki": {
-      "scanned_at": "2026-10-28T06:10:14Z",
+      "scanned_at": "2026-10-28T07:06:08Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
@@ -541,7 +545,7 @@
       "edits": 104
     },
     "wikidatawiki": {
-      "scanned_at": "2026-10-28T06:11:13Z",
+      "scanned_at": "2026-10-28T07:07:03Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
@@ -554,7 +558,7 @@
       "edits": 22
     },
     "commonswiki": {
-      "scanned_at": "2026-10-28T06:12:05Z",
+      "scanned_at": "2026-10-28T07:07:29Z",
       "window": [
         "2023-01-01T00:00:00Z",
         "2023-12-31T23:59:59Z"
@@ -565,6 +569,32 @@
       "error_samples": {},
       "fatal": null,
       "edits": 8
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-10-28T07:08:11Z",
+      "window": [
+        "2023-01-01T00:00:00Z",
+        "2023-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 1
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-10-28T07:09:06Z",
+      "window": [
+        "2023-01-01T00:00:00Z",
+        "2023-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 4
     }
   }
 }

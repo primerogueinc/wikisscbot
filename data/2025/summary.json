@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-28T06:32:29Z",
-  "total_edits": 2643,
+  "generated": "2026-10-28T07:33:06Z",
+  "total_edits": 2645,
   "unique_ips": 107,
   "by_label": {
-    "Shared Services Canada": 2404,
+    "Shared Services Canada": 2406,
     "Environment Canada": 53,
     "Transport Canada": 26,
     "Industry Canada": 21,
@@ -26,14 +26,15 @@
     "enwiki": 1087,
     "wikidatawiki": 825,
     "frwiki": 718,
-    "commonswiki": 13
+    "commonswiki": 13,
+    "enwiktionary": 2
   },
   "by_month": {
     "2025-01": 122,
-    "2025-02": 844,
+    "2025-02": 845,
     "2025-03": 498,
     "2025-04": 199,
-    "2025-05": 132,
+    "2025-05": 133,
     "2025-06": 141,
     "2025-07": 336,
     "2025-08": 150,
@@ -467,11 +468,12 @@
     "enwiki": "2025-11-03T17:35:02Z",
     "frwiki": "2025-06-18T12:42:27Z",
     "wikidatawiki": "2025-10-17T22:00:38Z",
-    "commonswiki": "2025-11-03T12:39:05Z"
+    "commonswiki": "2025-11-03T12:39:05Z",
+    "enwiktionary": "2025-05-26T19:24:20Z"
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-10-28T06:30:50Z",
+      "scanned_at": "2026-10-28T07:29:18Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
@@ -484,7 +486,7 @@
       "edits": 1087
     },
     "frwiki": {
-      "scanned_at": "2026-10-28T06:31:14Z",
+      "scanned_at": "2026-10-28T07:30:08Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
@@ -497,7 +499,7 @@
       "edits": 718
     },
     "wikidatawiki": {
-      "scanned_at": "2026-10-28T06:32:06Z",
+      "scanned_at": "2026-10-28T07:31:03Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
@@ -510,7 +512,7 @@
       "edits": 825
     },
     "commonswiki": {
-      "scanned_at": "2026-10-28T06:32:29Z",
+      "scanned_at": "2026-10-28T07:31:28Z",
       "window": [
         "2025-01-01T00:00:00Z",
         "2025-12-31T23:59:59Z"
@@ -521,6 +523,32 @@
       "error_samples": {},
       "fatal": null,
       "edits": 13
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-10-28T07:32:22Z",
+      "window": [
+        "2025-01-01T00:00:00Z",
+        "2025-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-10-28T07:33:06Z",
+      "window": [
+        "2025-01-01T00:00:00Z",
+        "2025-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 0
     }
   }
 }

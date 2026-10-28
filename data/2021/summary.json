@@ -1,22 +1,22 @@
 {
-  "generated": "2026-10-28T05:49:34Z",
-  "total_edits": 2518,
+  "generated": "2026-10-28T06:45:26Z",
+  "total_edits": 2526,
   "unique_ips": 113,
   "by_label": {
-    "Shared Services Canada": 1103,
+    "Shared Services Canada": 1107,
     "Canadian House of Commons": 774,
-    "Canadian Department of National Defence": 261,
+    "Canadian Department of National Defence": 262,
     "Canadian Broadcasting Corporation": 140,
     "Shared Services Canada network (AS2665)": 43,
     "Environment Canada": 35,
-    "Shared Services Canada network (AS2675)": 33,
+    "Shared Services Canada network (AS2675)": 34,
     "Industry Canada": 32,
     "Library and Archives Canada": 23,
     "Department of Fisheries and Oceans": 20,
     "National Research Council": 14,
     "Statistics Canada": 13,
     "Federal Court of Canada": 12,
-    "Bank of Canada": 7,
+    "Bank of Canada": 9,
     "Department of Justice Canada": 4,
     "Canadian Museum of Civilization": 3,
     "Canadian Space Agency": 1
@@ -25,20 +25,22 @@
     "enwiki": 2420,
     "frwiki": 71,
     "wikidatawiki": 19,
-    "commonswiki": 8
+    "commonswiki": 8,
+    "enwiktionary": 6,
+    "enwikivoyage": 2
   },
   "by_month": {
     "2021-01": 627,
     "2021-02": 315,
     "2021-03": 135,
-    "2021-04": 160,
-    "2021-05": 107,
-    "2021-06": 191,
+    "2021-04": 162,
+    "2021-05": 108,
+    "2021-06": 193,
     "2021-07": 196,
     "2021-08": 179,
     "2021-09": 124,
     "2021-10": 153,
-    "2021-11": 165,
+    "2021-11": 168,
     "2021-12": 166
   },
   "top_pages": [
@@ -396,6 +398,7 @@
       "Mount Garibaldi": 1
     },
     "Bank of Canada": {
+      "Ottawa": 2,
       "Henry Bedson": 2,
       "Canadian property bubble": 1,
       "Governor of the Bank of Canada": 1,
@@ -465,11 +468,13 @@
     "enwiki": "2021-12-31T20:54:39Z",
     "wikidatawiki": "2021-12-29T13:56:37Z",
     "frwiki": "2021-12-15T16:39:59Z",
-    "commonswiki": "2021-11-20T20:05:37Z"
+    "commonswiki": "2021-11-20T20:05:37Z",
+    "enwikivoyage": "2021-04-06T20:23:36Z",
+    "enwiktionary": "2021-11-26T05:47:09Z"
   },
   "scan_status": {
     "enwiki": {
-      "scanned_at": "2026-10-28T05:47:22Z",
+      "scanned_at": "2026-10-28T06:42:06Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
@@ -482,7 +487,7 @@
       "edits": 2420
     },
     "frwiki": {
-      "scanned_at": "2026-10-28T05:48:18Z",
+      "scanned_at": "2026-10-28T06:42:31Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
@@ -495,7 +500,7 @@
       "edits": 71
     },
     "wikidatawiki": {
-      "scanned_at": "2026-10-28T05:49:10Z",
+      "scanned_at": "2026-10-28T06:43:13Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
@@ -508,7 +513,7 @@
       "edits": 19
     },
     "commonswiki": {
-      "scanned_at": "2026-10-28T05:49:34Z",
+      "scanned_at": "2026-10-28T06:44:07Z",
       "window": [
         "2021-01-01T00:00:00Z",
         "2021-12-31T23:59:59Z"
@@ -519,6 +524,32 @@
       "error_samples": {},
       "fatal": null,
       "edits": 8
+    },
+    "enwiktionary": {
+      "scanned_at": "2026-10-28T06:45:02Z",
+      "window": [
+        "2021-01-01T00:00:00Z",
+        "2021-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 6
+    },
+    "enwikivoyage": {
+      "scanned_at": "2026-10-28T06:45:26Z",
+      "window": [
+        "2021-01-01T00:00:00Z",
+        "2021-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2
     }
   }
 }
