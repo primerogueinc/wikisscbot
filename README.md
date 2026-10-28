@@ -95,7 +95,7 @@ Run a single process (no `--workers`). The database is small and rebuilt on star
 
 ```
 python -m wikisscbot refresh-ranges     # SSC prefixes from RIPEstat
-python -m wikisscbot backfill           # configured years not yet collected (--year 2024, or --all)
+python -m wikisscbot backfill           # all configured years (or --year 2024)
 python -m wikisscbot enrich             # Wikimedia topics + Wikidata labels
 python -m wikisscbot report             # rebuild CSV/summary/static pages
 python -m wikisscbot watch --hours 30

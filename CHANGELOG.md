@@ -18,7 +18,6 @@ All notable changes to wikisscbot. Versions follow [semantic versioning](https:/
 - `CHANGELOG.md`, `ROADMAP.md`.
 
 ### Changed
-- Backfill is incremental: by default it collects only configured years that aren't already fully collected (all wikis scanned, no errors). `--all`, or `all` as the workflow's year input, re-collects everything.
 - Topic enrichment is bounded: 6 parallel requests, 15 s timeouts, a 15-minute budget (`WIKISSC_ENRICH_MINUTES`) and a stop after 25 consecutive failures; unfinished pages carry over via the cache. The workflow step also has a 25-minute timeout.
 - HTTP layer passes every response through the provenance recorder before parsing.
 - `version` subcommand and `--version` flag.

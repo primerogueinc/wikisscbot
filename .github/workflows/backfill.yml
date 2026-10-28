@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       year:
-        description: "Calendar year to collect (blank = any configured year not yet collected)"
+        description: "Calendar year to collect (blank = all years in config/settings.json)"
         default: ""
         required: false
 
@@ -48,8 +48,7 @@ jobs:
         run: python -m wikisscbot refresh-ranges
       - name: Collect
         run: |
-          if [ "$YEAR" = "all" ]; then python -m wikisscbot backfill --all
-          elif [ -n "$YEAR" ]; then python -m wikisscbot backfill --year "$YEAR"
+          if [ -n "$YEAR" ]; then python -m wikisscbot backfill --year "$YEAR"
           else python -m wikisscbot backfill; fi
       - name: Classify pages by topic
         continue-on-error: true
