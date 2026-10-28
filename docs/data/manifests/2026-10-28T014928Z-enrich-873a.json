@@ -1,0 +1,58 @@
+{
+  "schema": "wikisscbot-manifest/1",
+  "run_id": "2026-10-28T014928Z-enrich-873a",
+  "kind": "enrich",
+  "started": "2026-10-28T01:49:28Z",
+  "finished": "2026-10-28T01:50:21Z",
+  "tool_version": "1.2.0",
+  "code_commit": "c74c1d620fcb4a07afada45d5b8be3023d42cea3",
+  "workflow_run": {
+    "id": "40612941370",
+    "attempt": "1",
+    "workflow": "Backfill year",
+    "url": "https://github.com/primerogueinc/wikisscbot/actions/runs/40612941370"
+  },
+  "params": {
+    "model": "outlink-topic-model",
+    "threshold": 0.5
+  },
+  "inputs": {
+    "config/ranges_gccaedits.json": "b371a8e3c54b39b654ca23d67265255f7a4c93c56cb9ba2e91d8b48015ae0f17",
+    "config/ranges_ssc_bgp.json": "ed44d53cbdc85a539575fd50fda196f2fc65eab59a154d2e240e141ff6bf2347",
+    "config/settings.json": "84dd20480ecf1bec9d6cac79bea2a08c9b1aef1721c806eae23628d7b7717e1e"
+  },
+  "responses": {
+    "count": 1343,
+    "bytes": 338779,
+    "by_host": {
+      "api.wikimedia.org": {
+        "responses": 1342,
+        "bytes": 328027
+      },
+      "www.wikidata.org": {
+        "responses": 1,
+        "bytes": 10752
+      }
+    },
+    "chain_sha256": "c58adcfc56c8697f36cac39294f13a02e5960fcee714932234a6b72739588c65",
+    "log": "data/manifests/2026-10-28T014928Z-enrich-873a.responses.jsonl",
+    "log_sha256": "705cfbeb84e3124476987d642bcfab59ccee9403c5df16a617cb4f9ca9a55f76"
+  },
+  "outputs": {
+    "data/topics.json": "1691bf2dc83692ae837fa24446b42b51a9e656b835a846b9ed180205f0e863c7"
+  },
+  "data_sums_sha256": "67388a2b047f20d9911e0adec45d08f3133b9c1565f91c546d181cbdeea1d95e",
+  "counts": {
+    "classified": 1342,
+    "failed": 0,
+    "remaining": 0,
+    "cached_total": 3842,
+    "wikidata_labelled": 33,
+    "stopped": ""
+  },
+  "previous_manifest": {
+    "run_id": "2026-10-28T010807Z-backfill-571a",
+    "sha256": "78f16d53b9d965631d923dbe8ad147408027e57666bf21bd0a83905572ab1ce6"
+  },
+  "notes": ""
+}

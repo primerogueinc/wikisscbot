@@ -1,0 +1,536 @@
+{
+  "generated": "2026-10-28T01:18:28Z",
+  "total_edits": 2152,
+  "unique_ips": 107,
+  "by_label": {
+    "Canadian Broadcasting Corporation": 922,
+    "Shared Services Canada": 666,
+    "Canadian Department of National Defence": 319,
+    "Canadian House of Commons": 87,
+    "Shared Services Canada network (AS2665)": 27,
+    "Environment Canada": 22,
+    "Industry Canada": 18,
+    "Shared Services Canada network (AS2675)": 16,
+    "Department of Fisheries and Oceans": 14,
+    "Library and Archives Canada": 14,
+    "Statistics Canada": 12,
+    "National Research Council": 11,
+    "Bank of Canada": 5,
+    "Federal Court of Canada": 5,
+    "Department of Justice Canada": 5,
+    "Transport Canada": 2,
+    "Canadian Museum of Civilization": 2,
+    "Canadian Space Agency": 1,
+    "Employment and Immigration Canada": 1,
+    "Government of Canada": 1,
+    "National Research Council (SSC)": 1,
+    "Finance Canada": 1
+  },
+  "by_wiki": {
+    "enwiki": 2009,
+    "frwiki": 73,
+    "wikidatawiki": 65,
+    "commonswiki": 5
+  },
+  "by_month": {
+    "2022-01": 172,
+    "2022-02": 175,
+    "2022-03": 142,
+    "2022-04": 90,
+    "2022-05": 74,
+    "2022-06": 129,
+    "2022-07": 130,
+    "2022-08": 163,
+    "2022-09": 444,
+    "2022-10": 306,
+    "2022-11": 140,
+    "2022-12": 187
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "Chris Daw",
+      "edits": 16
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2006 US Open – Men's singles qualifying",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Peter Fragiskatos",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Doc Savage novels",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Nuclear power in the United Kingdom",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Medium Support Vehicle System",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Pontiac (provincial electoral district)",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Greece's Next Top Model season 2",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Greece's Next Top Model season 3",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Greece's Next Top Model season 4",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Neighbourhood shopping centres in Montreal",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dundas Street",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Alain Rayes",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Greece's Next Top Model season 5",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Sherbrooke Hussars",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Andrew Scheer",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Stormont, Dundas and Glengarry Highlanders",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Apple Park",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jenna Sudds",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ian Bennett (Royal Canadian Mint President)",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Dominant-party system",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Marco Mendicino",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Remy Sylado",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Prabhat Jha (epidemiologist)",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "1 Signal Regiment",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Alexa McDonough",
+      "edits": 5
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q5009028",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Champlain Mall",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Pullman porter",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canadian Forces Artists Program",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "100-series highways (Nova Scotia)",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Jim Karahalios",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Laredo Sound",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Copenhagen Airport",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Francis Drouin",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Richmond—Arthabaska—des-Sources",
+      "edits": 5
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q2814872",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2022 Atlético Ottawa season",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Next Top Model (Greek TV series) season 2",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Greece's Next Top Model season 1",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2007 Australian Open – Men's singles qualifying",
+      "edits": 5
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Environment and Climate Change Canada",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "David Williams (Canadian physician)",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Paon DP",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Zellers",
+      "edits": 4
+    },
+    {
+      "wiki": "wikidatawiki",
+      "title": "Q461761",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Galeries d'Anjou",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Milan Borjan",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Joël Lightbound",
+      "edits": 4
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Time Crisis II",
+      "edits": 4
+    }
+  ],
+  "top_pages_by_label": {
+    "Canadian Broadcasting Corporation": {
+      "Andrew Scheer": 6,
+      "Prabhat Jha (epidemiologist)": 5,
+      "Alexa McDonough": 5,
+      "Q5009028": 5,
+      "Jim Karahalios": 5,
+      "Environment and Climate Change Canada": 4,
+      "David Williams (Canadian physician)": 4,
+      "Q461761": 4,
+      "Joël Lightbound": 4,
+      "Giuliano Zaccardelli": 4
+    },
+    "Shared Services Canada": {
+      "2006 US Open – Men's singles qualifying": 13,
+      "Nuclear power in the United Kingdom": 8,
+      "Pontiac (provincial electoral district)": 8,
+      "Greece's Next Top Model season 2": 8,
+      "Greece's Next Top Model season 3": 8,
+      "Greece's Next Top Model season 4": 8,
+      "Neighbourhood shopping centres in Montreal": 7,
+      "Dundas Street": 7,
+      "Greece's Next Top Model season 5": 7,
+      "Apple Park": 6
+    },
+    "Canadian Department of National Defence": {
+      "Chris Daw": 16,
+      "Medium Support Vehicle System": 8,
+      "Sherbrooke Hussars": 6,
+      "Stormont, Dundas and Glengarry Highlanders": 6,
+      "1 Signal Regiment": 5,
+      "Pullman porter": 5,
+      "Canadian Forces Artists Program": 5,
+      "Q2814872": 5,
+      "Time Crisis II": 4,
+      "Q3499849": 4
+    },
+    "Shared Services Canada network (AS2675)": {
+      "Isaac Jogues": 2,
+      "R v Rodgers": 1,
+      "Toews": 1,
+      "Q18055248": 1,
+      "Jocko Willink": 1,
+      "HMCS Shawinigan (MM 704)": 1,
+      "CKVB-FM": 1,
+      "Q18062502": 1,
+      "Q109837997": 1,
+      "Kingdom of Westphalia": 1
+    },
+    "Canadian House of Commons": {
+      "Peter Fragiskatos": 12,
+      "Alain Rayes": 7,
+      "Jenna Sudds": 6,
+      "Ian Bennett (Royal Canadian Mint President)": 6,
+      "Richmond—Arthabaska—des-Sources": 5,
+      "Danielle Smith": 4,
+      "Alex Ruff": 3,
+      "Rick Perkins": 3,
+      "Marilène Gill": 3,
+      "Jim Carr": 3
+    },
+    "Shared Services Canada network (AS2665)": {
+      "Cocoa necrosis virus": 2,
+      "Nanakshahi calendar": 2,
+      "Real-time quaking-induced conversion": 2,
+      "Value of a statistical life": 1,
+      "Saproamanita": 1,
+      "Bernard Moitessier": 1,
+      "Tobacco ringspot virus": 1,
+      "Wilfred Shuchat": 1,
+      "Formylmethanofuran dehydrogenase": 1,
+      "5th Canadian Division": 1
+    },
+    "Bank of Canada": {
+      "Radio Yerevan joke": 2,
+      "Government and intergovernmental reactions to the Russian invasion of Ukraine": 1,
+      "Chernihivska": 1,
+      "Amos Hochstein": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "Disc Golf Pro Tour": 3,
+      "Gerald Blanchard": 2,
+      "Jackson Rhoads": 1,
+      "CCGS Griffon": 1,
+      "Regina Mundi Catholic College": 1,
+      "Environmental Biology of Fishes": 1,
+      "George Qulaut": 1,
+      "Talk:Kxngeal Inlet": 1,
+      "Q860114": 1,
+      "List of people from Manitoba": 1
+    },
+    "Statistics Canada": {
+      "Poverty in Canada": 2,
+      "Timeline of Norwich": 2,
+      "Colectica": 2,
+      "Sardar Vallabhbhai Patel Stadium, Navrangpura": 2,
+      "Eastern Passage, Nova Scotia": 1,
+      "Government and intergovernmental reactions to the Russian invasion of Ukraine": 1,
+      "Siege of Detroit": 1,
+      "National Capital Region (Canada)": 1
+    },
+    "Transport Canada": {
+      "Novavax COVID-19 vaccine": 1,
+      "Victoria Harbour (British Columbia)": 1
+    },
+    "Environment Canada": {
+      "Tim Ball": 3,
+      "Mount Unzen": 2,
+      "Friends of Science": 2,
+      "Canadian Environmental Protection Act, 1999": 1,
+      "Newfoundland and Labrador": 1,
+      "Yellow rail": 1,
+      "Canadian weather radar network": 1,
+      "Talk:Canadian weather radar network": 1,
+      "Isle aux Morts": 1,
+      "CAN/CSA Z243.200": 1
+    },
+    "Industry Canada": {
+      "The Princess and the Goblin": 2,
+      "Canadian Parliamentary Poet Laureate": 2,
+      "Template:Denver Broncos roster": 2,
+      "Talk:W band": 2,
+      "Aussi profond que l'océan": 1,
+      "Peace Arch Park": 1,
+      "Helena Jaczek": 1,
+      "John Egan (Canadian politician)": 1,
+      "Louise Bennett-Coverley": 1,
+      "Aide:Bac à sable": 1
+    },
+    "Federal Court of Canada": {
+      "2022 Conservative Party of Canada leadership election": 1,
+      "Q-Force": 1,
+      "Angels (Neon Genesis Evangelion)": 1,
+      "University of Saskatchewan College of Law": 1,
+      "Canadian Federation of Engineering Students": 1
+    },
+    "National Research Council": {
+      "100-series highways (Nova Scotia)": 5,
+      "Photonic crystal": 2,
+      "List of aerospace engineering schools": 1,
+      "Nova Scotia Highway 162": 1,
+      "Rocky Linux": 1,
+      "Dominion Radio Astrophysical Observatory": 1
+    },
+    "Canadian Museum of Civilization": {
+      "Nanisivik Naval Facility": 1,
+      "Steve Martin": 1
+    },
+    "Canadian Space Agency": {
+      "Saint-Hubert (Longueuil)": 1
+    },
+    "Department of Justice Canada": {
+      "Richard Frederick Littledale": 2,
+      "Department of Justice (Canada)": 1,
+      "John Elley": 1,
+      "Daniel J. Caron": 1
+    },
+    "Employment and Immigration Canada": {
+      "Golden Age of Piracy": 1
+    },
+    "Government of Canada": {
+      "Public Service Commission of Canada": 1
+    },
+    "Library and Archives Canada": {
+      "List of Doc Savage novels": 11,
+      "Notorious (Loverboy song)": 2,
+      "Bibliothèque et Archives Canada": 1
+    },
+    "National Research Council (SSC)": {
+      "Georgia Guidestones": 1
+    },
+    "Finance Canada": {
+      "Q2993801": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2022-12-30T21:13:41Z",
+    "frwiki": "2022-12-30T22:29:18Z",
+    "wikidatawiki": "2022-12-19T18:40:33Z",
+    "commonswiki": "2022-12-20T18:08:06Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-10-28T01:16:36Z",
+      "window": [
+        "2022-01-01T00:00:00Z",
+        "2022-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2009
+    },
+    "frwiki": {
+      "scanned_at": "2026-10-28T01:17:13Z",
+      "window": [
+        "2022-01-01T00:00:00Z",
+        "2022-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 73
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-10-28T01:18:04Z",
+      "window": [
+        "2022-01-01T00:00:00Z",
+        "2022-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 65
+    },
+    "commonswiki": {
+      "scanned_at": "2026-10-28T01:18:28Z",
+      "window": [
+        "2022-01-01T00:00:00Z",
+        "2022-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 5
+    }
+  }
+}
