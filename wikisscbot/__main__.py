@@ -66,9 +66,34 @@ def cmd_blocks(args) -> None:
         print(b)
 
 
+def _year_complete(year: str, wikis: list[dict]) -> bool:
+    """True if every wiki was fully scanned for this year with no errors."""
+    path = ROOT / "data" / year / "status.json"
+    if not path.exists():
+        return False
+    status = json.loads(path.read_text())
+    for w in wikis:
+        s = status.get(w["id"])
+        if not s or s.get("fatal") or s.get("block_errors") or s.get("blocks_scanned") != s.get("blocks_total"):
+            return False
+    return True
+
+
 def cmd_backfill(args) -> None:
-    years = [str(y) for y in (args.year or settings().get("backfill_years", [2025]))]
     wikis = _wikis(args.wiki)
+    if args.year:
+        years = [str(y) for y in args.year]
+    else:
+        configured = [str(y) for y in settings().get("backfill_years", [2025])]
+        # Default: only years not yet fully collected. --all re-collects everything.
+        years = configured if args.all else [y for y in configured if not _year_complete(y, wikis)]
+        skipped = sorted(set(configured) - set(years))
+        if skipped:
+            print(f"already complete, skipping: {', '.join(skipped)} (use --all to re-collect)",
+                  file=sys.stderr)
+    if not years:
+        print("nothing to collect", file=sys.stderr)
+        return
     labeller, blocks, ranges = _prepare()
     counts, fatal = {}, False
     with provenance.Recorder("backfill") as rec:
@@ -191,6 +216,7 @@ def main(argv=None) -> None:
                    help="year to collect; repeatable (default: backfill_years in settings)")
     b.add_argument("--wiki", action="append", help="wiki id; repeatable (default: all)")
     b.add_argument("--strict", action="store_true", help="exit non-zero if a wiki rejects queries")
+    b.add_argument("--all", action="store_true", help="re-collect years that are already complete")
     b.set_defaults(fn=cmd_backfill)
 
     e = sub.add_parser("enrich")
