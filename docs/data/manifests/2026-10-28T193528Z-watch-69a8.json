@@ -1,0 +1,80 @@
+{
+  "schema": "wikisscbot-manifest/1",
+  "run_id": "2026-10-28T193528Z-watch-69a8",
+  "kind": "watch",
+  "started": "2026-10-28T19:35:28Z",
+  "finished": "2026-10-28T19:47:11Z",
+  "tool_version": "1.2.0",
+  "code_commit": "b8f9add1fee0a7dc7197230a21e0b6ce44161f89",
+  "workflow_run": {
+    "id": "40755628371",
+    "attempt": "1",
+    "workflow": "Watch for new edits",
+    "url": "https://github.com/primerogueinc/wikisscbot/actions/runs/40755628371"
+  },
+  "params": {
+    "window": [
+      "2026-10-27T13:35:28Z",
+      "2026-10-28T19:35:28Z"
+    ],
+    "wikis": [
+      "enwiki",
+      "frwiki",
+      "wikidatawiki",
+      "commonswiki",
+      "enwiktionary",
+      "enwikivoyage"
+    ]
+  },
+  "inputs": {
+    "config/niche_wikis.json": "87dc091e9277bdf6bddf25c43491fedf96f767c9b5a58098637fab3864965358",
+    "config/ranges_gccaedits.json": "b371a8e3c54b39b654ca23d67265255f7a4c93c56cb9ba2e91d8b48015ae0f17",
+    "config/ranges_ssc_bgp.json": "8d864a5290b7127067465fe05c2a6201336bc0a14e483f3372632fcc19ee8a88",
+    "config/settings.json": "c87a58864afb17c67e2ae98e100965cd7a59945edfb8d89e0e4a1158cca29718"
+  },
+  "responses": {
+    "count": 877,
+    "bytes": 70160,
+    "by_host": {
+      "en.wikipedia.org": {
+        "responses": 147,
+        "bytes": 11760
+      },
+      "fr.wikipedia.org": {
+        "responses": 146,
+        "bytes": 11680
+      },
+      "www.wikidata.org": {
+        "responses": 146,
+        "bytes": 11680
+      },
+      "commons.wikimedia.org": {
+        "responses": 146,
+        "bytes": 11680
+      },
+      "en.wiktionary.org": {
+        "responses": 146,
+        "bytes": 11680
+      },
+      "en.wikivoyage.org": {
+        "responses": 146,
+        "bytes": 11680
+      }
+    },
+    "chain_sha256": "4e9f2a44ad0b7d4a3841cafc92a0ea9998052d4b40a009fe773d26e39f463f9b",
+    "log": "data/manifests/2026-10-28T193528Z-watch-69a8.responses.jsonl",
+    "log_sha256": "77950af2d4fa84b6c440d7cea216a1b27e415dfae4c6ca5baf2b2c657499360f"
+  },
+  "outputs": {
+    "data/live/edits.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "data_sums_sha256": "8d0946be65fdf9383f0e8408060eac0024c531d2d14c7ba1579599d0690a9268",
+  "counts": {
+    "new_edits": 0
+  },
+  "previous_manifest": {
+    "run_id": "2026-10-28T101912Z-enrich-6bec",
+    "sha256": "fdbedb2107eb0ebefb94bef946a39abd46284de7b6caf57ee64eedc7ed3b583e"
+  },
+  "notes": ""
+}
