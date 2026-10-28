@@ -19,6 +19,16 @@
       "id": "commonswiki",
       "host": "commons.wikimedia.org",
       "lang": "en"
+    },
+    {
+      "id": "enwiktionary",
+      "host": "en.wiktionary.org",
+      "lang": "en"
+    },
+    {
+      "id": "enwikivoyage",
+      "host": "en.wikivoyage.org",
+      "lang": "en"
     }
   ],
   "ssc_asns": {

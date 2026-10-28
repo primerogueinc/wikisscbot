@@ -7,7 +7,7 @@ A searchable, tamper-evident archive of anonymous Wikipedia edits made from Gove
 
 ## What it does
 
-1. **Collects.** For every Government of Canada IP block, the collector asks the MediaWiki API for all logged-out edits in a time window (`list=usercontribs&uciprange=`). It covers English and French Wikipedia, Wikidata and Commons, for each year in `config/settings.json` (currently 2021 through 2025).
+1. **Collects.** For every Government of Canada IP block, the collector asks the MediaWiki API for all logged-out edits in a time window (`list=usercontribs&uciprange=`). It covers English and French Wikipedia, Wikidata, Commons, English Wiktionary and English Wikivoyage, for each year in `config/settings.json` (currently 2021 through 2025).
 2. **Labels.** Each address is labelled by the most specific matching range. The ranges are the public-domain @gccaedits department list, plus every prefix Shared Services Canada's networks (AS2665, AS2675, AS2682, AS25689, AS806) announced in the period, pulled from RIPEstat.
 3. **Classifies.** Pages get Wikimedia's own article topics (Lift Wing `outlink-topic-model`) and keyword "beats" tuned for Canadian government reporting. Wikidata items get readable labels.
 4. **Proves.** Every pull writes a manifest with SHA-256 hashes of each API response and data file. Manifests are hash-chained and timestamped in Bitcoin with OpenTimestamps. See [Provenance](#provenance).
