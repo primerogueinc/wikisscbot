@@ -2,6 +2,11 @@
 
 All notable changes to wikisscbot. Versions follow [semantic versioning](https://semver.org/); times are UTC. The automatic per-run record of data pulls is in [`data/BUILDLOG.md`](data/BUILDLOG.md).
 
+## [Unreleased]
+
+### Added
+- **Profiles** (`#/profiles`): hand-written analyst pages kept in `web/static/profiles/` (an `index.json` plus one HTML fragment per profile) and copied into the static build. First profile: **DRELAN-SPARKY**, the DND gateway pair 131.137.245.206/.207 and the Shared Services Canada pair 205.193.239.44/.76 that took over its pages from November 2023.
+
 ## [1.2.0] — 2026-10-27
 
 ### Added

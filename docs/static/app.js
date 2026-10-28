@@ -41,13 +41,14 @@
   const ROUTES = {
     "": renderSearch, ips: renderIps, ip: renderIp, topics: renderTopics, topic: renderTopic,
     ranges: renderRanges, provenance: renderProvenance, about: renderAbout,
+    profiles: renderProfiles, profile: renderProfile,
   };
   async function route() {
     const { parts, params } = parseHash();
     const key = parts[0] || "";
     document.querySelectorAll("#nav a").forEach((a) => {
       const r = a.dataset.route;
-      a.classList.toggle("on", (r === "search" && key === "") || r === key || (r === "ips" && key === "ip") || (r === "topics" && key === "topic"));
+      a.classList.toggle("on", (r === "search" && key === "") || r === key || (r === "ips" && key === "ip") || (r === "topics" && key === "topic") || (r === "profiles" && key === "profile"));
     });
     const fn = ROUTES[key] || renderSearch;
     view.innerHTML = '<div class="loading">loading…</div>';
@@ -445,6 +446,36 @@ ots verify data/manifests/&lt;run&gt;.json.ots</pre>
       el.textContent = "copied";
       setTimeout(() => (el.textContent = short(el.dataset.copy)), 1200);
     }));
+  }
+
+  // --- profiles (hand-written analyst pages in static/profiles/) -------------
+  async function loadProfiles() {
+    const r = await fetch("static/profiles/index.json");
+    if (!r.ok) throw new Error("profiles index " + r.status);
+    return r.json();
+  }
+  async function renderProfiles() {
+    const list = await loadProfiles();
+    view.innerHTML = `
+      <h1>Profiles</h1>
+      <p class="lede">Analyst write-ups on recurring editors, traced by government address range. Each describes network exit points, not people.</p>
+      <div class="grid">${list.map((p) => `
+        <a class="card" href="#/profile/${enc(p.slug)}"><h3>${h(p.codename)}</h3>
+          <p class="muted small">${h(p.summary)}</p>
+          <p class="mono small">${p.ips.map(h).join(" · ")}</p>
+          <p class="muted small">Updated ${h(p.updated)}</p></a>`).join("")}</div>`;
+  }
+  async function renderProfile(parts) {
+    const slug = parts[0] || "";
+    const list = await loadProfiles();
+    const p = list.find((x) => x.slug === slug);
+    if (!p) { view.innerHTML = '<div class="empty">No such profile.</div>'; return; }
+    const r = await fetch("static/profiles/" + enc(p.slug) + ".html");
+    if (!r.ok) throw new Error("profile " + r.status);
+    view.innerHTML = `
+      <a class="back" href="#/profiles">← Profiles</a>
+      <div class="ipline"><h1>${h(p.codename)}</h1><span class="muted">profile · updated ${h(p.updated)}</span></div>
+      ${await r.text()}`;
   }
 
   // --- about -----------------------------------------------------------------

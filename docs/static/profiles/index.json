@@ -1,0 +1,9 @@
+[
+  {
+    "slug": "drelan-sparky",
+    "codename": "DRELAN-SPARKY",
+    "summary": "DND's own gateway pair (2007–2024) and the Shared Services Canada pair that inherited its regimental pages in November 2023.",
+    "ips": ["131.137.245.206", "131.137.245.207", "205.193.239.44", "205.193.239.76"],
+    "updated": "2026-10-28"
+  }
+]

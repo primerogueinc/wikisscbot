@@ -106,6 +106,8 @@ def build(out: Path = OUT) -> dict:
     (out / "static").mkdir(parents=True, exist_ok=True)
     for name in ("app.js", "engine.js", "style.css"):
         shutil.copyfile(WEB / name, out / "static" / name)
+    if (WEB / "profiles").is_dir():
+        shutil.copytree(WEB / "profiles", out / "static" / "profiles")
     index = (WEB / "index.html").read_text(encoding="utf-8").replace(
         "<!--STATIC-->",
         '<script>window.WIKISSC_STATIC = true;</script>\n<script src="static/engine.js"></script>')
