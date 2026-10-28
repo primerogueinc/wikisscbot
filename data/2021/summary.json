@@ -1,0 +1,524 @@
+{
+  "generated": "2026-10-28T04:06:13Z",
+  "total_edits": 2518,
+  "unique_ips": 113,
+  "by_label": {
+    "Shared Services Canada": 1103,
+    "Canadian House of Commons": 774,
+    "Canadian Department of National Defence": 261,
+    "Canadian Broadcasting Corporation": 140,
+    "Shared Services Canada network (AS2665)": 43,
+    "Environment Canada": 35,
+    "Shared Services Canada network (AS2675)": 33,
+    "Industry Canada": 32,
+    "Library and Archives Canada": 23,
+    "Department of Fisheries and Oceans": 20,
+    "National Research Council": 14,
+    "Statistics Canada": 13,
+    "Federal Court of Canada": 12,
+    "Bank of Canada": 7,
+    "Department of Justice Canada": 4,
+    "Canadian Museum of Civilization": 3,
+    "Canadian Space Agency": 1
+  },
+  "by_wiki": {
+    "enwiki": 2420,
+    "frwiki": 71,
+    "wikidatawiki": 19,
+    "commonswiki": 8
+  },
+  "by_month": {
+    "2021-01": 627,
+    "2021-02": 315,
+    "2021-03": 135,
+    "2021-04": 160,
+    "2021-05": 107,
+    "2021-06": 191,
+    "2021-07": 196,
+    "2021-08": 179,
+    "2021-09": 124,
+    "2021-10": 153,
+    "2021-11": 165,
+    "2021-12": 166
+  },
+  "top_pages": [
+    {
+      "wiki": "enwiki",
+      "title": "List of programs broadcast by YTV (Canadian TV channel)",
+      "edits": 68
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Fairview Pointe-Claire",
+      "edits": 42
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Galeries d'Anjou",
+      "edits": 38
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Neighbourhood shopping centres in Montreal",
+      "edits": 28
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in 1910",
+      "edits": 28
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shopping centres in Greater Longueuil",
+      "edits": 22
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Simpsons (department store)",
+      "edits": 22
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Rockland Centre",
+      "edits": 20
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Zellers",
+      "edits": 19
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in 1886",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in 1902",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of law enforcement agencies in British Columbia",
+      "edits": 18
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Carrefour Laval",
+      "edits": 15
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Olympic medallists for Canada",
+      "edits": 14
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2021–22 Olympique de Marseille season",
+      "edits": 13
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Royal Navy rear admirals",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Copenhagen Airport",
+      "edits": 12
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Burlington Centre",
+      "edits": 11
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in July 1917",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in 2021",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Type 22 frigate",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Yorkdale Shopping Centre",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Ben Feldman",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Mary Simon",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Hudson's Bay (department store)",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Northeast Kings Education Centre",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of curling clubs in Ontario",
+      "edits": 9
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in May 1917",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in 1885",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Vong",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "User talk:198.103.184.76/Archive 1",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "John Rennie High School",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Alpha Flight",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Place Vertu",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Mapleview Centre",
+      "edits": 8
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Maersk",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Miracle Mart",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "G-Mode",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "History of World Championship Wrestling",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Royal Canadian Corps of Signals",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2 Bloor East",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "2021 London, Ontario truck attack",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Bayshore Shopping Centre",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of Eastern Orthodox churches in Toronto",
+      "edits": 7
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in 2020",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in 1893",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in 1908",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in September 1917",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "List of shipwrecks in April 1918",
+      "edits": 6
+    },
+    {
+      "wiki": "enwiki",
+      "title": "Canada at the 1991 Pan American Games",
+      "edits": 6
+    }
+  ],
+  "top_pages_by_label": {
+    "Shared Services Canada": {
+      "List of programs broadcast by YTV (Canadian TV channel)": 68,
+      "Fairview Pointe-Claire": 42,
+      "Galeries d'Anjou": 38,
+      "Neighbourhood shopping centres in Montreal": 28,
+      "List of shopping centres in Greater Longueuil": 22,
+      "Simpsons (department store)": 22,
+      "Rockland Centre": 20,
+      "Zellers": 19,
+      "List of law enforcement agencies in British Columbia": 18,
+      "Carrefour Laval": 15
+    },
+    "Canadian House of Commons": {
+      "List of shipwrecks in 1910": 28,
+      "List of shipwrecks in 1886": 18,
+      "List of shipwrecks in 1902": 18,
+      "List of shipwrecks in July 1917": 9,
+      "List of shipwrecks in 2021": 9,
+      "Type 22 frigate": 9,
+      "List of shipwrecks in May 1917": 8,
+      "List of shipwrecks in 1885": 8,
+      "Maersk": 7,
+      "List of shipwrecks in 2020": 6
+    },
+    "Shared Services Canada network (AS2675)": {
+      "List of Eastern Orthodox churches in Toronto": 7,
+      "Pincher Creek": 3,
+      "Dawson Creek": 3,
+      "Herald Chancellor of Canada": 2,
+      "Ilyushin Il-2": 2,
+      "Hogwarts School of Prayer and Miracles": 2,
+      "List of airports in New Brunswick": 2,
+      "Harald Fairhair": 1,
+      "Hair (Lady Gaga song)": 1,
+      "Not proven": 1
+    },
+    "Canadian Department of National Defence": {
+      "2021–22 Olympique de Marseille season": 13,
+      "Royal Canadian Corps of Signals": 7,
+      "1 Service Battalion": 5,
+      "HMCS Iroquois (DDG 280)": 5,
+      "Howard Zinn": 4,
+      "2017 NBA playoffs": 4,
+      "Edward Bunker": 4,
+      "15 Field Ambulance": 3,
+      "3rd Battalion, Royal Canadian Regiment": 3,
+      "HMCS York": 3
+    },
+    "Canadian Broadcasting Corporation": {
+      "Ben Feldman": 9,
+      "Mary Simon": 7,
+      "Canadian Museum for Human Rights": 5,
+      "Peter Knegt": 5,
+      "Daniel Bouchard (journaliste)": 4,
+      "Bill Davis": 4,
+      "Fugget About It": 4,
+      "2022 Winter Olympics": 4,
+      "Preston Manning": 3,
+      "Loretta Rogers": 3
+    },
+    "Federal Court of Canada": {
+      "John Rennie High School": 8,
+      "Resident Evil": 3,
+      "Mulgrave Park": 1
+    },
+    "Shared Services Canada network (AS2665)": {
+      "List of Royal Navy rear admirals": 12,
+      "National Research Council Canada": 3,
+      "List of presidents of the National Research Council of Canada": 2,
+      "Raymond Desjardins": 2,
+      "October Ferry to Gabriola": 2,
+      "Avro Canada CF-105 Arrow": 2,
+      "(Don't Fear) The Reaper": 2,
+      "Ramesh Sangha": 1,
+      "List of people from Saskatoon": 1,
+      "Salvation Army": 1
+    },
+    "Department of Fisheries and Oceans": {
+      "March 30": 2,
+      "List of baseball players who died during their careers": 2,
+      "Exile on Main St.": 2,
+      "Species translocation": 1,
+      "CCGS Samuel Risley": 1,
+      "Commons:Help desk": 1,
+      "Melitta Bentz": 1,
+      "Trois-Rivières": 1,
+      "English honorifics": 1,
+      "Asquarius": 1
+    },
+    "Environment Canada": {
+      "Northeast Kings Education Centre": 9,
+      "Kentville": 6,
+      "Iain Rankin": 3,
+      "Meager Creek": 2,
+      "Dungeon Fighter Online": 1,
+      "K-index (meteorology)": 1,
+      "Indice de George": 1,
+      "White Juan": 1,
+      "King City weather radar station": 1,
+      "Mount Garibaldi": 1
+    },
+    "Bank of Canada": {
+      "Henry Bedson": 2,
+      "Canadian property bubble": 1,
+      "Governor of the Bank of Canada": 1,
+      "German National Library of Economics": 1,
+      "Bridlewood, Ottawa": 1,
+      "Bloc party": 1
+    },
+    "Industry Canada": {
+      "Canada at the 1991 Pan American Games": 6,
+      "Sailing at the 1991 Pan American Games": 5,
+      "Regional development agency (Canada)": 3,
+      "Template:Denver Broncos roster": 2,
+      "Tom Ellis (actor)": 2,
+      "Piperville": 2,
+      "Global Partnership on Artificial Intelligence": 1,
+      "Wikipedia:Main Page/Errors": 1,
+      "André Chagnon": 1,
+      "List of NHL players with 500 goals": 1
+    },
+    "Canadian Museum of Civilization": {
+      "Ted Griffin (orca capturer)": 2,
+      "Dan Dale Alexander": 1
+    },
+    "National Research Council": {
+      "NRC Herzberg Astronomy and Astrophysics Research Centre": 4,
+      "Convair CV-240 family": 3,
+      "University Hill Secondary School": 2,
+      "National Research Council Canada": 1,
+      "Poikilotherm": 1,
+      "Mount Macdonald Tunnel": 1,
+      "Rick Chiarelli": 1,
+      "List of datasets for machine-learning research": 1
+    },
+    "Statistics Canada": {
+      "Ryanair Flight 4978": 3,
+      "Ron Barkhouse": 3,
+      "File:Nemi ship.jpg": 2,
+      "Canadian Centre for Energy Information": 1,
+      "Montréal-Nord": 1,
+      "Mohammed Ahmed (runner)": 1,
+      "Scotford Upgrader": 1,
+      "2010 Stanley Cup Final": 1
+    },
+    "Department of Justice Canada": {
+      "2015 European migrant crisis": 1,
+      "2012 Delhi gang rape and murder": 1,
+      "List of Dalhousie University fraternities and sororities": 1,
+      "Maclaren Cemetery": 1
+    },
+    "Library and Archives Canada": {
+      "Alpha Flight": 8,
+      "Q108679444": 4,
+      "Montreal Standard": 2,
+      "Library and Archives Canada": 1,
+      "Q17339402": 1,
+      "Wikidata:IFLA Wikidata Working Group/1Lib1Ref": 1,
+      "Wartime Prices and Trade Board": 1,
+      "The Vault (2021 film)": 1,
+      "Marie-Louise Pignot": 1,
+      "Georges Henri Boivin": 1
+    },
+    "Canadian Space Agency": {
+      "Flight controller": 1
+    }
+  },
+  "last_ip_attributed_edit_by_wiki": {
+    "enwiki": "2021-12-31T20:54:39Z",
+    "wikidatawiki": "2021-12-29T13:56:37Z",
+    "frwiki": "2021-12-15T16:39:59Z",
+    "commonswiki": "2021-11-20T20:05:37Z"
+  },
+  "scan_status": {
+    "enwiki": {
+      "scanned_at": "2026-10-28T04:02:15Z",
+      "window": [
+        "2021-01-01T00:00:00Z",
+        "2021-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 2420
+    },
+    "frwiki": {
+      "scanned_at": "2026-10-28T04:03:04Z",
+      "window": [
+        "2021-01-01T00:00:00Z",
+        "2021-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 71
+    },
+    "wikidatawiki": {
+      "scanned_at": "2026-10-28T04:03:24Z",
+      "window": [
+        "2021-01-01T00:00:00Z",
+        "2021-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 19
+    },
+    "commonswiki": {
+      "scanned_at": "2026-10-28T04:06:13Z",
+      "window": [
+        "2021-01-01T00:00:00Z",
+        "2021-12-31T23:59:59Z"
+      ],
+      "blocks_total": 146,
+      "blocks_scanned": 146,
+      "block_errors": 0,
+      "error_samples": {},
+      "fatal": null,
+      "edits": 8
+    }
+  }
+}
